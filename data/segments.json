@@ -1,0 +1,1002 @@
+{
+ "ballon-sprint": {
+  "name": "Ballon Sprint",
+  "type": "sprint",
+  "world": "france",
+  "distance_km": 0.212,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "ballon-sprint-rev": {
+  "name": "Ballon Sprint Rev.",
+  "type": "sprint",
+  "world": "france",
+  "distance_km": 0.325,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "broad-st": {
+  "name": "Broad St.",
+  "type": "sprint",
+  "world": "richmond",
+  "distance_km": 0.283,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "broad-st-rev": {
+  "name": "Broad St. Rev.",
+  "type": "sprint",
+  "world": "richmond",
+  "distance_km": 0.064,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "fuego-flats": {
+  "name": "Fuego Flats",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.496,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "fuego-flats-rev": {
+  "name": "Fuego Flats Rev.",
+  "type": "segment",
+  "world": "watopia",
+  "distance_km": 7.1,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "innsbruck-sprint": {
+  "name": "Innsbruck Sprint",
+  "type": "sprint",
+  "world": "innsbruck",
+  "distance_km": 0.3,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "innsbruck-sprint-rev": {
+  "name": "Innsbruck Sprint Rev.",
+  "type": "sprint",
+  "world": "innsbruck",
+  "distance_km": 0.2,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "lutece-sprint": {
+  "name": "Lutece Sprint",
+  "type": "sprint",
+  "world": "paris",
+  "distance_km": 0.148,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "lutece-sprint-rev": {
+  "name": "Lutece Sprint Rev.",
+  "type": "sprint",
+  "world": "paris",
+  "distance_km": 0.225,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "eglise-sprint": {
+  "name": "Église Sprint",
+  "type": "sprint",
+  "world": "paris",
+  "distance_km": 0.25,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "monceau-sprint": {
+  "name": "Monceau Sprint",
+  "type": "sprint",
+  "world": "paris",
+  "distance_km": 0.3,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "montmartre-kom": {
+  "name": "Montmartre KOM",
+  "type": "climb",
+  "world": "paris",
+  "distance_km": 1.2,
+  "avg_incline_pct": 4.2,
+  "elevation_m": null
+ },
+ "tchou-tchou-sprint": {
+  "name": "Tchou Tchou Sprint",
+  "type": "sprint",
+  "world": "paris",
+  "distance_km": 0.15,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "marina-sprint": {
+  "name": "Marina Sprint",
+  "type": "sprint",
+  "world": "france",
+  "distance_km": 0.338,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "marina-sprint-rev": {
+  "name": "Marina Sprint Rev.",
+  "type": "sprint",
+  "world": "france",
+  "distance_km": 0.193,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "richmond-sprint": {
+  "name": "Richmond Sprint",
+  "type": "sprint",
+  "world": "richmond",
+  "distance_km": 0.221,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "richmond-sprint-rev": {
+  "name": "Richmond Sprint Rev.",
+  "type": "sprint",
+  "world": "richmond",
+  "distance_km": 0.203,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "new-york-sprint": {
+  "name": "New York Sprint",
+  "type": "sprint",
+  "world": "new-york",
+  "distance_km": 0.15,
+  "avg_incline_pct": -4.3,
+  "elevation_m": null
+ },
+ "new-york-sprint-rev": {
+  "name": "New York Sprint Rev.",
+  "type": "climb",
+  "world": "new-york",
+  "distance_km": 0.23,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "pave-sprint": {
+  "name": "Pavé Sprint",
+  "type": "sprint",
+  "world": "france",
+  "distance_km": 0.333,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "pave-sprint-rev": {
+  "name": "Pavé Sprint Rev.",
+  "type": "sprint",
+  "world": "france",
+  "distance_km": 0.334,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "london-sprint": {
+  "name": "London Sprint",
+  "type": "sprint",
+  "world": "london",
+  "distance_km": 0.2,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "london-sprint-rev": {
+  "name": "London Sprint Rev.",
+  "type": "sprint",
+  "world": "london",
+  "distance_km": 0.2,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "watopia-sprint": {
+  "name": "Watopia Sprint",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.36,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "watopia-sprint-rev": {
+  "name": "Watopia Sprint Rev.",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.2,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "yorkshire-sprint": {
+  "name": "Yorkshire Sprint",
+  "type": "sprint",
+  "world": "yorkshire",
+  "distance_km": 0.25,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "yorkshire-sprint-rev": {
+  "name": "Yorkshire Sprint Rev.",
+  "type": "sprint",
+  "world": "yorkshire",
+  "distance_km": 0.4,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "alpe-du-zwift": {
+  "name": "Alpe du Zwift",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 12.44,
+  "avg_incline_pct": 8.5,
+  "elevation_m": null
+ },
+ "epic-kom": {
+  "name": "Epic KOM",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 9.49,
+  "avg_incline_pct": 4,
+  "elevation_m": null
+ },
+ "epic-kom-rev": {
+  "name": "Epic KOM Rev.",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 6.27,
+  "avg_incline_pct": 6.3,
+  "elevation_m": null
+ },
+ "hilly-loop": {
+  "name": "Hilly Loop",
+  "type": "segment",
+  "world": "watopia",
+  "distance_km": 9.01,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "hilly-loop-rev": {
+  "name": "Hilly Loop Rev.",
+  "type": "segment",
+  "world": "watopia",
+  "distance_km": 9.01,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "jungle-loop": {
+  "name": "Jungle Loop",
+  "type": "segment",
+  "world": "watopia",
+  "distance_km": 7.8,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "jungle-loop-rev": {
+  "name": "Jungle Loop Rev.",
+  "type": "segment",
+  "world": "watopia",
+  "distance_km": 7.8,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "titans-grove-kom": {
+  "name": "Titans Grove KOM",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 2.6,
+  "avg_incline_pct": 2.2,
+  "elevation_m": null
+ },
+ "titans-grove-kom-rev": {
+  "name": "Titans Grove KOM Rev.",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 0.89,
+  "avg_incline_pct": 6.6,
+  "elevation_m": null
+ },
+ "volcano-circuit": {
+  "name": "Volcano Circuit",
+  "type": "segment",
+  "world": "watopia",
+  "distance_km": 4.2,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "volcano-circuit-rev": {
+  "name": "Volcano Circuit Rev.",
+  "type": "segment",
+  "world": "watopia",
+  "distance_km": 4.2,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "volcano-kom": {
+  "name": "Volcano KOM",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 3.75,
+  "avg_incline_pct": 3.2,
+  "elevation_m": null
+ },
+ "zwift-kom": {
+  "name": "Zwift KOM",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 0.9,
+  "avg_incline_pct": 5,
+  "elevation_m": null
+ },
+ "zwift-kom-rev": {
+  "name": "Zwift KOM Rev.",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 2.4,
+  "avg_incline_pct": 2,
+  "elevation_m": null
+ },
+ "bologna-tt": {
+  "name": "Bologna TT",
+  "type": "climb",
+  "world": "bologna",
+  "distance_km": 8,
+  "avg_incline_pct": 2.8,
+  "elevation_m": null
+ },
+ "central-park-loop-rev": {
+  "name": "Central Park Loop Rev.",
+  "type": "segment",
+  "world": "new-york",
+  "distance_km": 9.7,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "new-york-kom": {
+  "name": "New York KOM",
+  "type": "climb",
+  "world": "new-york",
+  "distance_km": 1.4,
+  "avg_incline_pct": 6.1,
+  "elevation_m": null
+ },
+ "new-york-kom-rev": {
+  "name": "New York KOM Rev.",
+  "type": "climb",
+  "world": "new-york",
+  "distance_km": 1.1,
+  "avg_incline_pct": 5.7,
+  "elevation_m": null
+ },
+ "23rd-st": {
+  "name": "23rd St.",
+  "type": "climb",
+  "world": "richmond",
+  "distance_km": 0.275,
+  "avg_incline_pct": 10,
+  "elevation_m": null
+ },
+ "23rd-st-rev": {
+  "name": "23rd St. Rev",
+  "type": "climb",
+  "world": "richmond",
+  "distance_km": 1.1,
+  "avg_incline_pct": 3.5,
+  "elevation_m": null
+ },
+ "richmond-kom": {
+  "name": "Richmond KOM",
+  "type": "climb",
+  "world": "richmond",
+  "distance_km": 0.644,
+  "avg_incline_pct": 6.4,
+  "elevation_m": null
+ },
+ "richmond-kom-rev": {
+  "name": "Richmond KOM Rev.",
+  "type": "climb",
+  "world": "richmond",
+  "distance_km": 0.7,
+  "avg_incline_pct": 3.4,
+  "elevation_m": null
+ },
+ "richmond-uci-course": {
+  "name": "Richmond UCI Cource",
+  "type": "segment",
+  "world": "richmond",
+  "distance_km": 16.2,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "fox-hill": {
+  "name": "Fox Hill",
+  "type": "climb",
+  "world": "london",
+  "distance_km": 2.4,
+  "avg_incline_pct": 4.9,
+  "elevation_m": null
+ },
+ "box-hill": {
+  "name": "Box Hill",
+  "type": "climb",
+  "world": "london",
+  "distance_km": 3,
+  "avg_incline_pct": 4.3,
+  "elevation_m": null
+ },
+ "leith-hill": {
+  "name": "Leith Hill",
+  "type": "climb",
+  "world": "london",
+  "distance_km": 1.9,
+  "avg_incline_pct": 6.8,
+  "elevation_m": null
+ },
+ "keith-hill": {
+  "name": "Keith Hill",
+  "type": "climb",
+  "world": "london",
+  "distance_km": 4.34,
+  "avg_incline_pct": 5,
+  "elevation_m": null
+ },
+ "london-loop": {
+  "name": "London Loop",
+  "type": "segment",
+  "world": "london",
+  "distance_km": 14.96,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "aqueduc-kom": {
+  "name": "Aqueduc KOM",
+  "type": "climb",
+  "world": "france",
+  "distance_km": 0.42,
+  "avg_incline_pct": 3,
+  "elevation_m": null
+ },
+ "aqueduc-kom-rev": {
+  "name": "Aqueduc KOM Rev.",
+  "type": "climb",
+  "world": "france",
+  "distance_km": 0.403,
+  "avg_incline_pct": 5,
+  "elevation_m": null
+ },
+ "petit-kom": {
+  "name": "Petit KOM",
+  "type": "climb",
+  "world": "france",
+  "distance_km": 2.7,
+  "avg_incline_pct": 4,
+  "elevation_m": null
+ },
+ "ventoux-kom": {
+  "name": "Ventoux KOM",
+  "type": "climb",
+  "world": "france",
+  "distance_km": 19,
+  "avg_incline_pct": 8,
+  "elevation_m": null
+ },
+ "innsbruck-kom": {
+  "name": "Innsbruck KOM",
+  "type": "climb",
+  "world": "innsbruck",
+  "distance_km": 7.4,
+  "avg_incline_pct": 6,
+  "elevation_m": null
+ },
+ "innsbruck-kom-rev": {
+  "name": "Innsbruck KOM Rev.",
+  "type": "climb",
+  "world": "innsbruck",
+  "distance_km": 5.79,
+  "avg_incline_pct": 8,
+  "elevation_m": null
+ },
+ "innsbruck-uci-lap": {
+  "name": "Innsbruck UCI Lap",
+  "type": "segment",
+  "world": "innsbruck",
+  "distance_km": 23.65,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "yorkshire-kom": {
+  "name": "Yorkshire KOM",
+  "type": "climb",
+  "world": "yorkshire",
+  "distance_km": 1.2,
+  "avg_incline_pct": 5.5,
+  "elevation_m": null
+ },
+ "yorkshire-kom-rev": {
+  "name": "Yorkshire KOM Rev.",
+  "type": "climb",
+  "world": "yorkshire",
+  "distance_km": 1.2,
+  "avg_incline_pct": 3.8,
+  "elevation_m": null
+ },
+ "crit-city": {
+  "name": "Crit City",
+  "type": "segment",
+  "world": "crit-city",
+  "distance_km": 1.95,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "crit-city-rev": {
+  "name": "Crit City Rev.",
+  "type": "segment",
+  "world": "crit-city",
+  "distance_km": 1.95,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "prime": {
+  "name": "Prime",
+  "type": "climb",
+  "world": "crit-city",
+  "distance_km": 0.197,
+  "avg_incline_pct": 4,
+  "elevation_m": null
+ },
+ "prime-rev": {
+  "name": "Prime Rev.",
+  "type": "sprint",
+  "world": "crit-city",
+  "distance_km": 0.288,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "champs-elysees": {
+  "name": "Champs Elysées",
+  "type": "segment",
+  "world": "paris",
+  "distance_km": 6.62,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "champs-elysees-rev": {
+  "name": "Champs Elysées Rev.",
+  "type": "segment",
+  "world": "paris",
+  "distance_km": 6.62,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "country-sprint": {
+  "name": "Country Sprint",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.146,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "castle-kom": {
+  "name": "Castle KOM",
+  "type": "climb",
+  "world": "makuri-islands",
+  "distance_km": 2.69,
+  "avg_incline_pct": 2.45,
+  "elevation_m": null
+ },
+ "village-sprint": {
+  "name": "Village Sprint",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.15,
+  "avg_incline_pct": 0.99,
+  "elevation_m": null
+ },
+ "temple-kom-from-fishing-village-side": {
+  "name": "Temple KOM from Fishing Village Side",
+  "type": "climb",
+  "world": "makuri-islands",
+  "distance_km": 2.51,
+  "avg_incline_pct": 3.95,
+  "elevation_m": null
+ },
+ "temple-kom-from-castle-side": {
+  "name": "Temple KOM from Castle Side",
+  "type": "climb",
+  "world": "makuri-islands",
+  "distance_km": 1.88,
+  "avg_incline_pct": 3.59,
+  "elevation_m": null
+ },
+ "rooftop-kom": {
+  "name": "Rooftop KOM",
+  "type": "climb",
+  "world": "makuri-islands",
+  "distance_km": 1.87,
+  "avg_incline_pct": 2.7,
+  "elevation_m": null
+ },
+ "tower-sprint": {
+  "name": "Tower Sprint",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.31,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "tower-sprint-rev": {
+  "name": "Tower Sprint Rev.",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.31,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "castle-park-sprint": {
+  "name": "Castle Park Sprint",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.32,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "castle-park-sprint-rev": {
+  "name": "Castle Park Sprint Rev.",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.32,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "alley-sprint": {
+  "name": "Alley Sprint",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.48,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "alley-sprint-rev": {
+  "name": "Alley Sprint Rev.",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.48,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "railway-sprint": {
+  "name": "Railway Sprint",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.49,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "boardwalk-sprint": {
+  "name": "Boardwalk Sprint",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.24,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "tidepool-sprint": {
+  "name": "Tidepool Sprint",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.31,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "shisa-sprint-rev": {
+  "name": "Shisa Sprint Rev.",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.29,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "shisa-sprint": {
+  "name": "Shisa Sprint",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.28,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "village-sprint-rev": {
+  "name": "Village Sprint Rev.",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.14,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "country-sprint-rev": {
+  "name": "Country Sprint Rev.",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.13,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "sgurr-summit-south": {
+  "name": "Sgurr Summit South",
+  "type": "climb",
+  "world": "scotland",
+  "distance_km": 1,
+  "avg_incline_pct": 3.3,
+  "elevation_m": null
+ },
+ "sgurr-summit-north": {
+  "name": "Sgurr Summit North",
+  "type": "climb",
+  "world": "scotland",
+  "distance_km": 1.6,
+  "avg_incline_pct": 3.7,
+  "elevation_m": null
+ },
+ "the-clyde-kicker": {
+  "name": "The Clyde Kicker",
+  "type": "climb",
+  "world": "scotland",
+  "distance_km": 0.3,
+  "avg_incline_pct": 3.6,
+  "elevation_m": null
+ },
+ "champions-sprint": {
+  "name": "Champion's Sprint",
+  "type": "sprint",
+  "world": "scotland",
+  "distance_km": 0.2,
+  "avg_incline_pct": null,
+  "elevation_m": null
+ },
+ "breakaway-brae": {
+  "name": "Breakaway Brae",
+  "type": "sprint",
+  "world": "scotland",
+  "distance_km": 0.45,
+  "avg_incline_pct": 2,
+  "elevation_m": null
+ },
+ "breakaway-brae-rev": {
+  "name": "Breakaway Brae Rev.",
+  "type": "sprint",
+  "world": "scotland",
+  "distance_km": 0.62,
+  "avg_incline_pct": 2.4,
+  "elevation_m": null
+ },
+ "stoneway-sprint": {
+  "name": "Stoneway Sprint",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.4,
+  "avg_incline_pct": 0.8,
+  "elevation_m": null
+ },
+ "stoneway-sprint-rev": {
+  "name": "Stoneway Sprint Rev.",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.4,
+  "avg_incline_pct": 0.4,
+  "elevation_m": null
+ },
+ "acropolis-sprint": {
+  "name": "Acropolis Sprint",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.45,
+  "avg_incline_pct": 0.7,
+  "elevation_m": null
+ },
+ "acropolis-sprint-rev": {
+  "name": "Acropolis Sprint Rev.",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.45,
+  "avg_incline_pct": -1.1,
+  "elevation_m": null
+ },
+ "sasquatch-sprint": {
+  "name": "Sasquatch Sprint",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.35,
+  "avg_incline_pct": 0.3,
+  "elevation_m": null
+ },
+ "sasquatch-sprint-rev": {
+  "name": "Sasquatch Sprint Rev.",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.35,
+  "avg_incline_pct": -0.9,
+  "elevation_m": null
+ },
+ "woodland-sprint": {
+  "name": "Woodland Sprint",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.5,
+  "avg_incline_pct": -2.2,
+  "elevation_m": null
+ },
+ "woodland-sprint-rev": {
+  "name": "Woodland Sprint Rev.",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.5,
+  "avg_incline_pct": -1.6,
+  "elevation_m": null
+ },
+ "itza-kom": {
+  "name": "Itza KOM",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 3.75,
+  "avg_incline_pct": 2,
+  "elevation_m": 95
+ },
+ "mayan-mountainside-kom": {
+  "name": "Mayan Mountainside KOM",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 1.99,
+  "avg_incline_pct": 3.1,
+  "elevation_m": 62
+ },
+ "the-grade-kom": {
+  "name": "The Grade KOM",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 3.52,
+  "avg_incline_pct": 8.6,
+  "elevation_m": 305
+ },
+ "the-grade-sprint-rev": {
+  "name": "The Grade Rev.",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.06,
+  "avg_incline_pct": 0.3,
+  "elevation_m": null
+ },
+ "radio-tower-kom": {
+  "name": "Radio Tower KOM",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 1.2,
+  "avg_incline_pct": 12.9,
+  "elevation_m": null
+ },
+ "jarvis-kom": {
+  "name": "Jarvis KOM",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 1.8,
+  "avg_incline_pct": 1.8,
+  "elevation_m": null
+ },
+ "jarvis-kom-rev": {
+  "name": "Jarvis KOM Rev.",
+  "type": "climb",
+  "world": "watopia",
+  "distance_km": 1.3,
+  "avg_incline_pct": 3.1,
+  "elevation_m": null
+ },
+ "jarvis-sprint": {
+  "name": "Jarvis Sprint",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.2,
+  "avg_incline_pct": -0.1,
+  "elevation_m": null
+ },
+ "jarvis-sprint-rev": {
+  "name": "Jarvis Sprint Rev.",
+  "type": "sprint",
+  "world": "watopia",
+  "distance_km": 0.2,
+  "avg_incline_pct": 0.2,
+  "elevation_m": null
+ },
+ "center-sprint": {
+  "name": "Center Sprint",
+  "type": "sprint",
+  "world": "new-york",
+  "distance_km": 0.2,
+  "avg_incline_pct": -2.2,
+  "elevation_m": null
+ },
+ "center-sprint-rev": {
+  "name": "Center Sprint Rev.",
+  "type": "sprint",
+  "world": "new-york",
+  "distance_km": 0.2,
+  "avg_incline_pct": 2.4,
+  "elevation_m": null
+ },
+ "the-peristyle-sprint": {
+  "name": "The Peristyle Sprint",
+  "type": "sprint",
+  "world": "new-york",
+  "distance_km": 0.4,
+  "avg_incline_pct": 0.6,
+  "elevation_m": null
+ },
+ "the-peristyle-sprint-rev": {
+  "name": "The Peristyle Sprint Rev.",
+  "type": "sprint",
+  "world": "new-york",
+  "distance_km": 0.4,
+  "avg_incline_pct": 0.1,
+  "elevation_m": null
+ },
+ "the-hill-kom": {
+  "name": "The Hill KOM",
+  "type": "climb",
+  "world": "new-york",
+  "distance_km": 0.5,
+  "avg_incline_pct": 3.7,
+  "elevation_m": null
+ },
+ "manhattan-sprint": {
+  "name": "Manhattan Sprint",
+  "type": "sprint",
+  "world": "new-york",
+  "distance_km": 0.25,
+  "avg_incline_pct": 0.3,
+  "elevation_m": null
+ },
+ "manhattan-sprint-rev": {
+  "name": "Manhattan Sprint Rev.",
+  "type": "sprint",
+  "world": "new-york",
+  "distance_km": 0.25,
+  "avg_incline_pct": 1.3,
+  "elevation_m": null
+ },
+ "brooklyn-bridge-kom": {
+  "name": "Brooklyn Bridge KOM",
+  "type": "climb",
+  "world": "new-york",
+  "distance_km": 2,
+  "avg_incline_pct": 1.7,
+  "elevation_m": null
+ },
+ "jarvis-lap": {
+  "name": "Jarvis Lap",
+  "type": "segment",
+  "world": "watopia",
+  "distance_km": 4.84,
+  "avg_incline_pct": -0.2,
+  "elevation_m": null
+ },
+ "jarvis-lap-rev": {
+  "name": "Jarvis Lap Rev.",
+  "type": "segment",
+  "world": "watopia",
+  "distance_km": 4.84,
+  "avg_incline_pct": 0.2,
+  "elevation_m": null
+ },
+ "boardwalk-sprint-rev": {
+  "name": "Boardwalk Sprint Rev.",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.35,
+  "avg_incline_pct": 1,
+  "elevation_m": null
+ },
+ "tidepool-sprint-rev": {
+  "name": "Tidepool Sprint Rev.",
+  "type": "sprint",
+  "world": "makuri-islands",
+  "distance_km": 0.35,
+  "avg_incline_pct": 0,
+  "elevation_m": null
+ }
+}

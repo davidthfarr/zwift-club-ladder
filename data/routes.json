@@ -1,0 +1,8113 @@
+[
+ {
+  "id": 5103974,
+  "slug": "lady-liberty",
+  "name": "Lady Liberty",
+  "world": "new-york",
+  "distance_km": 12.361,
+  "elevation_m": 206,
+  "lead_in_km": 0.28,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "new-york-kom-rev",
+    "from_km": 2.751,
+    "to_km": 3.893
+   }
+  ],
+  "strava_segment_id": 19141269,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/lady-liberty"
+ },
+ {
+  "id": 5745690,
+  "slug": "downtown-titans",
+  "name": "Downtown Titans",
+  "world": "watopia",
+  "distance_km": 24.645,
+  "elevation_m": 292,
+  "lead_in_km": 0.95,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 5.776,
+    "to_km": 6.693
+   },
+   {
+    "slug": "zwift-kom",
+    "from_km": 16.349,
+    "to_km": 17.241
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 21.567,
+    "to_km": 21.892
+   }
+  ],
+  "strava_segment_id": 23167123,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/downtown-titans/"
+ },
+ {
+  "id": 22757204,
+  "slug": "prospect-park-loop",
+  "name": "Prospect Park Loop",
+  "world": "new-york",
+  "distance_km": 5.428,
+  "elevation_m": 37,
+  "lead_in_km": 0.072,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "the-peristyle-sprint",
+    "from_km": 2.2,
+    "to_km": 2.61
+   },
+   {
+    "slug": "the-hill-kom",
+    "from_km": 4.124,
+    "to_km": 4.646
+   }
+  ],
+  "strava_segment_id": 40325245,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/prospect-park-loop"
+ },
+ {
+  "id": 46799750,
+  "slug": "rolling-highlands",
+  "name": "Rolling Highlands",
+  "world": "scotland",
+  "distance_km": 8.953,
+  "elevation_m": 77,
+  "lead_in_km": 5.144,
+  "lead_in_elev_m": 28,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 33620176,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/rolling-highlands"
+ },
+ {
+  "id": 54700404,
+  "slug": "libby-hill-after-party",
+  "name": "Libby Hill After Party",
+  "world": "richmond",
+  "distance_km": 32.898,
+  "elevation_m": 160,
+  "lead_in_km": 0.285,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "richmond-sprint",
+    "from_km": 3.73,
+    "to_km": 3.942
+   },
+   {
+    "slug": "richmond-sprint",
+    "from_km": 8.794,
+    "to_km": 9.006
+   },
+   {
+    "slug": "richmond-sprint",
+    "from_km": 13.858,
+    "to_km": 14.07
+   },
+   {
+    "slug": "richmond-sprint",
+    "from_km": 18.921,
+    "to_km": 19.134
+   },
+   {
+    "slug": "richmond-sprint",
+    "from_km": 24.003,
+    "to_km": 24.216
+   },
+   {
+    "slug": "broad-st",
+    "from_km": 27.414,
+    "to_km": 27.678
+   },
+   {
+    "slug": "richmond-kom",
+    "from_km": 32.258,
+    "to_km": 32.882
+   }
+  ],
+  "strava_segment_id": 22815233,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/libby-hill-after-party"
+ },
+ {
+  "id": 65777922,
+  "slug": "electric-break",
+  "name": "Electric Break",
+  "world": "makuri-islands",
+  "distance_km": 17.76,
+  "elevation_m": 190,
+  "lead_in_km": 1.839,
+  "lead_in_elev_m": 13,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "rooftop-kom",
+    "from_km": 15.835,
+    "to_km": 17.712
+   }
+  ],
+  "strava_segment_id": 40233903,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/electric-break"
+ },
+ {
+  "id": 79243399,
+  "slug": "glasgow-crit-six",
+  "name": "Glasgow Crit Six",
+  "world": "scotland",
+  "distance_km": 18.07,
+  "elevation_m": 199,
+  "lead_in_km": 0.248,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 40454428,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/glasgow-crit-six"
+ },
+ {
+  "id": 87055383,
+  "slug": "greater-london-8",
+  "name": "Greater London 8",
+  "world": "london",
+  "distance_km": 23.808,
+  "elevation_m": 276,
+  "lead_in_km": 0.462,
+  "lead_in_elev_m": 4,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "box-hill",
+    "from_km": 15.228,
+    "to_km": 18.227
+   }
+  ],
+  "strava_segment_id": 15158866,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/greater-london-8"
+ },
+ {
+  "id": 87631443,
+  "slug": "queens-highway-after-party",
+  "name": "Queen's Highway After Party",
+  "world": "yorkshire",
+  "distance_km": 17.149,
+  "elevation_m": 259,
+  "lead_in_km": 2.764,
+  "lead_in_elev_m": 42,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "yorkshire-sprint-rev",
+    "from_km": 2.581,
+    "to_km": 2.978
+   },
+   {
+    "slug": "yorkshire-sprint-rev",
+    "from_km": 5.569,
+    "to_km": 5.956
+   },
+   {
+    "slug": "yorkshire-sprint-rev",
+    "from_km": 8.548,
+    "to_km": 8.944
+   },
+   {
+    "slug": "yorkshire-sprint-rev",
+    "from_km": 11.536,
+    "to_km": 11.933
+   },
+   {
+    "slug": "yorkshire-sprint-rev",
+    "from_km": 14.524,
+    "to_km": 14.911
+   },
+   {
+    "slug": "yorkshire-kom-rev",
+    "from_km": 15.981,
+    "to_km": 17.141
+   }
+  ],
+  "strava_segment_id": 39270897,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/queens-highway-after-party"
+ },
+ {
+  "id": 104170948,
+  "slug": "no-sleep-till-brooklyn",
+  "name": "No Sleep Till Brooklyn",
+  "world": "new-york",
+  "distance_km": 31.99,
+  "elevation_m": 251,
+  "lead_in_km": 0.615,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "manhattan-sprint-rev",
+    "from_km": 4.44,
+    "to_km": 4.679
+   },
+   {
+    "slug": "center-sprint-rev",
+    "from_km": 11.265,
+    "to_km": 11.459
+   },
+   {
+    "slug": "manhattan-sprint",
+    "from_km": 18.704,
+    "to_km": 18.955
+   },
+   {
+    "slug": "brooklyn-bridge-kom",
+    "from_km": 29.92,
+    "to_km": 31.927
+   }
+  ],
+  "strava_segment_id": 40651003,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/no-sleep-till-brooklyn"
+ },
+ {
+  "id": 107363867,
+  "slug": "hilly-route-rev",
+  "name": "Hilly Route Reverse",
+  "world": "watopia",
+  "distance_km": 9.193,
+  "elevation_m": 109,
+  "lead_in_km": 0.214,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "hilly-loop-rev",
+    "from_km": 0,
+    "to_km": 9.107
+   },
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 4.789,
+    "to_km": 7.25
+   }
+  ],
+  "strava_segment_id": 12128037,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/hilly-route-reverse"
+ },
+ {
+  "id": 112312944,
+  "slug": "issendorf-express",
+  "name": "Issendorf Express",
+  "world": "new-york",
+  "distance_km": 7.234,
+  "elevation_m": 53,
+  "lead_in_km": 0.072,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "center-sprint",
+    "from_km": 1.537,
+    "to_km": 1.736
+   },
+   {
+    "slug": "the-peristyle-sprint-rev",
+    "from_km": 2.944,
+    "to_km": 3.351
+   },
+   {
+    "slug": "center-sprint",
+    "from_km": 4.844,
+    "to_km": 5.037
+   },
+   {
+    "slug": "the-hill-kom",
+    "from_km": 5.91,
+    "to_km": 6.436
+   }
+  ],
+  "strava_segment_id": 40331604,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/issendorf-express"
+ },
+ {
+  "id": 136140280,
+  "slug": "sacre-bleu",
+  "name": "Sacre Bleu",
+  "world": "france",
+  "distance_km": 71.18,
+  "elevation_m": 396,
+  "lead_in_km": 2.599,
+  "lead_in_elev_m": 15,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "aqueduc-kom-rev",
+    "from_km": 8.416,
+    "to_km": 8.814
+   },
+   {
+    "slug": "ballon-sprint-rev",
+    "from_km": 12.806,
+    "to_km": 13.142
+   },
+   {
+    "slug": "aqueduc-kom",
+    "from_km": 43.45,
+    "to_km": 43.874
+   },
+   {
+    "slug": "marina-sprint",
+    "from_km": 59.166,
+    "to_km": 59.511
+   }
+  ],
+  "strava_segment_id": 39270823,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/sacre-bleu"
+ },
+ {
+  "id": 156457316,
+  "slug": "lutscher",
+  "name": "Lutscher",
+  "world": "innsbruck",
+  "distance_km": 13.704,
+  "elevation_m": 402,
+  "lead_in_km": 10.798,
+  "lead_in_elev_m": 427,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "innsbruck-kom",
+    "from_km": 3.129,
+    "to_km": 10.553
+   },
+   {
+    "slug": "innsbruck-kom",
+    "from_km": 16.803,
+    "to_km": 24.223
+   }
+  ],
+  "strava_segment_id": 18406508,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/lutscher"
+ },
+ {
+  "id": 159415549,
+  "slug": "spiral-summit",
+  "name": "Spiral Summit",
+  "world": "watopia",
+  "distance_km": 23.869,
+  "elevation_m": 284,
+  "lead_in_km": 0.15,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jarvis-lap",
+    "from_km": 10.174,
+    "to_km": 15.021
+   },
+   {
+    "slug": "jarvis-kom",
+    "from_km": 10.838,
+    "to_km": 12.644
+   },
+   {
+    "slug": "jarvis-sprint",
+    "from_km": 13.984,
+    "to_km": 14.181
+   },
+   {
+    "slug": "jarvis-kom",
+    "from_km": 15.685,
+    "to_km": 17.479
+   },
+   {
+    "slug": "jarvis-sprint",
+    "from_km": 18.817,
+    "to_km": 19.019
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 20.228,
+    "to_km": 23.956
+   }
+  ],
+  "strava_segment_id": 42026541,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/spiral-summit"
+ },
+ {
+  "id": 163688809,
+  "slug": "the-london-pretzel",
+  "name": "The London Pretzel",
+  "world": "london",
+  "distance_km": 55.735,
+  "elevation_m": 572,
+  "lead_in_km": 0.462,
+  "lead_in_elev_m": 4,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "london-sprint",
+    "from_km": 14.277,
+    "to_km": 14.468
+   },
+   {
+    "slug": "fox-hill",
+    "from_km": 31.768,
+    "to_km": 34.166
+   },
+   {
+    "slug": "london-sprint-rev",
+    "from_km": 41.706,
+    "to_km": 41.887
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 47.004,
+    "to_km": 49.984
+   }
+  ],
+  "strava_segment_id": 15155838,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-london-pretzel"
+ },
+ {
+  "id": 172610229,
+  "slug": "scotland-smash",
+  "name": "Scotland Smash",
+  "world": "scotland",
+  "distance_km": 17.82,
+  "elevation_m": 167,
+  "lead_in_km": 0.249,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 38412900,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/scotland-smash"
+ },
+ {
+  "id": 183635628,
+  "slug": "elevation-evaluation",
+  "name": "Elevation Evaluation",
+  "world": "watopia",
+  "distance_km": 24.624,
+  "elevation_m": 396,
+  "lead_in_km": 3.09,
+  "lead_in_elev_m": 14,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "the-grade-kom",
+    "from_km": 2.839,
+    "to_km": 6.36
+   }
+  ],
+  "strava_segment_id": 37049454,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/elevation-evaluation"
+ },
+ {
+  "id": 186601870,
+  "slug": "makuri-madness",
+  "name": "Makuri Madness",
+  "world": "makuri-islands",
+  "distance_km": 15.949,
+  "elevation_m": 85,
+  "lead_in_km": 0.137,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "tower-sprint",
+    "from_km": 2.528,
+    "to_km": 2.842
+   }
+  ],
+  "strava_segment_id": 38413164,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/makuri-madness"
+ },
+ {
+  "id": 211138252,
+  "slug": "island-outskirts",
+  "name": "Island Outskirts",
+  "world": "makuri-islands",
+  "distance_km": 11.365,
+  "elevation_m": 90,
+  "lead_in_km": 0.157,
+  "lead_in_elev_m": 2,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 33237309,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/island-outskirts"
+ },
+ {
+  "id": 226950646,
+  "slug": "mayan-san-remo",
+  "name": "Mayan San Remo",
+  "world": "watopia",
+  "distance_km": 21.09,
+  "elevation_m": 217,
+  "lead_in_km": 0.322,
+  "lead_in_elev_m": 2,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "mayan-mountainside-kom",
+    "from_km": 9.855,
+    "to_km": 11.857
+   },
+   {
+    "slug": "itza-kom",
+    "from_km": 12.453,
+    "to_km": 16.212
+   }
+  ],
+  "strava_segment_id": 37098607,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/mayan-san-remo"
+ },
+ {
+  "id": 240388043,
+  "slug": "sugar-cookie",
+  "name": "Sugar Cookie",
+  "world": "watopia",
+  "distance_km": 33.553,
+  "elevation_m": 250,
+  "lead_in_km": 5.659,
+  "lead_in_elev_m": 9,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "woodland-sprint",
+    "from_km": 15.144,
+    "to_km": 15.648
+   }
+  ],
+  "strava_segment_id": 35705425,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/sugar-cookie"
+ },
+ {
+  "id": 242381847,
+  "slug": "gran-fondo",
+  "name": "Zwift Gran Fondo",
+  "world": "watopia",
+  "distance_km": 97.507,
+  "elevation_m": 1193,
+  "lead_in_km": 0.457,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 6.913,
+    "to_km": 9.385
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 14.47,
+    "to_km": 18.185
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 50.358,
+    "to_km": 50.693
+   },
+   {
+    "slug": "zwift-kom",
+    "from_km": 59.745,
+    "to_km": 60.633
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 80.401,
+    "to_km": 80.734
+   }
+  ],
+  "strava_segment_id": 20456686,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/gran-fond"
+ },
+ {
+  "id": 243949867,
+  "slug": "loop-de-loop",
+  "name": "Loop de Loop",
+  "world": "watopia",
+  "distance_km": 12.416,
+  "elevation_m": 144,
+  "lead_in_km": 0.194,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "zwift-kom",
+    "from_km": 8.099,
+    "to_km": 8.99
+   }
+  ],
+  "strava_segment_id": 36342198,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/loop-de-loop"
+ },
+ {
+  "id": 246712730,
+  "slug": "railways-and-rooftops",
+  "name": "Railways and Rooftops",
+  "world": "makuri-islands",
+  "distance_km": 6.196,
+  "elevation_m": 70,
+  "lead_in_km": 2.175,
+  "lead_in_elev_m": 21,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "railway-sprint",
+    "from_km": 0.2,
+    "to_km": 0.683
+   }
+  ],
+  "strava_segment_id": 30407802,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/railways-and-rooftops"
+ },
+ {
+  "id": 270817258,
+  "slug": "tides-and-temples",
+  "name": "Tides and Temples",
+  "world": "watopia",
+  "distance_km": 36.471,
+  "elevation_m": 460,
+  "lead_in_km": 2.669,
+  "lead_in_elev_m": 10,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "woodland-sprint",
+    "from_km": 4.293,
+    "to_km": 4.791
+   }
+  ],
+  "strava_segment_id": 37041912,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/tides-and-temples"
+ },
+ {
+  "id": 274639515,
+  "slug": "the-6-train-rev",
+  "name": "The 6 Train Reverse",
+  "world": "new-york",
+  "distance_km": 6.469,
+  "elevation_m": 69,
+  "lead_in_km": 0.374,
+  "lead_in_elev_m": 2,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 19171959,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-6-train-reverse"
+ },
+ {
+  "id": 319138658,
+  "slug": "three-musketeers",
+  "name": "Three Musketeers",
+  "world": "france",
+  "distance_km": 35.195,
+  "elevation_m": 195,
+  "lead_in_km": 2.599,
+  "lead_in_elev_m": 15,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "aqueduc-kom-rev",
+    "from_km": 8.406,
+    "to_km": 8.817
+   },
+   {
+    "slug": "ballon-sprint-rev",
+    "from_km": 12.813,
+    "to_km": 13.131
+   }
+  ],
+  "strava_segment_id": 38873256,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/three-musketeers"
+ },
+ {
+  "id": 352245150,
+  "slug": "gotham-grind-rev",
+  "name": "Gotham Grind Reverse",
+  "world": "new-york",
+  "distance_km": 9.259,
+  "elevation_m": 96,
+  "lead_in_km": 0.391,
+  "lead_in_elev_m": 2,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 19821300,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/gotham-grind-reverse"
+ },
+ {
+  "id": 358794394,
+  "slug": "ven-10",
+  "name": "Ven-10",
+  "world": "france",
+  "distance_km": 10,
+  "elevation_m": 780,
+  "lead_in_km": 1.399,
+  "lead_in_elev_m": 37,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 38856912,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/ven-10"
+ },
+ {
+  "id": 362278484,
+  "slug": "twilight-crit",
+  "name": "Twilight Crit",
+  "world": "makuri-islands",
+  "distance_km": 3.904,
+  "elevation_m": 20,
+  "lead_in_km": 1.839,
+  "lead_in_elev_m": 13,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 41882382,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/twilight-crit"
+ },
+ {
+  "id": 377566656,
+  "slug": "braek-fast-crits-and-grits",
+  "name": "BRAEk-fast Crits and Grits",
+  "world": "scotland",
+  "distance_km": 20.792,
+  "elevation_m": 226,
+  "lead_in_km": 1.353,
+  "lead_in_elev_m": 35,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "sgurr-summit-south",
+    "from_km": 19.797,
+    "to_km": 20.793
+   }
+  ],
+  "strava_segment_id": 37675052,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/braek-fast-crits-and-grits"
+ },
+ {
+  "id": 387309391,
+  "slug": "volcano-climb-after-party",
+  "name": "Volcano Climb After Party",
+  "world": "watopia",
+  "distance_km": 39.854,
+  "elevation_m": 285,
+  "lead_in_km": 0.466,
+  "lead_in_elev_m": 1,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "volcano-kom",
+    "from_km": 36.343,
+    "to_km": 40.057
+   }
+  ],
+  "strava_segment_id": 19635842,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/volcano-climb-after-party"
+ },
+ {
+  "id": 454871454,
+  "slug": "deca-dash",
+  "name": "Deca Dash",
+  "world": "watopia",
+  "distance_km": 48.35,
+  "elevation_m": 484,
+  "lead_in_km": 4.226,
+  "lead_in_elev_m": 16,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 0.232,
+    "to_km": 1.528
+   },
+   {
+    "slug": "jarvis-lap-rev",
+    "from_km": 3.973,
+    "to_km": 8.789
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 4.603,
+    "to_km": 4.801
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 5.05,
+    "to_km": 6.344
+   },
+   {
+    "slug": "jarvis-lap-rev",
+    "from_km": 8.789,
+    "to_km": 13.604
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 9.419,
+    "to_km": 9.617
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 9.866,
+    "to_km": 11.16
+   },
+   {
+    "slug": "jarvis-lap-rev",
+    "from_km": 13.604,
+    "to_km": 18.434
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 14.248,
+    "to_km": 14.445
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 14.681,
+    "to_km": 15.976
+   },
+   {
+    "slug": "jarvis-lap-rev",
+    "from_km": 18.434,
+    "to_km": 23.249
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 19.063,
+    "to_km": 19.261
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 19.497,
+    "to_km": 20.792
+   },
+   {
+    "slug": "jarvis-lap-rev",
+    "from_km": 23.249,
+    "to_km": 28.064
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 23.879,
+    "to_km": 24.076
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 24.312,
+    "to_km": 25.608
+   },
+   {
+    "slug": "jarvis-lap-rev",
+    "from_km": 28.064,
+    "to_km": 32.88
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 28.694,
+    "to_km": 28.892
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 29.141,
+    "to_km": 30.435
+   },
+   {
+    "slug": "jarvis-lap-rev",
+    "from_km": 32.88,
+    "to_km": 37.695
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 33.51,
+    "to_km": 33.707
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 33.956,
+    "to_km": 35.25
+   },
+   {
+    "slug": "jarvis-lap-rev",
+    "from_km": 37.695,
+    "to_km": 42.525
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 38.332,
+    "to_km": 38.528
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 38.767,
+    "to_km": 40.065
+   },
+   {
+    "slug": "jarvis-lap-rev",
+    "from_km": 42.525,
+    "to_km": 47.35
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 43.155,
+    "to_km": 43.354
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 43.599,
+    "to_km": 44.893
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 47.982,
+    "to_km": 48.175
+   }
+  ],
+  "strava_segment_id": 39270881,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/deca-dash"
+ },
+ {
+  "id": 468624015,
+  "slug": "fine-and-sandy",
+  "name": "Fine and Sandy",
+  "world": "makuri-islands",
+  "distance_km": 10.654,
+  "elevation_m": 77,
+  "lead_in_km": 0.096,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 33237114,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/fine-and-sandy"
+ },
+ {
+  "id": 474781994,
+  "slug": "greater-london-loop-rev",
+  "name": "Greater London Loop Reverse",
+  "world": "london",
+  "distance_km": 20.978,
+  "elevation_m": 255,
+  "lead_in_km": 0.173,
+  "lead_in_elev_m": 1,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fox-hill",
+    "from_km": 3.119,
+    "to_km": 5.514
+   }
+  ],
+  "strava_segment_id": 15167351,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/greater-london-loop-reverse"
+ },
+ {
+  "id": 480315274,
+  "slug": "gotham-grind",
+  "name": "Gotham Grind",
+  "world": "new-york",
+  "distance_km": 9.257,
+  "elevation_m": 96,
+  "lead_in_km": 0.046,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 19820820,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/gotham-grind"
+ },
+ {
+  "id": 525689100,
+  "slug": "countryside-tour",
+  "name": "Countryside Tour",
+  "world": "makuri-islands",
+  "distance_km": 15.849,
+  "elevation_m": 185,
+  "lead_in_km": 0.206,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "temple-kom-from-fishing-village-side",
+    "from_km": 8.872,
+    "to_km": 11.371
+   }
+  ],
+  "strava_segment_id": 28431416,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/countryside-tour"
+ },
+ {
+  "id": 553661379,
+  "slug": "figure-8-reverse",
+  "name": "Watopia Figure 8 Reverse",
+  "world": "watopia",
+  "distance_km": 29.698,
+  "elevation_m": 254,
+  "lead_in_km": 0.193,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 4.792,
+    "to_km": 7.267
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 15.235,
+    "to_km": 15.573
+   },
+   {
+    "slug": "zwift-kom",
+    "from_km": 19.174,
+    "to_km": 20.068
+   }
+  ],
+  "strava_segment_id": 27177732,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/figure-8-reverse"
+ },
+ {
+  "id": 565111133,
+  "slug": "heart-of-montmartre",
+  "name": "Heart of Montmartre",
+  "world": "paris",
+  "distance_km": 74.495,
+  "elevation_m": 500,
+  "lead_in_km": 3.185,
+  "lead_in_elev_m": 11,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "champs-elysees",
+    "from_km": 0,
+    "to_km": 6.615
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 1.171,
+    "to_km": 1.324
+   },
+   {
+    "slug": "champs-elysees",
+    "from_km": 6.615,
+    "to_km": 13.253
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 7.808,
+    "to_km": 7.947
+   },
+   {
+    "slug": "champs-elysees",
+    "from_km": 13.253,
+    "to_km": 19.874
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 14.43,
+    "to_km": 14.584
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 21.052,
+    "to_km": 21.206
+   },
+   {
+    "slug": "monceau-sprint",
+    "from_km": 22.621,
+    "to_km": 22.908
+   },
+   {
+    "slug": "montmartre-kom",
+    "from_km": 24.77,
+    "to_km": 25.994
+   },
+   {
+    "slug": "tchou-tchou-sprint",
+    "from_km": 28.543,
+    "to_km": 28.708
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 37.024,
+    "to_km": 37.178
+   },
+   {
+    "slug": "monceau-sprint",
+    "from_km": 38.577,
+    "to_km": 38.881
+   },
+   {
+    "slug": "montmartre-kom",
+    "from_km": 40.726,
+    "to_km": 41.966
+   },
+   {
+    "slug": "tchou-tchou-sprint",
+    "from_km": 44.518,
+    "to_km": 44.664
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 52.981,
+    "to_km": 53.135
+   },
+   {
+    "slug": "monceau-sprint",
+    "from_km": 54.533,
+    "to_km": 54.838
+   },
+   {
+    "slug": "montmartre-kom",
+    "from_km": 56.682,
+    "to_km": 57.923
+   },
+   {
+    "slug": "tchou-tchou-sprint",
+    "from_km": 60.474,
+    "to_km": 60.62
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 68.938,
+    "to_km": 69.091
+   }
+  ],
+  "strava_segment_id": 41624979,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/heart-of-montmartre"
+ },
+ {
+  "id": 573843083,
+  "slug": "macaron",
+  "name": "Macaron",
+  "world": "france",
+  "distance_km": 2.436,
+  "elevation_m": 13,
+  "lead_in_km": 0.164,
+  "lead_in_elev_m": 2,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 38876339,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/macaron"
+ },
+ {
+  "id": 576953930,
+  "slug": "country-to-coastal",
+  "name": "Country to Coastal",
+  "world": "makuri-islands",
+  "distance_km": 33.431,
+  "elevation_m": 274,
+  "lead_in_km": 0.137,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 33238095,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/country-to-coastal"
+ },
+ {
+  "id": 604330868,
+  "slug": "sand-and-sequoias",
+  "name": "Sand And Sequoias",
+  "world": "watopia",
+  "distance_km": 20.149,
+  "elevation_m": 175,
+  "lead_in_km": 2.28,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "titans-grove-kom",
+    "from_km": 10.251,
+    "to_km": 12.859
+   },
+   {
+    "slug": "fuego-flats",
+    "from_km": 19.635,
+    "to_km": 20.133
+   }
+  ],
+  "strava_segment_id": 21911197,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/sand-and-sequoias"
+ },
+ {
+  "id": 620436060,
+  "slug": "harrogate-circuit-rev",
+  "name": "Harrogate Circuit Reverse",
+  "world": "yorkshire",
+  "distance_km": 13.833,
+  "elevation_m": 245,
+  "lead_in_km": 0.022,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "yorkshire-sprint-rev",
+    "from_km": 2.39,
+    "to_km": 2.787
+   },
+   {
+    "slug": "yorkshire-kom-rev",
+    "from_km": 3.852,
+    "to_km": 5.017
+   }
+  ],
+  "strava_segment_id": 21747707,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/harrogate-circuit-reverse"
+ },
+ {
+  "id": 686828068,
+  "slug": "volcano-circuit",
+  "name": "Volcano Circuit",
+  "world": "watopia",
+  "distance_km": 4.104,
+  "elevation_m": 20,
+  "lead_in_km": 2.758,
+  "lead_in_elev_m": 20,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "volcano-circuit",
+    "from_km": 0,
+    "to_km": 4.067
+   }
+  ],
+  "strava_segment_id": 14032406,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/volcano-circuit"
+ },
+ {
+  "id": 730052368,
+  "slug": "spinfinity-ultra",
+  "name": "Spinfinity Ultra",
+  "world": "new-york",
+  "distance_km": 35.47,
+  "elevation_m": 291,
+  "lead_in_km": 0.615,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "brooklyn-bridge-kom",
+    "from_km": 6.592,
+    "to_km": 8.594
+   },
+   {
+    "slug": "manhattan-sprint",
+    "from_km": 11.327,
+    "to_km": 11.571
+   },
+   {
+    "slug": "manhattan-sprint-rev",
+    "from_km": 23.903,
+    "to_km": 24.147
+   }
+  ],
+  "strava_segment_id": 40337487,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/spinfinity-ultra"
+ },
+ {
+  "id": 742057576,
+  "slug": "loch-loop",
+  "name": "Loch Loop",
+  "world": "scotland",
+  "distance_km": 8.057,
+  "elevation_m": 71,
+  "lead_in_km": 0.048,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 33620222,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/loch-loop"
+ },
+ {
+  "id": 743730361,
+  "slug": "jungle-circuit",
+  "name": "Jungle Circuit",
+  "world": "watopia",
+  "distance_km": 7.862,
+  "elevation_m": 83,
+  "lead_in_km": 5.658,
+  "lead_in_elev_m": 10,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jungle-loop-rev",
+    "from_km": 0,
+    "to_km": 7.858
+   }
+  ],
+  "strava_segment_id": 16359363,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/jungle-circuit"
+ },
+ {
+  "id": 750613981,
+  "slug": "hudson-hustle",
+  "name": "Hudson Hustle",
+  "world": "new-york",
+  "distance_km": 20.324,
+  "elevation_m": 216,
+  "lead_in_km": 0.051,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 40654556,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/hudson-hustle"
+ },
+ {
+  "id": 762151244,
+  "slug": "zwift-games-2024-epic",
+  "name": "Zwift Games 2024 Epic",
+  "world": "watopia",
+  "distance_km": 79.725,
+  "elevation_m": 822,
+  "lead_in_km": 1.945,
+  "lead_in_elev_m": 57,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "zwift-kom",
+    "from_km": 0.84,
+    "to_km": 1.737
+   },
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 15.132,
+    "to_km": 16.044
+   },
+   {
+    "slug": "titans-grove-kom",
+    "from_km": 58.327,
+    "to_km": 60.947
+   },
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 72.477,
+    "to_km": 74.946
+   },
+   {
+    "slug": "zwift-kom",
+    "from_km": 80.593,
+    "to_km": 81.485
+   }
+  ],
+  "strava_segment_id": 36343341,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/zwift-games-2024-epic"
+ },
+ {
+  "id": 762747962,
+  "slug": "repack-rush",
+  "name": "Repack Rush",
+  "world": "watopia",
+  "distance_km": 2.776,
+  "elevation_m": 28,
+  "lead_in_km": 0.042,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 34612602,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/repack-rush"
+ },
+ {
+  "id": 764532081,
+  "slug": "the-prl-half",
+  "name": "London PRL Half",
+  "world": "london",
+  "distance_km": 69.159,
+  "elevation_m": 1009,
+  "lead_in_km": 0.457,
+  "lead_in_elev_m": 4,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "london-loop",
+    "from_km": 0,
+    "to_km": 14.831
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 6.278,
+    "to_km": 9.283
+   },
+   {
+    "slug": "london-loop",
+    "from_km": 14.84,
+    "to_km": 29.679
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 21.132,
+    "to_km": 24.131
+   },
+   {
+    "slug": "london-loop",
+    "from_km": 29.699,
+    "to_km": 44.529
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 35.982,
+    "to_km": 38.979
+   },
+   {
+    "slug": "london-loop",
+    "from_km": 44.548,
+    "to_km": 59.381
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 50.832,
+    "to_km": 53.826
+   },
+   {
+    "slug": "london-sprint-rev",
+    "from_km": 68.768,
+    "to_km": 68.949
+   }
+  ],
+  "strava_segment_id": 12759713,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-prl-half"
+ },
+ {
+  "id": 806114032,
+  "slug": "navig8",
+  "name": "Navig8",
+  "world": "watopia",
+  "distance_km": 63.857,
+  "elevation_m": 417,
+  "lead_in_km": 2.28,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "mayan-mountainside-kom",
+    "from_km": 25.736,
+    "to_km": 27.736
+   },
+   {
+    "slug": "itza-kom",
+    "from_km": 28.333,
+    "to_km": 32.088
+   },
+   {
+    "slug": "woodland-sprint",
+    "from_km": 41.147,
+    "to_km": 41.648
+   },
+   {
+    "slug": "fuego-flats",
+    "from_km": 63.486,
+    "to_km": 63.981
+   }
+  ],
+  "strava_segment_id": 37716261,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/navig8"
+ },
+ {
+  "id": 811898717,
+  "slug": "what-yumezi-were-lost",
+  "name": "WhatYumeziWe'reLost?",
+  "world": "makuri-islands",
+  "distance_km": 17.43,
+  "elevation_m": 282,
+  "lead_in_km": 0.112,
+  "lead_in_elev_m": 4,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "temple-kom-from-fishing-village-side",
+    "from_km": 14.917,
+    "to_km": 17.429
+   }
+  ],
+  "strava_segment_id": 41888860,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/whatyumeziwerelost"
+ },
+ {
+  "id": 849508252,
+  "slug": "volcano-climb",
+  "name": "Volcano Climb",
+  "world": "watopia",
+  "distance_km": 22.861,
+  "elevation_m": 203,
+  "lead_in_km": 0.478,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "volcano-kom",
+    "from_km": 11.78,
+    "to_km": 15.496
+   }
+  ],
+  "strava_segment_id": 16425130,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/volcano-climb"
+ },
+ {
+  "id": 870135081,
+  "slug": "la-boucle",
+  "name": "La Boucle",
+  "world": "paris",
+  "distance_km": 15.965,
+  "elevation_m": 117,
+  "lead_in_km": 3.185,
+  "lead_in_elev_m": 11,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "lutece-sprint",
+    "from_km": 1.178,
+    "to_km": 1.33
+   },
+   {
+    "slug": "monceau-sprint",
+    "from_km": 2.732,
+    "to_km": 3.026
+   },
+   {
+    "slug": "montmartre-kom",
+    "from_km": 4.882,
+    "to_km": 6.11
+   },
+   {
+    "slug": "tchou-tchou-sprint",
+    "from_km": 8.664,
+    "to_km": 8.817
+   }
+  ],
+  "strava_segment_id": 41606182,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/la-boucle"
+ },
+ {
+  "id": 872351836,
+  "slug": "roule-ma-poule",
+  "name": "Roule Ma Poule",
+  "world": "france",
+  "distance_km": 22.887,
+  "elevation_m": 155,
+  "lead_in_km": 3.091,
+  "lead_in_elev_m": 108,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "aqueduc-kom",
+    "from_km": 5.75,
+    "to_km": 6.169
+   },
+   {
+    "slug": "marina-sprint",
+    "from_km": 18.744,
+    "to_km": 19.094
+   }
+  ],
+  "strava_segment_id": 24690956,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/roule-ma-poule"
+ },
+ {
+  "id": 890800649,
+  "slug": "makuri-40",
+  "name": "Makuri 40",
+  "world": "makuri-islands",
+  "distance_km": 40.115,
+  "elevation_m": 307,
+  "lead_in_km": 0.137,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 33237747,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/makuri-40"
+ },
+ {
+  "id": 910684583,
+  "slug": "electric-loop",
+  "name": "Electric Loop",
+  "world": "makuri-islands",
+  "distance_km": 8.941,
+  "elevation_m": 42,
+  "lead_in_km": 0.041,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 30987848,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/electric-loop"
+ },
+ {
+  "id": 913172163,
+  "slug": "london-loop",
+  "name": "London Loop",
+  "world": "london",
+  "distance_km": 14.884,
+  "elevation_m": 231,
+  "lead_in_km": 0.462,
+  "lead_in_elev_m": 4,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "london-loop",
+    "from_km": 0,
+    "to_km": 14.826
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 6.285,
+    "to_km": 9.258
+   }
+  ],
+  "strava_segment_id": 12749649,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/london-loop"
+ },
+ {
+  "id": 928793662,
+  "slug": "greater-london-flat",
+  "name": "Greater London Flat",
+  "world": "london",
+  "distance_km": 11.678,
+  "elevation_m": 53,
+  "lead_in_km": 5.636,
+  "lead_in_elev_m": 45,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 15389301,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/greater-london-flat"
+ },
+ {
+  "id": 938096831,
+  "slug": "zg25-climb-champs",
+  "name": "ZG25 Climb Champs",
+  "world": "london",
+  "distance_km": 4.65,
+  "elevation_m": 156,
+  "lead_in_km": 0.345,
+  "lead_in_elev_m": 1,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fox-hill",
+    "from_km": 2.185,
+    "to_km": 4.598
+   }
+  ],
+  "strava_segment_id": 38548881,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/zg25-climb-champs"
+ },
+ {
+  "id": 941280950,
+  "slug": "peaky-pave",
+  "name": "Peaky Pavé",
+  "world": "france",
+  "distance_km": 30.622,
+  "elevation_m": 369,
+  "lead_in_km": 0.187,
+  "lead_in_elev_m": 2,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "ballon-sprint-rev",
+    "from_km": 15.824,
+    "to_km": 16.151
+   },
+   {
+    "slug": "aqueduc-kom-rev",
+    "from_km": 24.064,
+    "to_km": 24.475
+   },
+   {
+    "slug": "petit-kom",
+    "from_km": 27.99,
+    "to_km": 30.678
+   }
+  ],
+  "strava_segment_id": 40657294,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/peaky-pave"
+ },
+ {
+  "id": 947394567,
+  "slug": "downtown-dolphin",
+  "name": "Downtown Dolphin",
+  "world": "crit-city",
+  "distance_km": 1.965,
+  "elevation_m": 17,
+  "lead_in_km": 0.094,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 22445564,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/downtown-dolphin"
+ },
+ {
+  "id": 948831673,
+  "slug": "richmond-rollercoaster",
+  "name": "Richmond Rollercoaster",
+  "world": "richmond",
+  "distance_km": 5.059,
+  "elevation_m": 20,
+  "lead_in_km": 12.062,
+  "lead_in_elev_m": 150,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 22900025,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/richmond-rollercoaster"
+ },
+ {
+  "id": 975408707,
+  "slug": "avon-flyer",
+  "name": "Avon Flyer",
+  "world": "new-york",
+  "distance_km": 3.307,
+  "elevation_m": 25,
+  "lead_in_km": 1.823,
+  "lead_in_elev_m": 5,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "the-peristyle-sprint-rev",
+    "from_km": 1.188,
+    "to_km": 1.597
+   },
+   {
+    "slug": "center-sprint",
+    "from_km": 3.085,
+    "to_km": 3.274
+   }
+  ],
+  "strava_segment_id": 40325105,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/avon-flyer"
+ },
+ {
+  "id": 979250573,
+  "slug": "watts-of-the-wild",
+  "name": "Watts of the Wild",
+  "world": "watopia",
+  "distance_km": 42.023,
+  "elevation_m": 309,
+  "lead_in_km": 0.194,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jarvis-kom",
+    "from_km": 6.445,
+    "to_km": 8.247
+   },
+   {
+    "slug": "jarvis-sprint",
+    "from_km": 9.587,
+    "to_km": 9.801
+   },
+   {
+    "slug": "fuego-flats",
+    "from_km": 21.906,
+    "to_km": 22.405
+   },
+   {
+    "slug": "titans-grove-kom",
+    "from_km": 32.677,
+    "to_km": 35.282
+   }
+  ],
+  "strava_segment_id": 40234360,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/watts-of-the-wild"
+ },
+ {
+  "id": 982239385,
+  "slug": "whole-lotta-lava",
+  "name": "Whole Lotta Lava",
+  "world": "watopia",
+  "distance_km": 12.294,
+  "elevation_m": 161,
+  "lead_in_km": 4.84,
+  "lead_in_elev_m": 30,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "volcano-kom",
+    "from_km": 2.624,
+    "to_km": 6.328
+   }
+  ],
+  "strava_segment_id": 20545879,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/whole-lotta-lava"
+ },
+ {
+  "id": 986252325,
+  "slug": "douce-france",
+  "name": "Douce France",
+  "world": "france",
+  "distance_km": 24.004,
+  "elevation_m": 133,
+  "lead_in_km": 0.78,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "aqueduc-kom",
+    "from_km": 10.843,
+    "to_km": 11.258
+   },
+   {
+    "slug": "marina-sprint",
+    "from_km": 23.842,
+    "to_km": 24.187
+   }
+  ],
+  "strava_segment_id": 24676071,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/douce-france"
+ },
+ {
+  "id": 1039983620,
+  "slug": "richmond-uci-rev",
+  "name": "Richmond 2015 Worlds Reverse",
+  "world": "richmond",
+  "distance_km": 16.249,
+  "elevation_m": 158,
+  "lead_in_km": 0.1,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "23rd-st-rev",
+    "from_km": 1.303,
+    "to_km": 2.396
+   },
+   {
+    "slug": "richmond-kom-rev",
+    "from_km": 2.873,
+    "to_km": 3.528
+   }
+  ],
+  "strava_segment_id": 22809649,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/richmond-uci-reverse"
+ },
+ {
+  "id": 1064303857,
+  "slug": "watopias-waistband",
+  "name": "Watopia's Waistband",
+  "world": "watopia",
+  "distance_km": 25.46,
+  "elevation_m": 95,
+  "lead_in_km": 2.28,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fuego-flats",
+    "from_km": 25.013,
+    "to_km": 25.511
+   }
+  ],
+  "strava_segment_id": 20469780,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/watopias-waistband"
+ },
+ {
+  "id": 1086718516,
+  "slug": "tour-of-tewit-well",
+  "name": "Tour Of Tewit Well",
+  "world": "yorkshire",
+  "distance_km": 10.877,
+  "elevation_m": 205,
+  "lead_in_km": 0.027,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "yorkshire-kom-rev",
+    "from_km": 0.902,
+    "to_km": 2.068
+   }
+  ],
+  "strava_segment_id": 21758283,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/tour-of-tewit-well"
+ },
+ {
+  "id": 1092181131,
+  "slug": "loopin-lava",
+  "name": "Loopin Lava",
+  "world": "watopia",
+  "distance_km": 14.214,
+  "elevation_m": 196,
+  "lead_in_km": 4.181,
+  "lead_in_elev_m": 16,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jarvis-kom",
+    "from_km": 0.653,
+    "to_km": 2.459
+   },
+   {
+    "slug": "jarvis-sprint",
+    "from_km": 3.793,
+    "to_km": 3.996
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 5.207,
+    "to_km": 8.945
+   }
+  ],
+  "strava_segment_id": 38132886,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/loopin-lava"
+ },
+ {
+  "id": 1099226581,
+  "slug": "double-span-spin",
+  "name": "Double Span Spin",
+  "world": "new-york",
+  "distance_km": 7.241,
+  "elevation_m": 81,
+  "lead_in_km": 5.567,
+  "lead_in_elev_m": 40,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "brooklyn-bridge-kom",
+    "from_km": 2.249,
+    "to_km": 4.239
+   },
+   {
+    "slug": "manhattan-sprint",
+    "from_km": 6.972,
+    "to_km": 7.227
+   }
+  ],
+  "strava_segment_id": 40325250,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/double-span-spin"
+ },
+ {
+  "id": 1115260805,
+  "slug": "accelerate-to-elevate",
+  "name": "Accelerate to Elevate",
+  "world": "watopia",
+  "distance_km": 41.265,
+  "elevation_m": 1152,
+  "lead_in_km": 2.28,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "alpe-du-zwift",
+    "from_km": 28.873,
+    "to_km": 41.101
+   }
+  ],
+  "strava_segment_id": 35705419,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/accelerate-to-elevate"
+ },
+ {
+  "id": 1127056801,
+  "slug": "neokyo-crit-course",
+  "name": "Neokyo Crit Course",
+  "world": "makuri-islands",
+  "distance_km": 3.882,
+  "elevation_m": 20,
+  "lead_in_km": 0.778,
+  "lead_in_elev_m": 5,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 30480835,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/neokyo-crit-course"
+ },
+ {
+  "id": 1178708985,
+  "slug": "green-to-screen",
+  "name": "Green to Screen",
+  "world": "new-york",
+  "distance_km": 28.587,
+  "elevation_m": 212,
+  "lead_in_km": 0.072,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "the-peristyle-sprint",
+    "from_km": 2.208,
+    "to_km": 2.603
+   },
+   {
+    "slug": "the-hill-kom",
+    "from_km": 4.118,
+    "to_km": 4.641
+   },
+   {
+    "slug": "manhattan-sprint",
+    "from_km": 9.852,
+    "to_km": 10.096
+   },
+   {
+    "slug": "brooklyn-bridge-kom",
+    "from_km": 21.066,
+    "to_km": 23.068
+   }
+  ],
+  "strava_segment_id": 40336212,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/green-to-screen"
+ },
+ {
+  "id": 1201172818,
+  "slug": "power-punches",
+  "name": "Power Punches",
+  "world": "watopia",
+  "distance_km": 23.48,
+  "elevation_m": 205,
+  "lead_in_km": 0.19,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 8.716,
+    "to_km": 8.916
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 9.155,
+    "to_km": 10.444
+   },
+   {
+    "slug": "jarvis-lap-rev",
+    "from_km": 12.898,
+    "to_km": 17.715
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 13.535,
+    "to_km": 13.721
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 13.973,
+    "to_km": 15.261
+   },
+   {
+    "slug": "jarvis-lap-rev",
+    "from_km": 17.715,
+    "to_km": 22.519
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 18.339,
+    "to_km": 18.539
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 18.777,
+    "to_km": 20.078
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 23.159,
+    "to_km": 23.361
+   }
+  ],
+  "strava_segment_id": 39866779,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/power-punches"
+ },
+ {
+  "id": 1230300449,
+  "slug": "leith-hill-after-party",
+  "name": "Leith Hill After Party",
+  "world": "london",
+  "distance_km": 41.543,
+  "elevation_m": 434,
+  "lead_in_km": 0.462,
+  "lead_in_elev_m": 4,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "london-sprint",
+    "from_km": 14.309,
+    "to_km": 14.502
+   },
+   {
+    "slug": "london-sprint",
+    "from_km": 25.949,
+    "to_km": 26.141
+   },
+   {
+    "slug": "leith-hill",
+    "from_km": 39.505,
+    "to_km": 41.454
+   }
+  ],
+  "strava_segment_id": 20618179,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/leith-hill-after-party"
+ },
+ {
+  "id": 1233527301,
+  "slug": "duchy-estate",
+  "name": "Duchy Estate",
+  "world": "yorkshire",
+  "distance_km": 3,
+  "elevation_m": 41,
+  "lead_in_km": 1.697,
+  "lead_in_elev_m": 29,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 21748097,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/duchy-estate"
+ },
+ {
+  "id": 1236439870,
+  "slug": "lutece-express",
+  "name": "Lutece Express",
+  "world": "paris",
+  "distance_km": 6.617,
+  "elevation_m": 39,
+  "lead_in_km": 3.561,
+  "lead_in_elev_m": 26,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "champs-elysees-rev",
+    "from_km": 0,
+    "to_km": 6.595
+   },
+   {
+    "slug": "lutece-sprint-rev",
+    "from_km": 5.021,
+    "to_km": 5.262
+   }
+  ],
+  "strava_segment_id": 24674248,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/lutece-express"
+ },
+ {
+  "id": 1247427185,
+  "slug": "montmartre-mixer",
+  "name": "Montmartre Mixer",
+  "world": "paris",
+  "distance_km": 25.144,
+  "elevation_m": 190,
+  "lead_in_km": 2.422,
+  "lead_in_elev_m": 9,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "lutece-sprint",
+    "from_km": 1.171,
+    "to_km": 1.33
+   },
+   {
+    "slug": "monceau-sprint",
+    "from_km": 2.726,
+    "to_km": 3.023
+   },
+   {
+    "slug": "eglise-sprint",
+    "from_km": 6.219,
+    "to_km": 6.456
+   },
+   {
+    "slug": "monceau-sprint",
+    "from_km": 10.528,
+    "to_km": 10.836
+   },
+   {
+    "slug": "montmartre-kom",
+    "from_km": 12.679,
+    "to_km": 13.91
+   },
+   {
+    "slug": "montmartre-kom",
+    "from_km": 15.95,
+    "to_km": 17.182
+   },
+   {
+    "slug": "tchou-tchou-sprint",
+    "from_km": 19.734,
+    "to_km": 19.883
+   }
+  ],
+  "strava_segment_id": 41606447,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/montmartre-mixer"
+ },
+ {
+  "id": 1258415487,
+  "slug": "glasgow-reverse",
+  "name": "Glasgow Reverse",
+  "world": "scotland",
+  "distance_km": 3.012,
+  "elevation_m": 33,
+  "lead_in_km": 1.196,
+  "lead_in_elev_m": 7,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 33620087,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/glasgow-crit-circuit-reverse"
+ },
+ {
+  "id": 1258526800,
+  "slug": "flat-out-fast",
+  "name": "Flat Out Fast",
+  "world": "watopia",
+  "distance_km": 21.382,
+  "elevation_m": 46,
+  "lead_in_km": 0.949,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fuego-flats",
+    "from_km": 3.645,
+    "to_km": 4.138
+   },
+   {
+    "slug": "fuego-flats-rev",
+    "from_km": 12.358,
+    "to_km": 19.432
+   },
+   {
+    "slug": "fuego-flats",
+    "from_km": 20.921,
+    "to_km": 21.416
+   }
+  ],
+  "strava_segment_id": 39873080,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/flat-out-fast"
+ },
+ {
+  "id": 1327147942,
+  "slug": "2022-gran-fondo",
+  "name": "Zwift Gran Fondo 2022",
+  "world": "watopia",
+  "distance_km": 92.564,
+  "elevation_m": 1114,
+  "lead_in_km": 0.194,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "watopia-sprint",
+    "from_km": 5.602,
+    "to_km": 5.932
+   },
+   {
+    "slug": "fuego-flats-rev",
+    "from_km": 17.971,
+    "to_km": 25.062
+   },
+   {
+    "slug": "fuego-flats",
+    "from_km": 26.54,
+    "to_km": 27.028
+   },
+   {
+    "slug": "zwift-kom",
+    "from_km": 40.638,
+    "to_km": 41.528
+   },
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 53.103,
+    "to_km": 53.993
+   },
+   {
+    "slug": "volcano-circuit",
+    "from_km": 66.455,
+    "to_km": 70.524
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 72.355,
+    "to_km": 76.078
+   },
+   {
+    "slug": "epic-kom-rev",
+    "from_km": 86.184,
+    "to_km": 92.364
+   }
+  ],
+  "strava_segment_id": 30601015,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/2022-gran-fondo"
+ },
+ {
+  "id": 1327665278,
+  "slug": "everything-bagel",
+  "name": "Everything Bagel",
+  "world": "new-york",
+  "distance_km": 34.285,
+  "elevation_m": 545,
+  "lead_in_km": 0.051,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "new-york-kom-rev",
+    "from_km": 2.765,
+    "to_km": 3.889
+   },
+   {
+    "slug": "new-york-kom",
+    "from_km": 24.236,
+    "to_km": 25.594
+   }
+  ],
+  "strava_segment_id": 19141223,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/everything-bagel"
+ },
+ {
+  "id": 1365497350,
+  "slug": "double-espresso",
+  "name": "Double Espresso",
+  "world": "paris",
+  "distance_km": 30.508,
+  "elevation_m": 221,
+  "lead_in_km": 3.185,
+  "lead_in_elev_m": 11,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "lutece-sprint",
+    "from_km": 1.174,
+    "to_km": 1.326
+   },
+   {
+    "slug": "eglise-sprint",
+    "from_km": 5.257,
+    "to_km": 5.504
+   },
+   {
+    "slug": "montmartre-kom",
+    "from_km": 7.573,
+    "to_km": 8.803
+   },
+   {
+    "slug": "tchou-tchou-sprint",
+    "from_km": 11.357,
+    "to_km": 11.505
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 15.678,
+    "to_km": 15.829
+   },
+   {
+    "slug": "monceau-sprint",
+    "from_km": 17.236,
+    "to_km": 17.532
+   },
+   {
+    "slug": "montmartre-kom",
+    "from_km": 19.387,
+    "to_km": 20.616
+   },
+   {
+    "slug": "tchou-tchou-sprint",
+    "from_km": 23.17,
+    "to_km": 23.319
+   }
+  ],
+  "strava_segment_id": 41623178,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/double-espresso"
+ },
+ {
+  "id": 1366943680,
+  "slug": "mech-isle-loop",
+  "name": "Mech Isle Loop",
+  "world": "makuri-islands",
+  "distance_km": 4.023,
+  "elevation_m": 39,
+  "lead_in_km": 0.086,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 33214506,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/mech-isle-loop"
+ },
+ {
+  "id": 1367364772,
+  "slug": "neon-after-party",
+  "name": "Neon After Party",
+  "world": "makuri-islands",
+  "distance_km": 16.199,
+  "elevation_m": 137,
+  "lead_in_km": 1.124,
+  "lead_in_elev_m": 5,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "rooftop-kom",
+    "from_km": 14.261,
+    "to_km": 16.139
+   }
+  ],
+  "strava_segment_id": 38754616,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/neon-after-party"
+ },
+ {
+  "id": 1386460176,
+  "slug": "ocean-lava-cliffside-loop",
+  "name": "Ocean Lava Cliffside Loop",
+  "world": "watopia",
+  "distance_km": 19.054,
+  "elevation_m": 156,
+  "lead_in_km": 0.193,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 26741663,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/ocean-lava-cliffside-loop"
+ },
+ {
+  "id": 1397026382,
+  "slug": "volcano-flat-rev",
+  "name": "Volcano Flat Reverse",
+  "world": "watopia",
+  "distance_km": 12.349,
+  "elevation_m": 50,
+  "lead_in_km": 0.237,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 14120237,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/volcano-flat-reverse"
+ },
+ {
+  "id": 1433431343,
+  "slug": "la-reine",
+  "name": "La Reine",
+  "world": "france",
+  "distance_km": 22.456,
+  "elevation_m": 1201,
+  "lead_in_km": 0.449,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "petit-kom",
+    "from_km": 8.086,
+    "to_km": 10.762
+   }
+  ],
+  "strava_segment_id": 24698649,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/la-reine"
+ },
+ {
+  "id": 1453570384,
+  "slug": "neokyo-all-nighter",
+  "name": "Neokyo All-Nighter",
+  "world": "makuri-islands",
+  "distance_km": 24.337,
+  "elevation_m": 168,
+  "lead_in_km": 0.228,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "tower-sprint",
+    "from_km": 11.173,
+    "to_km": 11.485
+   },
+   {
+    "slug": "rooftop-kom",
+    "from_km": 16.569,
+    "to_km": 18.44
+   }
+  ],
+  "strava_segment_id": 30407658,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/neokyo-all-nighter"
+ },
+ {
+  "id": 1454553567,
+  "slug": "kappa-quest-reverse",
+  "name": "Kappa Quest Reverse",
+  "world": "makuri-islands",
+  "distance_km": 9.087,
+  "elevation_m": 140,
+  "lead_in_km": 5.131,
+  "lead_in_elev_m": 130,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "temple-kom-from-castle-side",
+    "from_km": 7.147,
+    "to_km": 9.04
+   }
+  ],
+  "strava_segment_id": 29009500,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/kappa-quest-reverse"
+ },
+ {
+  "id": 1457923570,
+  "slug": "twilight-harbor",
+  "name": "Twilight Harbor",
+  "world": "makuri-islands",
+  "distance_km": 6.854,
+  "elevation_m": 33,
+  "lead_in_km": 0.248,
+  "lead_in_elev_m": 4,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "tower-sprint",
+    "from_km": 1.609,
+    "to_km": 1.916
+   }
+  ],
+  "strava_segment_id": 30629791,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/twighlight-harbor"
+ },
+ {
+  "id": 1464561389,
+  "slug": "climb-control",
+  "name": "Climb Control",
+  "world": "watopia",
+  "distance_km": 23.672,
+  "elevation_m": 191,
+  "lead_in_km": 0.301,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jungle-loop",
+    "from_km": 7.952,
+    "to_km": 15.774
+   },
+   {
+    "slug": "jungle-loop",
+    "from_km": 15.798,
+    "to_km": 23.63
+   }
+  ],
+  "strava_segment_id": 40385661,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/climb-control"
+ },
+ {
+  "id": 1475638265,
+  "slug": "the-uber-pretzel",
+  "name": "The Uber Pretzel",
+  "world": "watopia",
+  "distance_km": 128.299,
+  "elevation_m": 2380,
+  "lead_in_km": 0.523,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "epic-kom",
+    "from_km": 4.065,
+    "to_km": 13.468
+   },
+   {
+    "slug": "radio-tower-kom",
+    "from_km": 13.905,
+    "to_km": 14.995
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 42.031,
+    "to_km": 45.741
+   },
+   {
+    "slug": "fuego-flats-rev",
+    "from_km": 62.56,
+    "to_km": 69.646
+   },
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 79.736,
+    "to_km": 82.202
+   },
+   {
+    "slug": "fuego-flats",
+    "from_km": 87.46,
+    "to_km": 87.954
+   },
+   {
+    "slug": "alpe-du-zwift",
+    "from_km": 115.72,
+    "to_km": 127.944
+   }
+  ],
+  "strava_segment_id": 27313482,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-uber-pretzel"
+ },
+ {
+  "id": 1509089537,
+  "slug": "astoria-line-8",
+  "name": "Astoria Line 8",
+  "world": "new-york",
+  "distance_km": 11.569,
+  "elevation_m": 141,
+  "lead_in_km": 0.42,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 19141340,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/astoria-line-8"
+ },
+ {
+  "id": 1538375239,
+  "slug": "gentil-8",
+  "name": "Gentil 8",
+  "world": "france",
+  "distance_km": 23.18,
+  "elevation_m": 243,
+  "lead_in_km": 2.599,
+  "lead_in_elev_m": 15,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "petit-kom",
+    "from_km": 5.421,
+    "to_km": 8.104
+   }
+  ],
+  "strava_segment_id": 38856602,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/gentil-8"
+ },
+ {
+  "id": 1545087483,
+  "slug": "cobbled-climbs",
+  "name": "Cobbled Climbs",
+  "world": "richmond",
+  "distance_km": 9.179,
+  "elevation_m": 134,
+  "lead_in_km": 0.284,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "richmond-kom",
+    "from_km": 4.915,
+    "to_km": 5.542
+   },
+   {
+    "slug": "23rd-st",
+    "from_km": 6.45,
+    "to_km": 6.722
+   }
+  ],
+  "strava_segment_id": 11308213,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/cobbled-climbs"
+ },
+ {
+  "id": 1552189318,
+  "slug": "the-double-borough",
+  "name": "The Double Borough",
+  "world": "new-york",
+  "distance_km": 18.011,
+  "elevation_m": 147,
+  "lead_in_km": 0.051,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "brooklyn-bridge-kom",
+    "from_km": 8.284,
+    "to_km": 10.286
+   },
+   {
+    "slug": "manhattan-sprint",
+    "from_km": 13.008,
+    "to_km": 13.263
+   }
+  ],
+  "strava_segment_id": 40343676,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-double-borough"
+ },
+ {
+  "id": 1562187590,
+  "slug": "kappa-quest",
+  "name": "Kappa Quest",
+  "world": "makuri-islands",
+  "distance_km": 9.086,
+  "elevation_m": 140,
+  "lead_in_km": 3.844,
+  "lead_in_elev_m": 121,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "temple-kom-from-fishing-village-side",
+    "from_km": 6.551,
+    "to_km": 9.051
+   }
+  ],
+  "strava_segment_id": 28432243,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/kappa-quest"
+ },
+ {
+  "id": 1600198346,
+  "slug": "croissant",
+  "name": "Croissant",
+  "world": "france",
+  "distance_km": 9.273,
+  "elevation_m": 49,
+  "lead_in_km": 3.241,
+  "lead_in_elev_m": 23,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 39270805,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/croissant"
+ },
+ {
+  "id": 1631692097,
+  "slug": "glyph-heights",
+  "name": "Glyph Heights",
+  "world": "watopia",
+  "distance_km": 25.404,
+  "elevation_m": 537,
+  "lead_in_km": 8.615,
+  "lead_in_elev_m": 80,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "itza-kom",
+    "from_km": 0.596,
+    "to_km": 4.35
+   },
+   {
+    "slug": "mayan-mountainside-kom",
+    "from_km": 23.31,
+    "to_km": 25.307
+   }
+  ],
+  "strava_segment_id": 37011748,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/glyph-heights"
+ },
+ {
+  "id": 1635842477,
+  "slug": "going-coastal",
+  "name": "Going Coastal",
+  "world": "watopia",
+  "distance_km": 16.393,
+  "elevation_m": 63,
+  "lead_in_km": 2.328,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 41600242,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/going-coastal"
+ },
+ {
+  "id": 1638640398,
+  "slug": "the-fan-flats",
+  "name": "The Fan Flats",
+  "world": "richmond",
+  "distance_km": 5.06,
+  "elevation_m": 20,
+  "lead_in_km": 4.249,
+  "lead_in_elev_m": 20,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "richmond-sprint",
+    "from_km": 4.817,
+    "to_km": 5.027
+   }
+  ],
+  "strava_segment_id": 19852166,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-fan-flats"
+ },
+ {
+  "id": 1656629976,
+  "slug": "the-big-ring",
+  "name": "The Big Ring",
+  "world": "watopia",
+  "distance_km": 48.865,
+  "elevation_m": 268,
+  "lead_in_km": 2.28,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fuego-flats",
+    "from_km": 48.383,
+    "to_km": 48.887
+   }
+  ],
+  "strava_segment_id": 35696945,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-big-ring"
+ },
+ {
+  "id": 1671282746,
+  "slug": "empire-elevation",
+  "name": "Empire Elevation",
+  "world": "new-york",
+  "distance_km": 24.155,
+  "elevation_m": 261,
+  "lead_in_km": 1.824,
+  "lead_in_elev_m": 5,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "the-peristyle-sprint-rev",
+    "from_km": 1.185,
+    "to_km": 1.593
+   },
+   {
+    "slug": "center-sprint",
+    "from_km": 3.077,
+    "to_km": 3.271
+   },
+   {
+    "slug": "the-hill-kom",
+    "from_km": 4.161,
+    "to_km": 4.681
+   },
+   {
+    "slug": "manhattan-sprint",
+    "from_km": 9.889,
+    "to_km": 10.133
+   },
+   {
+    "slug": "new-york-kom",
+    "from_km": 22.721,
+    "to_km": 24.089
+   }
+  ],
+  "strava_segment_id": 40493992,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/empire-elevation"
+ },
+ {
+  "id": 1675611962,
+  "slug": "downtown-eruoption",
+  "name": "Downtown Eruption",
+  "world": "watopia",
+  "distance_km": 19.441,
+  "elevation_m": 275,
+  "lead_in_km": 0.499,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "volcano-kom",
+    "from_km": 6.576,
+    "to_km": 10.295
+   },
+   {
+    "slug": "zwift-kom",
+    "from_km": 18.528,
+    "to_km": 19.429
+   }
+  ],
+  "strava_segment_id": 38413304,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/downtown-eruption"
+ },
+ {
+  "id": 1724903700,
+  "slug": "zg25-queen",
+  "name": "ZG25 Queen",
+  "world": "watopia",
+  "distance_km": 44.61,
+  "elevation_m": 894,
+  "lead_in_km": 0.194,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 3.825,
+    "to_km": 4.028
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 4.264,
+    "to_km": 5.562
+   },
+   {
+    "slug": "mayan-mountainside-kom",
+    "from_km": 23.5,
+    "to_km": 25.489
+   },
+   {
+    "slug": "itza-kom",
+    "from_km": 26.096,
+    "to_km": 29.844
+   }
+  ],
+  "strava_segment_id": 38412699,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/zg25-queen"
+ },
+ {
+  "id": 1732356505,
+  "slug": "the-highline",
+  "name": "The Highline",
+  "world": "new-york",
+  "distance_km": 10.526,
+  "elevation_m": 179,
+  "lead_in_km": 10,
+  "lead_in_elev_m": 203,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "new-york-kom",
+    "from_km": 9.102,
+    "to_km": 10.48
+   }
+  ],
+  "strava_segment_id": 19173163,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-highline"
+ },
+ {
+  "id": 1760877317,
+  "slug": "bridges-and-boardwalks",
+  "name": "Bridges and Boardwalks",
+  "world": "makuri-islands",
+  "distance_km": 6.345,
+  "elevation_m": 60,
+  "lead_in_km": 1.923,
+  "lead_in_elev_m": 11,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 33221600,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/bridges-and-boardwalks"
+ },
+ {
+  "id": 1763213625,
+  "slug": "the-highline-rev",
+  "name": "The Highline Reverse",
+  "world": "new-york",
+  "distance_km": 10.529,
+  "elevation_m": 179,
+  "lead_in_km": 10.482,
+  "lead_in_elev_m": 204,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "new-york-kom-rev",
+    "from_km": 9.401,
+    "to_km": 10.548
+   }
+  ],
+  "strava_segment_id": 19173175,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-highline-reverse"
+ },
+ {
+  "id": 1766405776,
+  "slug": "tour-of-fire-and-ice",
+  "name": "Tour of Fire and Ice",
+  "world": "watopia",
+  "distance_km": 25.361,
+  "elevation_m": 1164,
+  "lead_in_km": 2.765,
+  "lead_in_elev_m": 20,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "alpe-du-zwift",
+    "from_km": 12.86,
+    "to_km": 25.072
+   }
+  ],
+  "strava_segment_id": 17265057,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/tour-of-fire-and-ice"
+ },
+ {
+  "id": 1776635757,
+  "slug": "rgv",
+  "name": "R.G.V.",
+  "world": "france",
+  "distance_km": 23.999,
+  "elevation_m": 133,
+  "lead_in_km": 0.869,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "aqueduc-kom-rev",
+    "from_km": 12.495,
+    "to_km": 12.906
+   },
+   {
+    "slug": "ballon-sprint-rev",
+    "from_km": 16.884,
+    "to_km": 17.222
+   }
+  ],
+  "strava_segment_id": 24685955,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/rgv"
+ },
+ {
+  "id": 1788218813,
+  "slug": "yorkshire-double-loop",
+  "name": "Yorkshire Double Loop",
+  "world": "yorkshire",
+  "distance_km": 29.621,
+  "elevation_m": 547,
+  "lead_in_km": 0.049,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "yorkshire-kom-rev",
+    "from_km": 0.773,
+    "to_km": 1.94
+   },
+   {
+    "slug": "yorkshire-sprint-rev",
+    "from_km": 13.123,
+    "to_km": 13.518
+   },
+   {
+    "slug": "yorkshire-kom",
+    "from_km": 22.918,
+    "to_km": 24.122
+   },
+   {
+    "slug": "yorkshire-kom-rev",
+    "from_km": 28.446,
+    "to_km": 29.608
+   }
+  ],
+  "strava_segment_id": 37300398,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/yorkshire-double-loops"
+ },
+ {
+  "id": 1788889233,
+  "slug": "london-loop-rev",
+  "name": "London Loop Reverse",
+  "world": "london",
+  "distance_km": 14.834,
+  "elevation_m": 231,
+  "lead_in_km": 0.172,
+  "lead_in_elev_m": 1,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fox-hill",
+    "from_km": 3.131,
+    "to_km": 5.534
+   }
+  ],
+  "strava_segment_id": 12744360,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/london-loop-reverse"
+ },
+ {
+  "id": 1793712753,
+  "slug": "hell-of-the-north",
+  "name": "Hell of the North",
+  "world": "france",
+  "distance_km": 19.816,
+  "elevation_m": 241,
+  "lead_in_km": 0.336,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "petit-kom",
+    "from_km": 17.079,
+    "to_km": 19.768
+   }
+  ],
+  "strava_segment_id": 38859707,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/hell-of-the-north"
+ },
+ {
+  "id": 1880443431,
+  "slug": "greatest-london-flat",
+  "name": "Greatest London Flat",
+  "world": "london",
+  "distance_km": 23.609,
+  "elevation_m": 164,
+  "lead_in_km": 7.428,
+  "lead_in_elev_m": 59,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "london-sprint",
+    "from_km": 23.368,
+    "to_km": 23.555
+   }
+  ],
+  "strava_segment_id": 16982511,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/greatest-london-flat"
+ },
+ {
+  "id": 1917017591,
+  "slug": "big-flat-8",
+  "name": "Big Flat 8",
+  "world": "watopia",
+  "distance_km": 29.211,
+  "elevation_m": 103,
+  "lead_in_km": 2.28,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fuego-flats",
+    "from_km": 28.719,
+    "to_km": 29.217
+   }
+  ],
+  "strava_segment_id": 26974627,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/big-flat-8"
+ },
+ {
+  "id": 1919980508,
+  "slug": "park-perimeter-loop",
+  "name": "Park Perimeter Loop",
+  "world": "new-york",
+  "distance_km": 9.762,
+  "elevation_m": 126,
+  "lead_in_km": 0.406,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 19170651,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/park-perimeter-loop"
+ },
+ {
+  "id": 1941800093,
+  "slug": "valley-to-mountaintop",
+  "name": "Valley to Mountaintop",
+  "world": "makuri-islands",
+  "distance_km": 5.009,
+  "elevation_m": 131,
+  "lead_in_km": 0.122,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "temple-kom-from-castle-side",
+    "from_km": 2.695,
+    "to_km": 4.583
+   }
+  ],
+  "strava_segment_id": 29559312,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/valley-to-mountaintop"
+ },
+ {
+  "id": 1942591558,
+  "slug": "times-square-circuit",
+  "name": "Times Square Circuit",
+  "world": "new-york",
+  "distance_km": 3.5,
+  "elevation_m": 20,
+  "lead_in_km": 0.615,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 40342792,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/times-square-circuit"
+ },
+ {
+  "id": 1993374659,
+  "slug": "handful-of-gravel",
+  "name": "Handful Of Gravel",
+  "world": "watopia",
+  "distance_km": 6.13,
+  "elevation_m": 75,
+  "lead_in_km": 4.254,
+  "lead_in_elev_m": 19,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 31095294,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/handful-of-gravel"
+ },
+ {
+  "id": 2001106885,
+  "slug": "knickerbocker-reverse",
+  "name": "Knickerbocker Reverse",
+  "world": "new-york",
+  "distance_km": 22.545,
+  "elevation_m": 365,
+  "lead_in_km": 0.051,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "new-york-kom-rev",
+    "from_km": 11.46,
+    "to_km": 12.588
+   }
+  ],
+  "strava_segment_id": 20721179,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/knickerbocker-reverse"
+ },
+ {
+  "id": 2007026433,
+  "slug": "harrogate-circuit",
+  "name": "2019 Worlds Harrogate Circuit",
+  "world": "yorkshire",
+  "distance_km": 13.834,
+  "elevation_m": 245,
+  "lead_in_km": 0.111,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "yorkshire-kom",
+    "from_km": 7.578,
+    "to_km": 8.787
+   }
+  ],
+  "strava_segment_id": 21738724,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/2019-uci-worlds-harrogate-circuit"
+ },
+ {
+  "id": 2062126722,
+  "slug": "tair-dringfa-fechan",
+  "name": "Tair Dringfa Fechan",
+  "world": "watopia",
+  "distance_km": 31.115,
+  "elevation_m": 372,
+  "lead_in_km": 0.949,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "watopia-sprint",
+    "from_km": 13.564,
+    "to_km": 13.889
+   },
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 30.619,
+    "to_km": 31.531
+   }
+  ],
+  "strava_segment_id": 38008828,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/tair-dringfa-fechan"
+ },
+ {
+  "id": 2064290391,
+  "slug": "power-to-the-tower",
+  "name": "Power to the Tower",
+  "world": "watopia",
+  "distance_km": 44.704,
+  "elevation_m": 1493,
+  "lead_in_km": 0.945,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "epic-kom-rev",
+    "from_km": 3.846,
+    "to_km": 10.048
+   },
+   {
+    "slug": "the-grade-kom",
+    "from_km": 17.089,
+    "to_km": 20.621
+   },
+   {
+    "slug": "epic-kom",
+    "from_km": 33.375,
+    "to_km": 42.792
+   },
+   {
+    "slug": "radio-tower-kom",
+    "from_km": 43.223,
+    "to_km": 44.313
+   }
+  ],
+  "strava_segment_id": 37731230,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/power-to-the-tower"
+ },
+ {
+  "id": 2101060245,
+  "slug": "double-parked",
+  "name": "Double Parked",
+  "world": "new-york",
+  "distance_km": 42.171,
+  "elevation_m": 330,
+  "lead_in_km": 0.072,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "the-peristyle-sprint",
+    "from_km": 2.203,
+    "to_km": 2.612
+   },
+   {
+    "slug": "the-hill-kom",
+    "from_km": 4.113,
+    "to_km": 4.638
+   },
+   {
+    "slug": "manhattan-sprint",
+    "from_km": 9.849,
+    "to_km": 10.104
+   },
+   {
+    "slug": "manhattan-sprint-rev",
+    "from_km": 36.211,
+    "to_km": 36.455
+   }
+  ],
+  "strava_segment_id": 40336136,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/double-parked"
+ },
+ {
+  "id": 2128890027,
+  "slug": "tempus-fugit",
+  "name": "Tempus Fugit",
+  "world": "watopia",
+  "distance_km": 17.231,
+  "elevation_m": 26,
+  "lead_in_km": 2.356,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": true,
+  "segments": [
+   {
+    "slug": "fuego-flats-rev",
+    "from_km": 8.187,
+    "to_km": 15.274
+   }
+  ],
+  "strava_segment_id": 20350088,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/tempus-fugit"
+ },
+ {
+  "id": 2136907048,
+  "slug": "france-classic-fondo",
+  "name": "France Classic Fondo",
+  "world": "france",
+  "distance_km": 145.444,
+  "elevation_m": 1099,
+  "lead_in_km": 0.98,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "aqueduc-kom-rev",
+    "from_km": 12.498,
+    "to_km": 12.91
+   },
+   {
+    "slug": "ballon-sprint-rev",
+    "from_km": 16.897,
+    "to_km": 17.233
+   },
+   {
+    "slug": "aqueduc-kom-rev",
+    "from_km": 36.603,
+    "to_km": 37.005
+   },
+   {
+    "slug": "petit-kom",
+    "from_km": 40.539,
+    "to_km": 43.211
+   },
+   {
+    "slug": "petit-kom",
+    "from_km": 54.417,
+    "to_km": 57.102
+   },
+   {
+    "slug": "aqueduc-kom",
+    "from_km": 71.063,
+    "to_km": 71.489
+   },
+   {
+    "slug": "marina-sprint",
+    "from_km": 84.056,
+    "to_km": 84.398
+   },
+   {
+    "slug": "aqueduc-kom",
+    "from_km": 95.171,
+    "to_km": 95.586
+   },
+   {
+    "slug": "marina-sprint",
+    "from_km": 108.165,
+    "to_km": 108.507
+   },
+   {
+    "slug": "ballon-sprint-rev",
+    "from_km": 115.936,
+    "to_km": 116.261
+   },
+   {
+    "slug": "aqueduc-kom-rev",
+    "from_km": 135.617,
+    "to_km": 136.029
+   },
+   {
+    "slug": "petit-kom",
+    "from_km": 139.542,
+    "to_km": 142.224
+   }
+  ],
+  "strava_segment_id": 33955609,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/france-classic-fondo"
+ },
+ {
+  "id": 2139465450,
+  "slug": "muir-and-the-mountain",
+  "name": "Muir And The Mountain",
+  "world": "watopia",
+  "distance_km": 34.14,
+  "elevation_m": 792,
+  "lead_in_km": 5.108,
+  "lead_in_elev_m": 122,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "epic-kom",
+    "from_km": 6.059,
+    "to_km": 15.477
+   },
+   {
+    "slug": "radio-tower-kom",
+    "from_km": 15.903,
+    "to_km": 16.991
+   },
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 32.968,
+    "to_km": 33.891
+   }
+  ],
+  "strava_segment_id": 22368918,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/muir-and-the-mountain"
+ },
+ {
+  "id": 2139708890,
+  "slug": "bigger-loop",
+  "name": "Bigger Loop",
+  "world": "watopia",
+  "distance_km": 53.198,
+  "elevation_m": 691,
+  "lead_in_km": 0.506,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fuego-flats",
+    "from_km": 4.527,
+    "to_km": 5.02
+   },
+   {
+    "slug": "epic-kom",
+    "from_km": 15.059,
+    "to_km": 24.462
+   }
+  ],
+  "strava_segment_id": 20425565,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/bigger-loop"
+ },
+ {
+  "id": 2140131142,
+  "slug": "island-hopper",
+  "name": "Island Hopper",
+  "world": "makuri-islands",
+  "distance_km": 17.991,
+  "elevation_m": 129,
+  "lead_in_km": 0.157,
+  "lead_in_elev_m": 2,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 33236919,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/island-hopper"
+ },
+ {
+  "id": 2143464829,
+  "slug": "bon-voyage",
+  "name": "Bon Voyage",
+  "world": "france",
+  "distance_km": 28.208,
+  "elevation_m": 132,
+  "lead_in_km": 3.241,
+  "lead_in_elev_m": 23,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 39240977,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/bon-voyage"
+ },
+ {
+  "id": 2165880404,
+  "slug": "london-8-rev",
+  "name": "London 8 Reverse",
+  "world": "london",
+  "distance_km": 20.291,
+  "elevation_m": 256,
+  "lead_in_km": 0.172,
+  "lead_in_elev_m": 1,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fox-hill",
+    "from_km": 2.78,
+    "to_km": 5.186
+   },
+   {
+    "slug": "london-sprint-rev",
+    "from_km": 12.762,
+    "to_km": 12.952
+   }
+  ],
+  "strava_segment_id": 30327000,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/london-8-reverse"
+ },
+ {
+  "id": 2196019512,
+  "slug": "2015-uci-worlds-course",
+  "name": "Richmond UCI Worlds",
+  "world": "richmond",
+  "distance_km": 16.249,
+  "elevation_m": 158,
+  "lead_in_km": 0.284,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "richmond-uci-course",
+    "from_km": 0,
+    "to_km": 16.215
+   },
+   {
+    "slug": "richmond-sprint",
+    "from_km": 3.697,
+    "to_km": 3.903
+   },
+   {
+    "slug": "broad-st",
+    "from_km": 7.111,
+    "to_km": 7.377
+   },
+   {
+    "slug": "richmond-kom",
+    "from_km": 11.956,
+    "to_km": 12.579
+   },
+   {
+    "slug": "23rd-st",
+    "from_km": 13.484,
+    "to_km": 13.754
+   }
+  ],
+  "strava_segment_id": 12128718,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/2015-uci-worlds-course"
+ },
+ {
+  "id": 2202609830,
+  "slug": "park-perimeter-rev",
+  "name": "Park Perimeter Reverse",
+  "world": "new-york",
+  "distance_km": 9.762,
+  "elevation_m": 126,
+  "lead_in_km": 0.154,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "central-park-loop-rev",
+    "from_km": 0,
+    "to_km": 9.727
+   }
+  ],
+  "strava_segment_id": 19170661,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/park-perimeter-reverse"
+ },
+ {
+  "id": 2204461619,
+  "slug": "london-the-prl-full",
+  "name": "London PRL FULL",
+  "world": "london",
+  "distance_km": 173.335,
+  "elevation_m": 2624,
+  "lead_in_km": 0.454,
+  "lead_in_elev_m": 4,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "london-loop",
+    "from_km": 0,
+    "to_km": 14.806
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 6.247,
+    "to_km": 9.212
+   },
+   {
+    "slug": "london-loop",
+    "from_km": 14.806,
+    "to_km": 29.571
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 21.058,
+    "to_km": 24.021
+   },
+   {
+    "slug": "london-loop",
+    "from_km": 29.59,
+    "to_km": 44.365
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 35.843,
+    "to_km": 38.808
+   },
+   {
+    "slug": "london-loop",
+    "from_km": 44.383,
+    "to_km": 59.121
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 50.637,
+    "to_km": 53.579
+   },
+   {
+    "slug": "london-loop",
+    "from_km": 59.121,
+    "to_km": 73.916
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 65.399,
+    "to_km": 68.37
+   },
+   {
+    "slug": "london-loop",
+    "from_km": 73.916,
+    "to_km": 88.683
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 80.192,
+    "to_km": 83.16
+   },
+   {
+    "slug": "london-loop",
+    "from_km": 88.701,
+    "to_km": 103.465
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 94.976,
+    "to_km": 97.942
+   },
+   {
+    "slug": "london-loop",
+    "from_km": 103.483,
+    "to_km": 118.244
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 109.761,
+    "to_km": 112.727
+   },
+   {
+    "slug": "london-loop",
+    "from_km": 118.262,
+    "to_km": 133.008
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 124.537,
+    "to_km": 127.49
+   },
+   {
+    "slug": "london-loop",
+    "from_km": 133.027,
+    "to_km": 147.769
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 139.301,
+    "to_km": 142.253
+   },
+   {
+    "slug": "london-loop",
+    "from_km": 147.787,
+    "to_km": 162.524
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 154.06,
+    "to_km": 157.009
+   }
+  ],
+  "strava_segment_id": 12759760,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/london-the-prl-full"
+ },
+ {
+  "id": 2207442179,
+  "slug": "the-magnificent-8",
+  "name": "The Magnificent 8",
+  "world": "watopia",
+  "distance_km": 28.932,
+  "elevation_m": 155,
+  "lead_in_km": 0.205,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 6.887,
+    "to_km": 9.35
+   },
+   {
+    "slug": "fuego-flats",
+    "from_km": 14.609,
+    "to_km": 15.098
+   }
+  ],
+  "strava_segment_id": 22180287,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-magnificent-8"
+ },
+ {
+  "id": 2218409282,
+  "slug": "wbr-climbing-series",
+  "name": "WBR Climbing Series",
+  "world": "watopia",
+  "distance_km": 43.209,
+  "elevation_m": 1116,
+  "lead_in_km": 0.466,
+  "lead_in_elev_m": 1,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "epic-kom",
+    "from_km": 4.291,
+    "to_km": 13.695
+   },
+   {
+    "slug": "radio-tower-kom",
+    "from_km": 14.127,
+    "to_km": 15.213
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 26.384,
+    "to_km": 26.71
+   },
+   {
+    "slug": "epic-kom",
+    "from_km": 33.771,
+    "to_km": 43.182
+   }
+  ],
+  "strava_segment_id": 28776598,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/wbr-climbing-series"
+ },
+ {
+  "id": 2244765560,
+  "slug": "cobbled-crown",
+  "name": "Cobbled Crown",
+  "world": "richmond",
+  "distance_km": 24.04,
+  "elevation_m": 288,
+  "lead_in_km": 0.265,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "23rd-st-rev",
+    "from_km": 0.795,
+    "to_km": 1.902
+   },
+   {
+    "slug": "richmond-kom-rev",
+    "from_km": 2.369,
+    "to_km": 3.034
+   },
+   {
+    "slug": "richmond-sprint",
+    "from_km": 11.5,
+    "to_km": 11.704
+   },
+   {
+    "slug": "broad-st",
+    "from_km": 14.917,
+    "to_km": 15.177
+   },
+   {
+    "slug": "richmond-kom",
+    "from_km": 19.752,
+    "to_km": 20.38
+   },
+   {
+    "slug": "23rd-st",
+    "from_km": 21.274,
+    "to_km": 21.555
+   }
+  ],
+  "strava_segment_id": 40657307,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/cobbled-crown"
+ },
+ {
+  "id": 2251715424,
+  "slug": "hot-laps",
+  "name": "Hot Laps",
+  "world": "watopia",
+  "distance_km": 23.28,
+  "elevation_m": 149,
+  "lead_in_km": 0.194,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "volcano-circuit",
+    "from_km": 2.557,
+    "to_km": 6.633
+   },
+   {
+    "slug": "volcano-circuit",
+    "from_km": 6.644,
+    "to_km": 10.719
+   },
+   {
+    "slug": "volcano-circuit",
+    "from_km": 10.73,
+    "to_km": 14.817
+   },
+   {
+    "slug": "volcano-circuit",
+    "from_km": 14.839,
+    "to_km": 18.904
+   },
+   {
+    "slug": "jarvis-kom",
+    "from_km": 21.398,
+    "to_km": 23.206
+   }
+  ],
+  "strava_segment_id": 40469531,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/hot-laps"
+ },
+ {
+  "id": 2312882507,
+  "slug": "dun-dash",
+  "name": "Dùn Dash",
+  "world": "scotland",
+  "distance_km": 12.419,
+  "elevation_m": 138,
+  "lead_in_km": 0.048,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "sgurr-summit-south",
+    "from_km": 11.376,
+    "to_km": 12.372
+   }
+  ],
+  "strava_segment_id": 40233889,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/dun-dash"
+ },
+ {
+  "id": 2328501978,
+  "slug": "shorelines-and-summits",
+  "name": "Shorelines and Summits",
+  "world": "watopia",
+  "distance_km": 46.186,
+  "elevation_m": 773,
+  "lead_in_km": 4.163,
+  "lead_in_elev_m": 19,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "woodland-sprint",
+    "from_km": 16.532,
+    "to_km": 17.035
+   },
+   {
+    "slug": "epic-kom",
+    "from_km": 23.904,
+    "to_km": 33.33
+   },
+   {
+    "slug": "radio-tower-kom",
+    "from_km": 33.741,
+    "to_km": 34.836
+   }
+  ],
+  "strava_segment_id": 35697595,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/shorelines-and-summits"
+ },
+ {
+  "id": 2330634655,
+  "slug": "temple-trek",
+  "name": "Temple Trek",
+  "world": "watopia",
+  "distance_km": 6.51,
+  "elevation_m": 25,
+  "lead_in_km": 4.2,
+  "lead_in_elev_m": 19,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 35705430,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/temple-trek"
+ },
+ {
+  "id": 2333249368,
+  "slug": "itza-climb-finish",
+  "name": "Itza Climb Finish",
+  "world": "watopia",
+  "distance_km": 30.094,
+  "elevation_m": 290,
+  "lead_in_km": 0.949,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "mayan-mountainside-kom",
+    "from_km": 23.781,
+    "to_km": 25.77
+   },
+   {
+    "slug": "itza-kom",
+    "from_km": 26.358,
+    "to_km": 30.132
+   }
+  ],
+  "strava_segment_id": 37097998,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/itza-climb-finish"
+ },
+ {
+  "id": 2372883204,
+  "slug": "new-york-kom-after-party",
+  "name": "NYC KOM After Party",
+  "world": "new-york",
+  "distance_km": 36.626,
+  "elevation_m": 475,
+  "lead_in_km": 0.377,
+  "lead_in_elev_m": 2,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "new-york-kom",
+    "from_km": 35.689,
+    "to_km": 37.061
+   }
+  ],
+  "strava_segment_id": 19853934,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/nyc-kom-after-party"
+ },
+ {
+  "id": 2413440572,
+  "slug": "tire-bouchon",
+  "name": "Tire-Bouchon",
+  "world": "france",
+  "distance_km": 60.782,
+  "elevation_m": 479,
+  "lead_in_km": 3.092,
+  "lead_in_elev_m": 108,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "ballon-sprint-rev",
+    "from_km": 3.484,
+    "to_km": 3.796
+   },
+   {
+    "slug": "aqueduc-kom-rev",
+    "from_km": 23.149,
+    "to_km": 23.564
+   },
+   {
+    "slug": "petit-kom",
+    "from_km": 27.077,
+    "to_km": 29.753
+   },
+   {
+    "slug": "aqueduc-kom",
+    "from_km": 43.694,
+    "to_km": 44.106
+   },
+   {
+    "slug": "marina-sprint",
+    "from_km": 56.683,
+    "to_km": 57.029
+   }
+  ],
+  "strava_segment_id": 24690941,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/tire-bouchon"
+ },
+ {
+  "id": 2422779354,
+  "slug": "laguardia-loop",
+  "name": "LaGuardia Loop",
+  "world": "new-york",
+  "distance_km": 2.79,
+  "elevation_m": 26,
+  "lead_in_km": 1.424,
+  "lead_in_elev_m": 19,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 19179237,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/laguardia-loop"
+ },
+ {
+  "id": 2436095601,
+  "slug": "2022-cycling-esports-world-championships-route",
+  "name": "2022 Cycling Esports World Championships Route",
+  "world": "new-york",
+  "distance_km": 54.744,
+  "elevation_m": 941,
+  "lead_in_km": 0.22,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "new-york-kom",
+    "from_km": 8.4,
+    "to_km": 9.762
+   },
+   {
+    "slug": "new-york-kom",
+    "from_km": 30.93,
+    "to_km": 32.292
+   },
+   {
+    "slug": "new-york-kom",
+    "from_km": 53.459,
+    "to_km": 54.825
+   }
+  ],
+  "strava_segment_id": 30601050,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/2022-cycling-esports-world-championships-route"
+ },
+ {
+  "id": 2474227587,
+  "slug": "beach-island-loop",
+  "name": "Beach Island Loop",
+  "world": "watopia",
+  "distance_km": 12.781,
+  "elevation_m": 49,
+  "lead_in_km": 0.193,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "watopia-sprint",
+    "from_km": 5.608,
+    "to_km": 5.938
+   }
+  ],
+  "strava_segment_id": 26741693,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/beach-island-loop"
+ },
+ {
+  "id": 2494975884,
+  "slug": "the-pretzel",
+  "name": "Watopia Pretzel",
+  "world": "watopia",
+  "distance_km": 72.536,
+  "elevation_m": 1361,
+  "lead_in_km": 0.485,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "epic-kom",
+    "from_km": 4.414,
+    "to_km": 13.841
+   },
+   {
+    "slug": "radio-tower-kom",
+    "from_km": 14.269,
+    "to_km": 15.363
+   },
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 26.317,
+    "to_km": 28.777
+   },
+   {
+    "slug": "zwift-kom",
+    "from_km": 40.716,
+    "to_km": 41.611
+   },
+   {
+    "slug": "epic-kom-rev",
+    "from_km": 47.646,
+    "to_km": 53.834
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 69.206,
+    "to_km": 69.547
+   }
+  ],
+  "strava_segment_id": 12118762,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-pretzel"
+ },
+ {
+  "id": 2521625692,
+  "slug": "yumezi-grit",
+  "name": "Yumezi Grit",
+  "world": "makuri-islands",
+  "distance_km": 7.486,
+  "elevation_m": 83,
+  "lead_in_km": 4.273,
+  "lead_in_elev_m": 67,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 41092576,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/yumezi-grit"
+ },
+ {
+  "id": 2569385980,
+  "slug": "coast-crusher",
+  "name": "Coast Crusher",
+  "world": "watopia",
+  "distance_km": 34.567,
+  "elevation_m": 175,
+  "lead_in_km": 8.135,
+  "lead_in_elev_m": 37,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "woodland-sprint",
+    "from_km": 12.56,
+    "to_km": 13.05
+   }
+  ],
+  "strava_segment_id": 35697049,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/coast-crusher"
+ },
+ {
+  "id": 2573468147,
+  "slug": "ven-top",
+  "name": "Ven-Top",
+  "world": "france",
+  "distance_km": 20.747,
+  "elevation_m": 1535,
+  "lead_in_km": 0.153,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "ventoux-kom",
+    "from_km": 1.819,
+    "to_km": 20.87
+   }
+  ],
+  "strava_segment_id": 24682608,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/ven-top"
+ },
+ {
+  "id": 2592027600,
+  "slug": "innsbruckring",
+  "name": "Innsbruckring",
+  "world": "innsbruck",
+  "distance_km": 8.799,
+  "elevation_m": 77,
+  "lead_in_km": 0.222,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 18398895,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/innsbruckring"
+ },
+ {
+  "id": 2595459121,
+  "slug": "canopies-and-coastlines",
+  "name": "Canopies and Coastlines",
+  "world": "watopia",
+  "distance_km": 22.607,
+  "elevation_m": 124,
+  "lead_in_km": 5.185,
+  "lead_in_elev_m": 122,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 35696990,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/canopies-and-coastlines"
+ },
+ {
+  "id": 2627606248,
+  "slug": "three-little-sisters",
+  "name": "Three Little Sisters",
+  "world": "watopia",
+  "distance_km": 37.736,
+  "elevation_m": 435,
+  "lead_in_km": 0.69,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "zwift-kom",
+    "from_km": 0.935,
+    "to_km": 1.839
+   },
+   {
+    "slug": "titans-grove-kom",
+    "from_km": 12.978,
+    "to_km": 15.565
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 25.46,
+    "to_km": 29.172
+   }
+  ],
+  "strava_segment_id": 22943213,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/three-little-sisters"
+ },
+ {
+  "id": 2644664789,
+  "slug": "triple-twist",
+  "name": "Triple Twist",
+  "world": "watopia",
+  "distance_km": 19.877,
+  "elevation_m": 180,
+  "lead_in_km": 4.645,
+  "lead_in_elev_m": 21,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 0.227,
+    "to_km": 1.528
+   },
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 11.018,
+    "to_km": 13.476
+   },
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 19.641,
+    "to_km": 19.84
+   }
+  ],
+  "strava_segment_id": 38138494,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/triple-twist"
+ },
+ {
+  "id": 2653858696,
+  "slug": "two-village-loop",
+  "name": "Two Village Loop",
+  "world": "makuri-islands",
+  "distance_km": 12.804,
+  "elevation_m": 88,
+  "lead_in_km": 0.206,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 28433439,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/two-village-loop"
+ },
+ {
+  "id": 2661047295,
+  "slug": "jarvis-seaside-sprint",
+  "name": "Jarvis Seaside Sprint",
+  "world": "watopia",
+  "distance_km": 12.501,
+  "elevation_m": 95,
+  "lead_in_km": 2.831,
+  "lead_in_elev_m": 36,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 2.996,
+    "to_km": 3.202
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 3.443,
+    "to_km": 4.73
+   }
+  ],
+  "strava_segment_id": 40054523,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/jarvis-seaside-sprint"
+ },
+ {
+  "id": 2663908549,
+  "slug": "road-to-sky",
+  "name": "Road to Sky",
+  "world": "watopia",
+  "distance_km": 17.496,
+  "elevation_m": 1044,
+  "lead_in_km": 0.103,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "alpe-du-zwift",
+    "from_km": 5.033,
+    "to_km": 17.265
+   }
+  ],
+  "strava_segment_id": 22280036,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/road-to-sky"
+ },
+ {
+  "id": 2675063596,
+  "slug": "dust-in-the-wind",
+  "name": "Dust In The Wind",
+  "world": "watopia",
+  "distance_km": 52.11,
+  "elevation_m": 583,
+  "lead_in_km": 0.34,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 3.759,
+    "to_km": 4.676
+   },
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 38.316,
+    "to_km": 39.209
+   },
+   {
+    "slug": "fuego-flats-rev",
+    "from_km": 45.014,
+    "to_km": 52.121
+   }
+  ],
+  "strava_segment_id": 33852827,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/dust-in-the-wind"
+ },
+ {
+  "id": 2681889340,
+  "slug": "climb-portal-volcano",
+  "name": "Climb Portal - Volcano",
+  "world": "watopia",
+  "distance_km": 7.354,
+  "elevation_m": 20,
+  "lead_in_km": 1.99,
+  "lead_in_elev_m": 12,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": null,
+  "zwiftinsider_url": null
+ },
+ {
+  "id": 2694166390,
+  "slug": "london-classique",
+  "name": "Classique",
+  "world": "london",
+  "distance_km": 5.459,
+  "elevation_m": 25,
+  "lead_in_km": 5.638,
+  "lead_in_elev_m": 45,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 12749761,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/london-classique"
+ },
+ {
+  "id": 2698009951,
+  "slug": "the-classic",
+  "name": "The Classic",
+  "world": "watopia",
+  "distance_km": 4.836,
+  "elevation_m": 48,
+  "lead_in_km": 4.181,
+  "lead_in_elev_m": 16,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jarvis-lap",
+    "from_km": 0,
+    "to_km": 4.846
+   },
+   {
+    "slug": "jarvis-kom",
+    "from_km": 0.655,
+    "to_km": 2.461
+   },
+   {
+    "slug": "jarvis-sprint",
+    "from_km": 3.804,
+    "to_km": 4.002
+   }
+  ],
+  "strava_segment_id": 38132897,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-classic"
+ },
+ {
+  "id": 2737483381,
+  "slug": "hilly-route",
+  "name": "Watopia Hilly Route",
+  "world": "watopia",
+  "distance_km": 9.193,
+  "elevation_m": 109,
+  "lead_in_km": 0.502,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "hilly-loop",
+    "from_km": 0,
+    "to_km": 9.081
+   },
+   {
+    "slug": "zwift-kom",
+    "from_km": 0.941,
+    "to_km": 1.825
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 6.148,
+    "to_km": 6.49
+   }
+  ],
+  "strava_segment_id": 12118362,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/hilly-route"
+ },
+ {
+  "id": 2746475460,
+  "slug": "eastern-eight",
+  "name": "Eastern Eight",
+  "world": "watopia",
+  "distance_km": 51.679,
+  "elevation_m": 407,
+  "lead_in_km": 2.28,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "titans-grove-kom",
+    "from_km": 10.257,
+    "to_km": 12.863
+   },
+   {
+    "slug": "fuego-flats-rev",
+    "from_km": 24.367,
+    "to_km": 31.439
+   },
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 37.831,
+    "to_km": 38.729
+   },
+   {
+    "slug": "fuego-flats",
+    "from_km": 51.171,
+    "to_km": 51.673
+   }
+  ],
+  "strava_segment_id": 22914116,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/eastern-eight"
+ },
+ {
+  "id": 2748657713,
+  "slug": "out-and-back-again",
+  "name": "Out And Back Again",
+  "world": "watopia",
+  "distance_km": 39.901,
+  "elevation_m": 328,
+  "lead_in_km": 2.28,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "watopia-sprint",
+    "from_km": 15.339,
+    "to_km": 15.674
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 19.761,
+    "to_km": 23.455
+   },
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 31.648,
+    "to_km": 34.115
+   },
+   {
+    "slug": "fuego-flats",
+    "from_km": 39.365,
+    "to_km": 39.863
+   }
+  ],
+  "strava_segment_id": 20350104,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/out-and-back-again"
+ },
+ {
+  "id": 2768300955,
+  "slug": "coastal-crown-loop",
+  "name": "Coastal Crown Loop",
+  "world": "watopia",
+  "distance_km": 15.074,
+  "elevation_m": 185,
+  "lead_in_km": 8.611,
+  "lead_in_elev_m": 80,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "itza-kom",
+    "from_km": 0.594,
+    "to_km": 4.334
+   },
+   {
+    "slug": "mayan-mountainside-kom",
+    "from_km": 13.02,
+    "to_km": 15.021
+   }
+  ],
+  "strava_segment_id": 37039562,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/coastal-crown-loop"
+ },
+ {
+  "id": 2805636083,
+  "slug": "paris-toujours",
+  "name": "Paris Toujours",
+  "world": "paris",
+  "distance_km": 69.128,
+  "elevation_m": 448,
+  "lead_in_km": 3.185,
+  "lead_in_elev_m": 11,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "champs-elysees",
+    "from_km": 0,
+    "to_km": 6.613
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 1.171,
+    "to_km": 1.32
+   },
+   {
+    "slug": "champs-elysees",
+    "from_km": 6.613,
+    "to_km": 13.243
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 7.801,
+    "to_km": 7.95
+   },
+   {
+    "slug": "champs-elysees",
+    "from_km": 13.243,
+    "to_km": 19.86
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 14.419,
+    "to_km": 14.578
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 21.048,
+    "to_km": 21.197
+   },
+   {
+    "slug": "eglise-sprint",
+    "from_km": 27.043,
+    "to_km": 27.298
+   },
+   {
+    "slug": "montmartre-kom",
+    "from_km": 29.357,
+    "to_km": 30.583
+   },
+   {
+    "slug": "tchou-tchou-sprint",
+    "from_km": 33.134,
+    "to_km": 33.291
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 37.464,
+    "to_km": 37.613
+   },
+   {
+    "slug": "eglise-sprint",
+    "from_km": 43.46,
+    "to_km": 43.714
+   },
+   {
+    "slug": "montmartre-kom",
+    "from_km": 45.773,
+    "to_km": 46.999
+   },
+   {
+    "slug": "tchou-tchou-sprint",
+    "from_km": 49.55,
+    "to_km": 49.708
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 53.88,
+    "to_km": 54.029
+   },
+   {
+    "slug": "eglise-sprint",
+    "from_km": 59.876,
+    "to_km": 60.117
+   },
+   {
+    "slug": "montmartre-kom",
+    "from_km": 62.19,
+    "to_km": 63.415
+   },
+   {
+    "slug": "tchou-tchou-sprint",
+    "from_km": 65.966,
+    "to_km": 66.124
+   }
+  ],
+  "strava_segment_id": 41685039,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/paris-toujours"
+ },
+ {
+  "id": 2826340040,
+  "slug": "outer-scotland",
+  "name": "Outer Scotland",
+  "world": "scotland",
+  "distance_km": 11.113,
+  "elevation_m": 104,
+  "lead_in_km": 0.248,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 34255102,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/outer-scotland"
+ },
+ {
+  "id": 2829629527,
+  "slug": "serpentine-8",
+  "name": "Serpentine 8",
+  "world": "watopia",
+  "distance_km": 19.265,
+  "elevation_m": 206,
+  "lead_in_km": 7.445,
+  "lead_in_elev_m": 33,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 26742092,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/serpentine-8"
+ },
+ {
+  "id": 2833089100,
+  "slug": "kaze-kicker",
+  "name": "Kaze Kicker",
+  "world": "makuri-islands",
+  "distance_km": 16.881,
+  "elevation_m": 134,
+  "lead_in_km": 0.399,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "tower-sprint",
+    "from_km": 7.377,
+    "to_km": 7.692
+   }
+  ],
+  "strava_segment_id": 40654914,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/kaze-kicker"
+ },
+ {
+  "id": 2836167073,
+  "slug": "london-calling",
+  "name": "London Calling",
+  "world": "london",
+  "distance_km": 31.228,
+  "elevation_m": 207,
+  "lead_in_km": 0.462,
+  "lead_in_elev_m": 4,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "london-sprint",
+    "from_km": 15.721,
+    "to_km": 15.904
+   }
+  ],
+  "strava_segment_id": 40232835,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/london-calling"
+ },
+ {
+  "id": 2839057126,
+  "slug": "jungle-circuit-rev",
+  "name": "Jungle Circuit Reverse",
+  "world": "watopia",
+  "distance_km": 7.862,
+  "elevation_m": 83,
+  "lead_in_km": 6.289,
+  "lead_in_elev_m": 23,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jungle-loop",
+    "from_km": 0,
+    "to_km": 7.817
+   }
+  ],
+  "strava_segment_id": 16359371,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/jungle-circuit-reverse"
+ },
+ {
+  "id": 2843604888,
+  "slug": "time-trial",
+  "name": "Bologna Time Trial",
+  "world": "bologna",
+  "distance_km": 8.05,
+  "elevation_m": 236,
+  "lead_in_km": 0,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": true,
+  "segments": [
+   {
+    "slug": "bologna-tt",
+    "from_km": 0,
+    "to_km": 8.031
+   }
+  ],
+  "strava_segment_id": 20560239,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/time-trial-lap"
+ },
+ {
+  "id": 2852153296,
+  "slug": "petit-boucle",
+  "name": "Petit Boucle",
+  "world": "france",
+  "distance_km": 60.785,
+  "elevation_m": 483,
+  "lead_in_km": 0.869,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "aqueduc-kom-rev",
+    "from_km": 12.492,
+    "to_km": 12.899
+   },
+   {
+    "slug": "ballon-sprint-rev",
+    "from_km": 16.885,
+    "to_km": 17.225
+   },
+   {
+    "slug": "aqueduc-kom",
+    "from_km": 33.027,
+    "to_km": 33.45
+   },
+   {
+    "slug": "marina-sprint",
+    "from_km": 46.009,
+    "to_km": 46.369
+   },
+   {
+    "slug": "petit-kom",
+    "from_km": 54.341,
+    "to_km": 57.026
+   }
+  ],
+  "strava_segment_id": 24676054,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/petit-boucle"
+ },
+ {
+  "id": 2866480562,
+  "slug": "chasing-the-sun",
+  "name": "Chasing the Sun",
+  "world": "makuri-islands",
+  "distance_km": 35.056,
+  "elevation_m": 315,
+  "lead_in_km": 0.041,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "railway-sprint",
+    "from_km": 3.886,
+    "to_km": 4.38
+   },
+   {
+    "slug": "temple-kom-from-fishing-village-side",
+    "from_km": 21.064,
+    "to_km": 23.582
+   }
+  ],
+  "strava_segment_id": 30988311,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/chasing-the-sun"
+ },
+ {
+  "id": 2875658892,
+  "slug": "bell-lap",
+  "name": "The Bell Lap",
+  "world": "crit-city",
+  "distance_km": 1.967,
+  "elevation_m": 17,
+  "lead_in_km": 0.065,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "crit-city-rev",
+    "from_km": 0,
+    "to_km": 1.943
+   }
+  ],
+  "strava_segment_id": 22419554,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/bell-lap"
+ },
+ {
+  "id": 2878180967,
+  "slug": "four-horsemen",
+  "name": "Four Horsemen",
+  "world": "watopia",
+  "distance_km": 89.789,
+  "elevation_m": 2109,
+  "lead_in_km": 0.595,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "zwift-kom",
+    "from_km": 0.932,
+    "to_km": 1.833
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 8.401,
+    "to_km": 12.11
+   },
+   {
+    "slug": "epic-kom",
+    "from_km": 23.81,
+    "to_km": 33.227
+   },
+   {
+    "slug": "radio-tower-kom",
+    "from_km": 33.651,
+    "to_km": 34.74
+   },
+   {
+    "slug": "alpe-du-zwift",
+    "from_km": 46.958,
+    "to_km": 59.187
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 86.053,
+    "to_km": 86.382
+   }
+  ],
+  "strava_segment_id": 20390815,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/four-horsemen"
+ },
+ {
+  "id": 2888820995,
+  "slug": "danger-noodle",
+  "name": "Danger Noodle",
+  "world": "watopia",
+  "distance_km": 32.07,
+  "elevation_m": 414,
+  "lead_in_km": 0.194,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 12.943,
+    "to_km": 13.854
+   },
+   {
+    "slug": "titans-grove-kom",
+    "from_km": 22.721,
+    "to_km": 25.33
+   }
+  ],
+  "strava_segment_id": 38326016,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/danger-noodle"
+ },
+ {
+  "id": 2892858917,
+  "slug": "red-zone-repeats",
+  "name": "Red Zone Repeats",
+  "world": "makuri-islands",
+  "distance_km": 19.388,
+  "elevation_m": 87,
+  "lead_in_km": 0.207,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "tower-sprint",
+    "from_km": 18.977,
+    "to_km": 19.297
+   }
+  ],
+  "strava_segment_id": 39889363,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/red-zone-repeats"
+ },
+ {
+  "id": 2896159042,
+  "slug": "temples-and-towers",
+  "name": "Temples and Towers",
+  "world": "makuri-islands",
+  "distance_km": 32.603,
+  "elevation_m": 318,
+  "lead_in_km": 0.779,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "rooftop-kom",
+    "from_km": 2.598,
+    "to_km": 4.458
+   },
+   {
+    "slug": "castle-kom",
+    "from_km": 14.371,
+    "to_km": 17.033
+   },
+   {
+    "slug": "temple-kom-from-fishing-village-side",
+    "from_km": 19.315,
+    "to_km": 21.819
+   }
+  ],
+  "strava_segment_id": 30408107,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/temples-and-towers"
+ },
+ {
+  "id": 2898229208,
+  "slug": "watts-the-limit",
+  "name": "Watts the Limit",
+  "world": "new-york",
+  "distance_km": 29.532,
+  "elevation_m": 200,
+  "lead_in_km": 1.424,
+  "lead_in_elev_m": 19,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "manhattan-sprint-rev",
+    "from_km": 8.742,
+    "to_km": 8.986
+   },
+   {
+    "slug": "manhattan-sprint",
+    "from_km": 18.87,
+    "to_km": 19.114
+   }
+  ],
+  "strava_segment_id": 40337473,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/watts-the-limit"
+ },
+ {
+  "id": 2900074211,
+  "slug": "2022-medio-fondo",
+  "name": "Zwift Medio Fondo 2022",
+  "world": "watopia",
+  "distance_km": 79.125,
+  "elevation_m": 918,
+  "lead_in_km": 0.194,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "watopia-sprint",
+    "from_km": 5.614,
+    "to_km": 5.94
+   },
+   {
+    "slug": "fuego-flats-rev",
+    "from_km": 17.997,
+    "to_km": 25.087
+   },
+   {
+    "slug": "fuego-flats",
+    "from_km": 26.568,
+    "to_km": 27.06
+   },
+   {
+    "slug": "titans-grove-kom",
+    "from_km": 37.344,
+    "to_km": 39.961
+   },
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 51.499,
+    "to_km": 53.959
+   },
+   {
+    "slug": "fuego-flats",
+    "from_km": 59.222,
+    "to_km": 59.711
+   },
+   {
+    "slug": "epic-kom",
+    "from_km": 69.752,
+    "to_km": 79.165
+   }
+  ],
+  "strava_segment_id": 30600597,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/2022-medio-fondo"
+ },
+ {
+  "id": 2905381067,
+  "slug": "royal-pump-room-8",
+  "name": "Royal Pump Room 8",
+  "world": "yorkshire",
+  "distance_km": 27.712,
+  "elevation_m": 491,
+  "lead_in_km": 0.022,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "yorkshire-sprint-rev",
+    "from_km": 2.395,
+    "to_km": 2.791
+   },
+   {
+    "slug": "yorkshire-kom",
+    "from_km": 12.187,
+    "to_km": 13.399
+   },
+   {
+    "slug": "yorkshire-kom-rev",
+    "from_km": 17.719,
+    "to_km": 18.873
+   }
+  ],
+  "strava_segment_id": 21757792,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/royal-pump-room-8"
+ },
+ {
+  "id": 2919739330,
+  "slug": "mech-isle-mayhem",
+  "name": "Mech Isle Mayhem",
+  "world": "makuri-islands",
+  "distance_km": 18.335,
+  "elevation_m": 113,
+  "lead_in_km": 2.031,
+  "lead_in_elev_m": 8,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "tidepool-sprint-rev",
+    "from_km": 6.514,
+    "to_km": 6.836
+   },
+   {
+    "slug": "tidepool-sprint-rev",
+    "from_km": 18.072,
+    "to_km": 18.39
+   }
+  ],
+  "strava_segment_id": 41888254,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/mech-isle-mayhem"
+ },
+ {
+  "id": 2927651296,
+  "slug": "makuri-pretzel",
+  "name": "Makuri Pretzel",
+  "world": "makuri-islands",
+  "distance_km": 77.577,
+  "elevation_m": 618,
+  "lead_in_km": 1.124,
+  "lead_in_elev_m": 5,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "tower-sprint",
+    "from_km": 36.643,
+    "to_km": 36.967
+   }
+  ],
+  "strava_segment_id": 37684132,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/makuri-pretzel"
+ },
+ {
+  "id": 2945813240,
+  "slug": "grand-central-circuit",
+  "name": "Grand Central Circuit",
+  "world": "new-york",
+  "distance_km": 6.857,
+  "elevation_m": 144,
+  "lead_in_km": 1.424,
+  "lead_in_elev_m": 19,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "new-york-kom-rev",
+    "from_km": 1.464,
+    "to_km": 2.606
+   }
+  ],
+  "strava_segment_id": 19141192,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/grand-central-circuit"
+ },
+ {
+  "id": 2947111049,
+  "slug": "big-loop",
+  "name": "Big Loop",
+  "world": "watopia",
+  "distance_km": 42.604,
+  "elevation_m": 662,
+  "lead_in_km": 0.522,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "epic-kom",
+    "from_km": 4.408,
+    "to_km": 13.808
+   }
+  ],
+  "strava_segment_id": 16402683,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/big-loop"
+ },
+ {
+  "id": 2953010285,
+  "slug": "mountain-mash",
+  "name": "Mountain Mash",
+  "world": "watopia",
+  "distance_km": 5.79,
+  "elevation_m": 335,
+  "lead_in_km": 0.21,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 36342419,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/mountain-mash"
+ },
+ {
+  "id": 2954366662,
+  "slug": "knickerbocker",
+  "name": "Knickerbocker",
+  "world": "new-york",
+  "distance_km": 22.546,
+  "elevation_m": 365,
+  "lead_in_km": 0.155,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "new-york-kom",
+    "from_km": 8.498,
+    "to_km": 9.866
+   }
+  ],
+  "strava_segment_id": 19141299,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/knickerbocker"
+ },
+ {
+  "id": 2966818006,
+  "slug": "mountain-route",
+  "name": "Watopia Mountain Route",
+  "world": "watopia",
+  "distance_km": 29.723,
+  "elevation_m": 683,
+  "lead_in_km": 0.466,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "epic-kom",
+    "from_km": 4.391,
+    "to_km": 13.801
+   },
+   {
+    "slug": "radio-tower-kom",
+    "from_km": 14.241,
+    "to_km": 15.331
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 26.495,
+    "to_km": 26.829
+   }
+  ],
+  "strava_segment_id": 12483517,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/mountain-route"
+ },
+ {
+  "id": 2967612381,
+  "slug": "road-to-ruins-rev",
+  "name": "Road To Ruins Reverse",
+  "world": "watopia",
+  "distance_km": 29.646,
+  "elevation_m": 275,
+  "lead_in_km": 0.201,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 16404387,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/road-to-ruins-reverse"
+ },
+ {
+  "id": 2969952077,
+  "slug": "quatch-quest",
+  "name": "Quatch Quest",
+  "world": "watopia",
+  "distance_km": 46.47,
+  "elevation_m": 1706,
+  "lead_in_km": 0.331,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 3.637,
+    "to_km": 4.539
+   },
+   {
+    "slug": "epic-kom",
+    "from_km": 10.642,
+    "to_km": 20.048
+   },
+   {
+    "slug": "alpe-du-zwift",
+    "from_km": 33.698,
+    "to_km": 45.916
+   }
+  ],
+  "strava_segment_id": 21344377,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/quatch-quest"
+ },
+ {
+  "id": 2980619755,
+  "slug": "farmland-loop",
+  "name": "Farmland Loop",
+  "world": "makuri-islands",
+  "distance_km": 7.758,
+  "elevation_m": 57,
+  "lead_in_km": 0.206,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 29534888,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/farmland-loop"
+ },
+ {
+  "id": 3007266671,
+  "slug": "queens-highway",
+  "name": "Queen's Highway",
+  "world": "yorkshire",
+  "distance_km": 2.999,
+  "elevation_m": 41,
+  "lead_in_km": 2.692,
+  "lead_in_elev_m": 42,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "yorkshire-sprint-rev",
+    "from_km": 2.573,
+    "to_km": 2.976
+   }
+  ],
+  "strava_segment_id": 21748253,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/queens-highway"
+ },
+ {
+  "id": 3023359358,
+  "slug": "climbers-gambit",
+  "name": "Climber's Gambit",
+  "world": "watopia",
+  "distance_km": 27.823,
+  "elevation_m": 671,
+  "lead_in_km": 0.204,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 11.711,
+    "to_km": 12.61
+   },
+   {
+    "slug": "epic-kom-rev",
+    "from_km": 21.516,
+    "to_km": 27.681
+   }
+  ],
+  "strava_segment_id": 29622065,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/climbers-gambit"
+ },
+ {
+  "id": 3030004732,
+  "slug": "power-to-the-portal",
+  "name": "Power to the Portal",
+  "world": "watopia",
+  "distance_km": 17.576,
+  "elevation_m": 99,
+  "lead_in_km": 0.949,
+  "lead_in_elev_m": 3,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": null,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/power-to-the-portal"
+ },
+ {
+  "id": 3051823795,
+  "slug": "the-greenway",
+  "name": "The Greenway",
+  "world": "new-york",
+  "distance_km": 36.684,
+  "elevation_m": 295,
+  "lead_in_km": 0.582,
+  "lead_in_elev_m": 2,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "center-sprint-rev",
+    "from_km": 1.183,
+    "to_km": 1.385
+   },
+   {
+    "slug": "manhattan-sprint",
+    "from_km": 8.628,
+    "to_km": 8.872
+   },
+   {
+    "slug": "brooklyn-bridge-kom",
+    "from_km": 11.14,
+    "to_km": 13.142
+   },
+   {
+    "slug": "center-sprint-rev",
+    "from_km": 19.508,
+    "to_km": 19.698
+   },
+   {
+    "slug": "manhattan-sprint-rev",
+    "from_km": 31.01,
+    "to_km": 31.253
+   }
+  ],
+  "strava_segment_id": 40337514,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-greenway"
+ },
+ {
+  "id": 3078665969,
+  "slug": "rising-empire",
+  "name": "Rising Empire",
+  "world": "new-york",
+  "distance_km": 20.816,
+  "elevation_m": 377,
+  "lead_in_km": 0.38,
+  "lead_in_elev_m": 2,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "new-york-kom",
+    "from_km": 8.614,
+    "to_km": 9.979
+   },
+   {
+    "slug": "new-york-kom-rev",
+    "from_km": 15.869,
+    "to_km": 16.995
+   }
+  ],
+  "strava_segment_id": 19171748,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/rising-empire"
+ },
+ {
+  "id": 3079921742,
+  "slug": "stay-puft-pursuit",
+  "name": "Stay Puft Pursuit",
+  "world": "new-york",
+  "distance_km": 31.388,
+  "elevation_m": 416,
+  "lead_in_km": 0.615,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "brooklyn-bridge-kom",
+    "from_km": 3.115,
+    "to_km": 5.117
+   },
+   {
+    "slug": "manhattan-sprint",
+    "from_km": 7.838,
+    "to_km": 8.094
+   },
+   {
+    "slug": "new-york-kom-rev",
+    "from_km": 17.586,
+    "to_km": 18.727
+   },
+   {
+    "slug": "new-york-kom",
+    "from_km": 23.991,
+    "to_km": 25.353
+   }
+  ],
+  "strava_segment_id": 40368797,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/stay-puft-pursuit"
+ },
+ {
+  "id": 3101693166,
+  "slug": "2023-continental-qualifiers",
+  "name": "InnsbruckConti",
+  "world": "innsbruck",
+  "distance_km": 12.478,
+  "elevation_m": 480,
+  "lead_in_km": 0.464,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "innsbruck-kom-rev",
+    "from_km": 7.205,
+    "to_km": 12.942
+   }
+  ],
+  "strava_segment_id": 33089178,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/innsbruck-continentals-hill-climb"
+ },
+ {
+  "id": 3114603308,
+  "slug": "2018-uci-worlds-course-short-lap",
+  "name": "2018 Worlds Short Lap",
+  "world": "innsbruck",
+  "distance_km": 23.681,
+  "elevation_m": 495,
+  "lead_in_km": 0.222,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "innsbruck-kom",
+    "from_km": 3.131,
+    "to_km": 10.544
+   }
+  ],
+  "strava_segment_id": 18397725,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/2018-uci-worlds-course-short-lap"
+ },
+ {
+  "id": 3141079998,
+  "slug": "crepe-escape",
+  "name": "Crêpe Escape",
+  "world": "paris",
+  "distance_km": 16.426,
+  "elevation_m": 113,
+  "lead_in_km": 3.185,
+  "lead_in_elev_m": 11,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "lutece-sprint",
+    "from_km": 1.179,
+    "to_km": 1.329
+   },
+   {
+    "slug": "eglise-sprint",
+    "from_km": 7.175,
+    "to_km": 7.423
+   },
+   {
+    "slug": "montmartre-kom",
+    "from_km": 9.491,
+    "to_km": 10.72
+   },
+   {
+    "slug": "tchou-tchou-sprint",
+    "from_km": 13.262,
+    "to_km": 13.423
+   }
+  ],
+  "strava_segment_id": 41606209,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/crepe-escape"
+ },
+ {
+  "id": 3219074012,
+  "slug": "mountain-8",
+  "name": "Watopia Mountain 8",
+  "world": "watopia",
+  "distance_km": 32.256,
+  "elevation_m": 691,
+  "lead_in_km": 0.492,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "radio-tower-kom",
+    "from_km": 10.731,
+    "to_km": 11.819
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 29.021,
+    "to_km": 29.362
+   }
+  ],
+  "strava_segment_id": 12118544,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/mountain-8"
+ },
+ {
+  "id": 3250904331,
+  "slug": "london-uprising",
+  "name": "London Uprising",
+  "world": "london",
+  "distance_km": 20.576,
+  "elevation_m": 356,
+  "lead_in_km": 0.336,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fox-hill",
+    "from_km": 2.185,
+    "to_km": 4.587
+   },
+   {
+    "slug": "london-sprint-rev",
+    "from_km": 12.15,
+    "to_km": 12.34
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 17.461,
+    "to_km": 20.458
+   }
+  ],
+  "strava_segment_id": 38413079,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/london-uprising"
+ },
+ {
+  "id": 3261167746,
+  "slug": "spiral-into-the-volcano",
+  "name": "Spiral into the Volcano",
+  "world": "watopia",
+  "distance_km": 55.634,
+  "elevation_m": 355,
+  "lead_in_km": 0.194,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fuego-flats-rev",
+    "from_km": 13.355,
+    "to_km": 20.434
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 43.4,
+    "to_km": 43.729
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 51.908,
+    "to_km": 55.612
+   }
+  ],
+  "strava_segment_id": 20522725,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/spiral-into-the-volcano"
+ },
+ {
+  "id": 3262665065,
+  "slug": "london-flat",
+  "name": "London Flat",
+  "world": "london",
+  "distance_km": 11.989,
+  "elevation_m": 115,
+  "lead_in_km": 0.389,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 38274994,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/london-flat"
+ },
+ {
+  "id": 3276403604,
+  "slug": "greater-london-loop",
+  "name": "Greater London Loop",
+  "world": "london",
+  "distance_km": 21.029,
+  "elevation_m": 255,
+  "lead_in_km": 0.462,
+  "lead_in_elev_m": 4,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "box-hill",
+    "from_km": 12.432,
+    "to_km": 15.428
+   }
+  ],
+  "strava_segment_id": 15158576,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/greater-london-loop"
+ },
+ {
+  "id": 3282611437,
+  "slug": "flatland-loop",
+  "name": "Flatland Loop",
+  "world": "makuri-islands",
+  "distance_km": 12.855,
+  "elevation_m": 99,
+  "lead_in_km": 0.199,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 28432116,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/flatland-loop"
+ },
+ {
+  "id": 3302953739,
+  "slug": "sleepless-city",
+  "name": "Sleepless City",
+  "world": "makuri-islands",
+  "distance_km": 9.56,
+  "elevation_m": 43,
+  "lead_in_km": 0.051,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 30407957,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/sleepless-city"
+ },
+ {
+  "id": 3312037616,
+  "slug": "two-bridges-loop",
+  "name": "Two Bridges Loop",
+  "world": "watopia",
+  "distance_km": 7.11,
+  "elevation_m": 81,
+  "lead_in_km": 0.193,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 26741685,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/two-bridges-loop"
+ },
+ {
+  "id": 3314406972,
+  "slug": "spinfinity",
+  "name": "Spinfinity",
+  "world": "new-york",
+  "distance_km": 19.487,
+  "elevation_m": 155,
+  "lead_in_km": 0.615,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "brooklyn-bridge-kom",
+    "from_km": 6.591,
+    "to_km": 8.594
+   },
+   {
+    "slug": "manhattan-sprint",
+    "from_km": 11.327,
+    "to_km": 11.571
+   }
+  ],
+  "strava_segment_id": 40331488,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/spinfinity"
+ },
+ {
+  "id": 3324272424,
+  "slug": "snowman",
+  "name": "Snowman",
+  "world": "watopia",
+  "distance_km": 44.037,
+  "elevation_m": 578,
+  "lead_in_km": 0.194,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "mayan-mountainside-kom",
+    "from_km": 21.744,
+    "to_km": 23.728
+   },
+   {
+    "slug": "itza-kom",
+    "from_km": 24.321,
+    "to_km": 28.077
+   }
+  ],
+  "strava_segment_id": 37049460,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/snowman"
+ },
+ {
+  "id": 3330165223,
+  "slug": "shisa-shakedown",
+  "name": "Shisa Shakedown",
+  "world": "makuri-islands",
+  "distance_km": 49.443,
+  "elevation_m": 495,
+  "lead_in_km": 4.038,
+  "lead_in_elev_m": 62,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "railway-sprint",
+    "from_km": 17.748,
+    "to_km": 18.243
+   },
+   {
+    "slug": "castle-kom",
+    "from_km": 30.233,
+    "to_km": 32.917
+   },
+   {
+    "slug": "temple-kom-from-fishing-village-side",
+    "from_km": 35.189,
+    "to_km": 37.701
+   }
+  ],
+  "strava_segment_id": 37300447,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/shisa-shakedown"
+ },
+ {
+  "id": 3356878261,
+  "slug": "sprinters-playground",
+  "name": "Sprinter's Playground",
+  "world": "makuri-islands",
+  "distance_km": 12.351,
+  "elevation_m": 67,
+  "lead_in_km": 0.227,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "railway-sprint",
+    "from_km": 7.647,
+    "to_km": 8.13
+   }
+  ],
+  "strava_segment_id": 30412485,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/sprinters-playground"
+ },
+ {
+  "id": 3364574135,
+  "slug": "champs-elysees",
+  "name": "Champs-Élysées",
+  "world": "paris",
+  "distance_km": 6.616,
+  "elevation_m": 39,
+  "lead_in_km": 3.185,
+  "lead_in_elev_m": 13,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "champs-elysees",
+    "from_km": 0,
+    "to_km": 6.617
+   },
+   {
+    "slug": "lutece-sprint",
+    "from_km": 1.173,
+    "to_km": 1.327
+   }
+  ],
+  "strava_segment_id": 24674235,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/champs-elysees"
+ },
+ {
+  "id": 3366225080,
+  "slug": "tick-tock",
+  "name": "Tick Tock",
+  "world": "watopia",
+  "distance_km": 16.861,
+  "elevation_m": 53,
+  "lead_in_km": 2.28,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fuego-flats",
+    "from_km": 16.385,
+    "to_km": 16.879
+   }
+  ],
+  "strava_segment_id": 20350376,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/tick-tock"
+ },
+ {
+  "id": 3367186349,
+  "slug": "sukis-playground",
+  "name": "Suki's Playground",
+  "world": "makuri-islands",
+  "distance_km": 18.311,
+  "elevation_m": 150,
+  "lead_in_km": 0.206,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 29009511,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/sukis-playground"
+ },
+ {
+  "id": 3368626651,
+  "slug": "2022-bambino-fondo",
+  "name": "Zwift Bambino Fondo 2022",
+  "world": "watopia",
+  "distance_km": 53.057,
+  "elevation_m": 397,
+  "lead_in_km": 0.194,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "watopia-sprint",
+    "from_km": 5.618,
+    "to_km": 5.944
+   },
+   {
+    "slug": "fuego-flats-rev",
+    "from_km": 17.991,
+    "to_km": 25.081
+   },
+   {
+    "slug": "fuego-flats",
+    "from_km": 26.561,
+    "to_km": 27.065
+   },
+   {
+    "slug": "volcano-circuit",
+    "from_km": 43.477,
+    "to_km": 47.551
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 49.377,
+    "to_km": 53.107
+   }
+  ],
+  "strava_segment_id": 30601013,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/2022-bambino-fondo"
+ },
+ {
+  "id": 3378411990,
+  "slug": "waisted-8",
+  "name": "Waisted 8",
+  "world": "watopia",
+  "distance_km": 30.687,
+  "elevation_m": 144,
+  "lead_in_km": 0.194,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 3.814,
+    "to_km": 4.015
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 4.258,
+    "to_km": 5.557
+   },
+   {
+    "slug": "fuego-flats-rev",
+    "from_km": 18.582,
+    "to_km": 25.665
+   }
+  ],
+  "strava_segment_id": 38138483,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/waisted-8"
+ },
+ {
+  "id": 3379779247,
+  "slug": "three-village-loop",
+  "name": "Three Village Loop",
+  "world": "makuri-islands",
+  "distance_km": 10.554,
+  "elevation_m": 93,
+  "lead_in_km": 2.372,
+  "lead_in_elev_m": 5,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 28433076,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/three-village-loop"
+ },
+ {
+  "id": 3381223955,
+  "slug": "loop-de-loop-de-loop",
+  "name": "Loop de loop de loop",
+  "world": "paris",
+  "distance_km": 7.18,
+  "elevation_m": 36,
+  "lead_in_km": 3.185,
+  "lead_in_elev_m": 11,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "lutece-sprint",
+    "from_km": 1.175,
+    "to_km": 1.326
+   },
+   {
+    "slug": "monceau-sprint",
+    "from_km": 3.105,
+    "to_km": 3.401
+   }
+  ],
+  "strava_segment_id": 41622853,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/loop-de-loop-de-loop"
+ },
+ {
+  "id": 3382019812,
+  "slug": "figure-8",
+  "name": "Watopia Figure 8",
+  "world": "watopia",
+  "distance_km": 29.695,
+  "elevation_m": 254,
+  "lead_in_km": 0.492,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 7.022,
+    "to_km": 9.492
+   },
+   {
+    "slug": "zwift-kom",
+    "from_km": 21.449,
+    "to_km": 22.345
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 26.661,
+    "to_km": 26.986
+   }
+  ],
+  "strava_segment_id": 12118421,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/figure-8"
+ },
+ {
+  "id": 3395698268,
+  "slug": "flat-route",
+  "name": "Watopia Flat Route",
+  "world": "watopia",
+  "distance_km": 10.269,
+  "elevation_m": 61,
+  "lead_in_km": 0.457,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "watopia-sprint",
+    "from_km": 7.244,
+    "to_km": 7.588
+   }
+  ],
+  "strava_segment_id": 27130302,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/flat-route"
+ },
+ {
+  "id": 3407362320,
+  "slug": "neon-flats",
+  "name": "Neon Flats",
+  "world": "makuri-islands",
+  "distance_km": 14.725,
+  "elevation_m": 72,
+  "lead_in_km": 0.26,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "tower-sprint",
+    "from_km": 2.108,
+    "to_km": 2.419
+   }
+  ],
+  "strava_segment_id": 30414842,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/neon-flats"
+ },
+ {
+  "id": 3453194200,
+  "slug": "triple-flat-loops",
+  "name": "Triple Flat Loops",
+  "world": "watopia",
+  "distance_km": 33.979,
+  "elevation_m": 157,
+  "lead_in_km": 2.28,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fuego-flats",
+    "from_km": 33.431,
+    "to_km": 33.923
+   }
+  ],
+  "strava_segment_id": 20453276,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/triple-flat-loops"
+ },
+ {
+  "id": 3454338139,
+  "slug": "seaside-sprint",
+  "name": "Seaside Sprint",
+  "world": "watopia",
+  "distance_km": 6.291,
+  "elevation_m": 47,
+  "lead_in_km": 2.831,
+  "lead_in_elev_m": 36,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 22913457,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/seaside-sprint"
+ },
+ {
+  "id": 3486338362,
+  "slug": "the-epiloch",
+  "name": "The Epiloch",
+  "world": "scotland",
+  "distance_km": 8.057,
+  "elevation_m": 71,
+  "lead_in_km": 3.048,
+  "lead_in_elev_m": 23,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 33636526,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-epiloch"
+ },
+ {
+  "id": 3523806426,
+  "slug": "spirit-forest",
+  "name": "Spirit Forest",
+  "world": "makuri-islands",
+  "distance_km": 8.448,
+  "elevation_m": 135,
+  "lead_in_km": 4.625,
+  "lead_in_elev_m": 122,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 28432455,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/spirit-forest"
+ },
+ {
+  "id": 3532866973,
+  "slug": "oh-hill-no",
+  "name": "Oh Hill No",
+  "world": "watopia",
+  "distance_km": 7.889,
+  "elevation_m": 306,
+  "lead_in_km": 0.164,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "the-grade-kom",
+    "from_km": 0,
+    "to_km": 3.517
+   }
+  ],
+  "strava_segment_id": 37011743,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/oh-hill-no"
+ },
+ {
+  "id": 3536020075,
+  "slug": "three-step-sisters",
+  "name": "Three Step Sisters",
+  "world": "watopia",
+  "distance_km": 37.859,
+  "elevation_m": 586,
+  "lead_in_km": 0.194,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "jarvis-sprint-rev",
+    "from_km": 3.82,
+    "to_km": 4.01
+   },
+   {
+    "slug": "jarvis-kom-rev",
+    "from_km": 4.262,
+    "to_km": 5.553
+   },
+   {
+    "slug": "the-grade-kom",
+    "from_km": 34.254,
+    "to_km": 37.771
+   }
+  ],
+  "strava_segment_id": 40621964,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/three-step-sisters"
+ },
+ {
+  "id": 3558689342,
+  "slug": "peak-performance",
+  "name": "Peak Performance",
+  "world": "watopia",
+  "distance_km": 45.818,
+  "elevation_m": 726,
+  "lead_in_km": 0.949,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 4.927,
+    "to_km": 5.842
+   },
+   {
+    "slug": "the-grade-kom",
+    "from_km": 23.143,
+    "to_km": 26.666
+   }
+  ],
+  "strava_segment_id": 37047817,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/peak-performance"
+ },
+ {
+  "id": 3565430790,
+  "slug": "rooftop-rendezvous",
+  "name": "Rooftop Rendezvous",
+  "world": "makuri-islands",
+  "distance_km": 3.745,
+  "elevation_m": 56,
+  "lead_in_km": 2.939,
+  "lead_in_elev_m": 26,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "rooftop-kom",
+    "from_km": 0.072,
+    "to_km": 1.946
+   }
+  ],
+  "strava_segment_id": 30407898,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/rooftop-rendezvous"
+ },
+ {
+  "id": 3569674525,
+  "slug": "keith-hill-after-party",
+  "name": "Keith Hill After Party",
+  "world": "london",
+  "distance_km": 36.188,
+  "elevation_m": 431,
+  "lead_in_km": 0.461,
+  "lead_in_elev_m": 4,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "london-sprint",
+    "from_km": 14.316,
+    "to_km": 14.499
+   },
+   {
+    "slug": "keith-hill",
+    "from_km": 31.951,
+    "to_km": 36.16
+   }
+  ],
+  "strava_segment_id": 19613994,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/keith-hill-after-party"
+ },
+ {
+  "id": 3597939700,
+  "slug": "the-6-train",
+  "name": "The 6 Train",
+  "world": "new-york",
+  "distance_km": 6.468,
+  "elevation_m": 69,
+  "lead_in_km": 0.051,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 19172136,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-6-train"
+ },
+ {
+  "id": 3599973269,
+  "slug": "classique-rev",
+  "name": "Classique Reverse",
+  "world": "london",
+  "distance_km": 5.457,
+  "elevation_m": 25,
+  "lead_in_km": 7.463,
+  "lead_in_elev_m": 60,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "london-sprint",
+    "from_km": 5.26,
+    "to_km": 5.443
+   }
+  ],
+  "strava_segment_id": 19480641,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/classique-reverse"
+ },
+ {
+  "id": 3600776267,
+  "slug": "neon-shore-loop",
+  "name": "Neon Shore Loop",
+  "world": "makuri-islands",
+  "distance_km": 32.951,
+  "elevation_m": 253,
+  "lead_in_km": 1.124,
+  "lead_in_elev_m": 5,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "tower-sprint",
+    "from_km": 2.527,
+    "to_km": 2.842
+   },
+   {
+    "slug": "rooftop-kom",
+    "from_km": 9.435,
+    "to_km": 11.314
+   }
+  ],
+  "strava_segment_id": 40657892,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/neon-shore-loop"
+ },
+ {
+  "id": 3603635554,
+  "slug": "sea-to-tree",
+  "name": "Sea to Tree",
+  "world": "makuri-islands",
+  "distance_km": 3.273,
+  "elevation_m": 108,
+  "lead_in_km": 0.572,
+  "lead_in_elev_m": 14,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "temple-kom-from-fishing-village-side",
+    "from_km": 0.658,
+    "to_km": 3.174
+   }
+  ],
+  "strava_segment_id": 28432204,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/sea-to-tree"
+ },
+ {
+  "id": 3621162212,
+  "slug": "bambino-fondo",
+  "name": "Zwift Bambino Fondo",
+  "world": "watopia",
+  "distance_km": 51.885,
+  "elevation_m": 580,
+  "lead_in_km": 0.492,
+  "lead_in_elev_m": 1,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "watopia-sprint",
+    "from_km": 7.113,
+    "to_km": 7.442
+   },
+   {
+    "slug": "hilly-loop",
+    "from_km": 10.109,
+    "to_km": 19.214
+   },
+   {
+    "slug": "zwift-kom",
+    "from_km": 11.059,
+    "to_km": 11.947
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 16.265,
+    "to_km": 16.593
+   }
+  ],
+  "strava_segment_id": 19641904,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/bambino-fondo"
+ },
+ {
+  "id": 3636436865,
+  "slug": "tropic-rush",
+  "name": "Tropic Rush",
+  "world": "makuri-islands",
+  "distance_km": 41.267,
+  "elevation_m": 327,
+  "lead_in_km": 1.606,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "railway-sprint",
+    "from_km": 6.284,
+    "to_km": 6.776
+   },
+   {
+    "slug": "rooftop-kom",
+    "from_km": 34.276,
+    "to_km": 36.143
+   }
+  ],
+  "strava_segment_id": 40232566,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/tropic-rush"
+ },
+ {
+  "id": 3649347250,
+  "slug": "innsbruck-kom-after-party",
+  "name": "Innsbruck KOM After Party",
+  "world": "innsbruck",
+  "distance_km": 36.971,
+  "elevation_m": 657,
+  "lead_in_km": 0.222,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "innsbruck-kom",
+    "from_km": 29.709,
+    "to_km": 37.137
+   }
+  ],
+  "strava_segment_id": 20539949,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/kom-after-party"
+ },
+ {
+  "id": 3662705581,
+  "slug": "the-muckle-yin",
+  "name": "The Muckle Yin",
+  "world": "scotland",
+  "distance_km": 23.414,
+  "elevation_m": 282,
+  "lead_in_km": 0.248,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "sgurr-summit-north",
+    "from_km": 8.239,
+    "to_km": 9.808
+   },
+   {
+    "slug": "sgurr-summit-south",
+    "from_km": 17.839,
+    "to_km": 18.83
+   }
+  ],
+  "strava_segment_id": 33636050,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-muckle-yin"
+ },
+ {
+  "id": 3669622170,
+  "slug": "laguardia-after-party",
+  "name": "LaGuardia After Party",
+  "world": "new-york",
+  "distance_km": 20.74,
+  "elevation_m": 295,
+  "lead_in_km": 0.051,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "new-york-kom-rev",
+    "from_km": 19.693,
+    "to_km": 20.831
+   }
+  ],
+  "strava_segment_id": 39086492,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/laguardia-after-party"
+ },
+ {
+  "id": 3678866163,
+  "slug": "fuhgeddaboudit",
+  "name": "Fuhgeddaboudit",
+  "world": "new-york",
+  "distance_km": 79.338,
+  "elevation_m": 850,
+  "lead_in_km": 0.072,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "the-peristyle-sprint",
+    "from_km": 2.212,
+    "to_km": 2.607
+   },
+   {
+    "slug": "the-hill-kom",
+    "from_km": 4.122,
+    "to_km": 4.644
+   },
+   {
+    "slug": "manhattan-sprint",
+    "from_km": 9.855,
+    "to_km": 10.099
+   },
+   {
+    "slug": "new-york-kom-rev",
+    "from_km": 19.591,
+    "to_km": 20.731
+   },
+   {
+    "slug": "brooklyn-bridge-kom",
+    "from_km": 57.615,
+    "to_km": 59.616
+   },
+   {
+    "slug": "manhattan-sprint-rev",
+    "from_km": 73.337,
+    "to_km": 73.568
+   }
+  ],
+  "strava_segment_id": 40335851,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/fuhgeddaboudit"
+ },
+ {
+  "id": 3680493479,
+  "slug": "southern-coast-cruise",
+  "name": "Southern Coast Cruise",
+  "world": "watopia",
+  "distance_km": 23.627,
+  "elevation_m": 136,
+  "lead_in_km": 2.669,
+  "lead_in_elev_m": 10,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "woodland-sprint",
+    "from_km": 6.951,
+    "to_km": 7.458
+   }
+  ],
+  "strava_segment_id": 40097976,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/southern-coast-cruise"
+ },
+ {
+  "id": 3687251774,
+  "slug": "grand-central-circuit-rev",
+  "name": "Grand Central Circuit Reverse",
+  "world": "new-york",
+  "distance_km": 6.857,
+  "elevation_m": 144,
+  "lead_in_km": 2.356,
+  "lead_in_elev_m": 21,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "new-york-kom",
+    "from_km": 2.826,
+    "to_km": 4.184
+   }
+  ],
+  "strava_segment_id": 19178367,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/grand-central-circuit-reverse"
+ },
+ {
+  "id": 3691918883,
+  "slug": "chain-chomper",
+  "name": "Chain Chomper",
+  "world": "makuri-islands",
+  "distance_km": 13.616,
+  "elevation_m": 183,
+  "lead_in_km": 2.372,
+  "lead_in_elev_m": 5,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "castle-kom",
+    "from_km": 1.432,
+    "to_km": 4.097
+   },
+   {
+    "slug": "temple-kom-from-castle-side",
+    "from_km": 5.342,
+    "to_km": 7.238
+   }
+  ],
+  "strava_segment_id": 28430973,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/chain-chomper"
+ },
+ {
+  "id": 3701568815,
+  "slug": "road-to-ruins",
+  "name": "Road to Ruins",
+  "world": "watopia",
+  "distance_km": 29.647,
+  "elevation_m": 275,
+  "lead_in_km": 0.517,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 16404154,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/road-to-ruins"
+ },
+ {
+  "id": 3706527503,
+  "slug": "castle-crit",
+  "name": "Castle Crit",
+  "world": "makuri-islands",
+  "distance_km": 3.47,
+  "elevation_m": 43,
+  "lead_in_km": 1.501,
+  "lead_in_elev_m": 44,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 30326079,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/castle-crit"
+ },
+ {
+  "id": 3707791029,
+  "slug": "surrey-hills",
+  "name": "Surrey Hills",
+  "world": "london",
+  "distance_km": 39.125,
+  "elevation_m": 877,
+  "lead_in_km": 4.994,
+  "lead_in_elev_m": 156,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "fox-hill",
+    "from_km": 0.484,
+    "to_km": 2.889
+   },
+   {
+    "slug": "leith-hill",
+    "from_km": 10.25,
+    "to_km": 12.211
+   },
+   {
+    "slug": "keith-hill",
+    "from_km": 25.4,
+    "to_km": 29.594
+   }
+  ],
+  "strava_segment_id": 16786868,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/surrey-hills"
+ },
+ {
+  "id": 3742187716,
+  "slug": "castle-to-castle",
+  "name": "Castle to Castle",
+  "world": "makuri-islands",
+  "distance_km": 22.38,
+  "elevation_m": 140,
+  "lead_in_km": 0.818,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "tower-sprint",
+    "from_km": 20.747,
+    "to_km": 21.054
+   }
+  ],
+  "strava_segment_id": 30629803,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/castle-to-castle"
+ },
+ {
+  "id": 3748780161,
+  "slug": "medio-fondo",
+  "name": "Zwift Medio Fondo",
+  "world": "watopia",
+  "distance_km": 72.503,
+  "elevation_m": 1006,
+  "lead_in_km": 0.496,
+  "lead_in_elev_m": 1,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 6.898,
+    "to_km": 9.356
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 14.445,
+    "to_km": 18.15
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 50.337,
+    "to_km": 50.671
+   },
+   {
+    "slug": "epic-kom",
+    "from_km": 63.18,
+    "to_km": 72.592
+   }
+  ],
+  "strava_segment_id": 20655505,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/medio-fondo"
+ },
+ {
+  "id": 3765339356,
+  "slug": "glasgow-crit-circuit",
+  "name": "Glasgow Crit Circuit",
+  "world": "scotland",
+  "distance_km": 3.012,
+  "elevation_m": 33,
+  "lead_in_km": 0.247,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 33620076,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/glasgow-crit-circuit"
+ },
+ {
+  "id": 3774003351,
+  "slug": "laguardia-loop-reverse",
+  "name": "LaGuardia Loop Reverse",
+  "world": "new-york",
+  "distance_km": 2.791,
+  "elevation_m": 26,
+  "lead_in_km": 2.356,
+  "lead_in_elev_m": 20,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 20425705,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/laguardia-loop-reverse"
+ },
+ {
+  "id": 3801241714,
+  "slug": "lutscher-ccw",
+  "name": "Lutscher CCW",
+  "world": "innsbruck",
+  "distance_km": 13.749,
+  "elevation_m": 402,
+  "lead_in_km": 8.88,
+  "lead_in_elev_m": 425,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "innsbruck-kom-rev",
+    "from_km": 2.916,
+    "to_km": 8.642
+   }
+  ],
+  "strava_segment_id": 18407469,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/lutscher-ccw"
+ },
+ {
+  "id": 3811569265,
+  "slug": "flat-route-rev",
+  "name": "Flat Route Reverse",
+  "world": "watopia",
+  "distance_km": 10.269,
+  "elevation_m": 61,
+  "lead_in_km": 0.201,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 12109117,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/flat-route-reverse"
+ },
+ {
+  "id": 3848492017,
+  "slug": "the-mega-pretzel",
+  "name": "The Mega Pretzel",
+  "world": "watopia",
+  "distance_km": 107.275,
+  "elevation_m": 1638,
+  "lead_in_km": 3.709,
+  "lead_in_elev_m": 21,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "zwift-kom",
+    "from_km": 38.185,
+    "to_km": 39.087
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 47.974,
+    "to_km": 51.68
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 58.595,
+    "to_km": 58.929
+   },
+   {
+    "slug": "epic-kom",
+    "from_km": 65.996,
+    "to_km": 75.402
+   },
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 98.714,
+    "to_km": 101.191
+   }
+  ],
+  "strava_segment_id": 16939150,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/the-mega-pretzel"
+ },
+ {
+  "id": 3853654821,
+  "slug": "greatest-london-loop",
+  "name": "Greatest London Loop",
+  "world": "london",
+  "distance_km": 25.667,
+  "elevation_m": 355,
+  "lead_in_km": 0.462,
+  "lead_in_elev_m": 4,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "leith-hill",
+    "from_km": 16.197,
+    "to_km": 18.149
+   }
+  ],
+  "strava_segment_id": 16781177,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/greatest-london-loop"
+ },
+ {
+  "id": 3864857876,
+  "slug": "legends-and-lava",
+  "name": "Legends and Lava",
+  "world": "watopia",
+  "distance_km": 24.51,
+  "elevation_m": 352,
+  "lead_in_km": 0.155,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 3.576,
+    "to_km": 4.469
+   },
+   {
+    "slug": "watopia-sprint",
+    "from_km": 15.888,
+    "to_km": 16.216
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 20.263,
+    "to_km": 23.973
+   }
+  ],
+  "strava_segment_id": 30630421,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/legends-and-lava"
+ },
+ {
+  "id": 3866241330,
+  "slug": "volcano-circuit-ccw",
+  "name": "Volcano Circuit CCW",
+  "world": "watopia",
+  "distance_km": 4.104,
+  "elevation_m": 20,
+  "lead_in_km": 4.84,
+  "lead_in_elev_m": 30,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "volcano-circuit-rev",
+    "from_km": 0,
+    "to_km": 4.094
+   }
+  ],
+  "strava_segment_id": 14032426,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/volcano-circuit-ccw"
+ },
+ {
+  "id": 3872978134,
+  "slug": "mighty-metropolitan",
+  "name": "Mighty Metropolitan",
+  "world": "new-york",
+  "distance_km": 20.095,
+  "elevation_m": 318,
+  "lead_in_km": 0.412,
+  "lead_in_elev_m": 3,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "new-york-kom-rev",
+    "from_km": 9.035,
+    "to_km": 10.176
+   }
+  ],
+  "strava_segment_id": 19141368,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/mighty-metropolitan"
+ },
+ {
+  "id": 3912793970,
+  "slug": "richmond-loop-around",
+  "name": "Richmond Loop Around",
+  "world": "richmond",
+  "distance_km": 42.552,
+  "elevation_m": 556,
+  "lead_in_km": 0.111,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "23rd-st-rev",
+    "from_km": 0.951,
+    "to_km": 2.058
+   },
+   {
+    "slug": "richmond-kom-rev",
+    "from_km": 2.529,
+    "to_km": 3.19
+   },
+   {
+    "slug": "23rd-st-rev",
+    "from_km": 10.091,
+    "to_km": 11.198
+   },
+   {
+    "slug": "richmond-kom-rev",
+    "from_km": 11.654,
+    "to_km": 12.331
+   },
+   {
+    "slug": "23rd-st-rev",
+    "from_km": 19.232,
+    "to_km": 20.337
+   },
+   {
+    "slug": "richmond-kom-rev",
+    "from_km": 20.795,
+    "to_km": 21.458
+   },
+   {
+    "slug": "richmond-sprint",
+    "from_km": 29.912,
+    "to_km": 30.127
+   },
+   {
+    "slug": "broad-st",
+    "from_km": 33.329,
+    "to_km": 33.593
+   },
+   {
+    "slug": "richmond-kom",
+    "from_km": 38.173,
+    "to_km": 38.792
+   },
+   {
+    "slug": "23rd-st",
+    "from_km": 39.686,
+    "to_km": 39.97
+   }
+  ],
+  "strava_segment_id": 38009202,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/richmond-loop-around"
+ },
+ {
+  "id": 3914529041,
+  "slug": "wandering-flats",
+  "name": "Wandering Flats",
+  "world": "makuri-islands",
+  "distance_km": 25.101,
+  "elevation_m": 146,
+  "lead_in_km": 0.109,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 30408380,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/wandering-flats"
+ },
+ {
+  "id": 3919912289,
+  "slug": "casse-pattes",
+  "name": "Casse-Pattes",
+  "world": "france",
+  "distance_km": 22.89,
+  "elevation_m": 155,
+  "lead_in_km": 0.869,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "aqueduc-kom-rev",
+    "from_km": 12.503,
+    "to_km": 12.911
+   },
+   {
+    "slug": "petit-kom",
+    "from_km": 16.428,
+    "to_km": 19.114
+   }
+  ],
+  "strava_segment_id": 24674909,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/casse-pattes"
+ },
+ {
+  "id": 3921412335,
+  "slug": "big-foot-hills",
+  "name": "Big Foot Hills",
+  "world": "watopia",
+  "distance_km": 67.588,
+  "elevation_m": 708,
+  "lead_in_km": 2.28,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "titans-grove-kom",
+    "from_km": 10.25,
+    "to_km": 12.858
+   },
+   {
+    "slug": "zwift-kom",
+    "from_km": 19.324,
+    "to_km": 20.219
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 29.108,
+    "to_km": 32.827
+   },
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 47.131,
+    "to_km": 48.03
+   },
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 59.232,
+    "to_km": 61.689
+   },
+   {
+    "slug": "fuego-flats",
+    "from_km": 66.931,
+    "to_km": 67.443
+   }
+  ],
+  "strava_segment_id": 21911191,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/big-foot-hills"
+ },
+ {
+  "id": 3974965857,
+  "slug": "knights-of-the-roundabout",
+  "name": "Knights of the Roundabout",
+  "world": "france",
+  "distance_km": 51.189,
+  "elevation_m": 336,
+  "lead_in_km": 3.241,
+  "lead_in_elev_m": 23,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "aqueduc-kom",
+    "from_km": 6.876,
+    "to_km": 7.296
+   },
+   {
+    "slug": "petit-kom",
+    "from_km": 34.149,
+    "to_km": 36.827
+   }
+  ],
+  "strava_segment_id": 38859646,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/knights-of-the-roundabout"
+ },
+ {
+  "id": 3976402826,
+  "slug": "greatest-london-loop-rev",
+  "name": "Greatest London Loop Reverse",
+  "world": "london",
+  "distance_km": 25.671,
+  "elevation_m": 355,
+  "lead_in_km": 0.172,
+  "lead_in_elev_m": 1,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "keith-hill",
+    "from_km": 3.255,
+    "to_km": 7.469
+   }
+  ],
+  "strava_segment_id": 30327200,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/greatest-london-loop-reverse"
+ },
+ {
+  "id": 3994934674,
+  "slug": "volcano-flat",
+  "name": "Volcano Flat",
+  "world": "watopia",
+  "distance_km": 12.35,
+  "elevation_m": 50,
+  "lead_in_km": 0.492,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 14032442,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/volcano-flat"
+ },
+ {
+  "id": 4009130866,
+  "slug": "jurassic-coast",
+  "name": "Jurassic Coast",
+  "world": "watopia",
+  "distance_km": 19.315,
+  "elevation_m": 212,
+  "lead_in_km": 0.225,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 4.18,
+    "to_km": 5.105
+   }
+  ],
+  "strava_segment_id": 36343069,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/jurassic-coast"
+ },
+ {
+  "id": 4009235104,
+  "slug": "achterbahn",
+  "name": "Achterbahn",
+  "world": "innsbruck",
+  "distance_km": 47.43,
+  "elevation_m": 989,
+  "lead_in_km": 0.222,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "innsbruck-kom-rev",
+    "from_km": 2.899,
+    "to_km": 8.641
+   },
+   {
+    "slug": "innsbruck-kom",
+    "from_km": 26.861,
+    "to_km": 34.277
+   }
+  ],
+  "strava_segment_id": 18398698,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/achterbahn"
+ },
+ {
+  "id": 4012646479,
+  "slug": "london-8",
+  "name": "London 8",
+  "world": "london",
+  "distance_km": 20.341,
+  "elevation_m": 256,
+  "lead_in_km": 0.462,
+  "lead_in_elev_m": 4,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "london-sprint",
+    "from_km": 6.759,
+    "to_km": 6.951
+   },
+   {
+    "slug": "box-hill",
+    "from_km": 11.744,
+    "to_km": 14.732
+   }
+  ],
+  "strava_segment_id": 12747814,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/london-8"
+ },
+ {
+  "id": 4084028627,
+  "slug": "mayan-8",
+  "name": "Mayan 8",
+  "world": "watopia",
+  "distance_km": 23.071,
+  "elevation_m": 241,
+  "lead_in_km": 3.077,
+  "lead_in_elev_m": 8,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "mayan-mountainside-kom",
+    "from_km": 11.527,
+    "to_km": 13.522
+   },
+   {
+    "slug": "itza-kom",
+    "from_km": 14.123,
+    "to_km": 17.883
+   }
+  ],
+  "strava_segment_id": 37683459,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/mayan-8"
+ },
+ {
+  "id": 4092230492,
+  "slug": "urumaze",
+  "name": "Urumaze",
+  "world": "makuri-islands",
+  "distance_km": 24.75,
+  "elevation_m": 193,
+  "lead_in_km": 2.031,
+  "lead_in_elev_m": 8,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "tower-sprint",
+    "from_km": 5.736,
+    "to_km": 6.038
+   },
+   {
+    "slug": "tidepool-sprint-rev",
+    "from_km": 13.059,
+    "to_km": 13.381
+   }
+  ],
+  "strava_segment_id": 41887960,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/urumaze"
+ },
+ {
+  "id": 4102513789,
+  "slug": "radio-rendezvous",
+  "name": "Radio Rendezvous",
+  "world": "watopia",
+  "distance_km": 20.521,
+  "elevation_m": 736,
+  "lead_in_km": 3.077,
+  "lead_in_elev_m": 8,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "mayan-mountainside-kom",
+    "from_km": 3.528,
+    "to_km": 5.531
+   },
+   {
+    "slug": "itza-kom",
+    "from_km": 6.125,
+    "to_km": 9.881
+   },
+   {
+    "slug": "the-grade-kom",
+    "from_km": 12.143,
+    "to_km": 15.68
+   },
+   {
+    "slug": "radio-tower-kom",
+    "from_km": 19.241,
+    "to_km": 20.332
+   }
+  ],
+  "strava_segment_id": 37716248,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/radio-rendezvous"
+ },
+ {
+  "id": 4107749591,
+  "slug": "city-and-the-sgurr",
+  "name": "City and the Sgurr",
+  "world": "scotland",
+  "distance_km": 5.917,
+  "elevation_m": 103,
+  "lead_in_km": 2.725,
+  "lead_in_elev_m": 63,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "sgurr-summit-south",
+    "from_km": 1.445,
+    "to_km": 2.432
+   },
+   {
+    "slug": "sgurr-summit-north",
+    "from_km": 4.32,
+    "to_km": 5.89
+   }
+  ],
+  "strava_segment_id": 33635722,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/city-and-the-sgurr"
+ },
+ {
+  "id": 4107844490,
+  "slug": "big-loop-rev",
+  "name": "Big Loop Reverse",
+  "world": "watopia",
+  "distance_km": 42.601,
+  "elevation_m": 658,
+  "lead_in_km": 0.211,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 16404624,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/big-loop-reverse"
+ },
+ {
+  "id": 4131664304,
+  "slug": "itza-party",
+  "name": "Itza Party",
+  "world": "watopia",
+  "distance_km": 45.753,
+  "elevation_m": 506,
+  "lead_in_km": 0.497,
+  "lead_in_elev_m": 1,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "zwift-kom",
+    "from_km": 0.831,
+    "to_km": 1.731
+   },
+   {
+    "slug": "titans-grove-kom-rev",
+    "from_km": 15.13,
+    "to_km": 16.033
+   },
+   {
+    "slug": "mayan-mountainside-kom",
+    "from_km": 39.743,
+    "to_km": 41.731
+   },
+   {
+    "slug": "itza-kom",
+    "from_km": 42.339,
+    "to_km": 46.098
+   }
+  ],
+  "strava_segment_id": 37098941,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/itza-party"
+ },
+ {
+  "id": 4142772830,
+  "slug": "three-sisters",
+  "name": "Three Sisters",
+  "world": "watopia",
+  "distance_km": 48.011,
+  "elevation_m": 896,
+  "lead_in_km": 0.457,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "zwift-kom",
+    "from_km": 0.935,
+    "to_km": 1.823
+   },
+   {
+    "slug": "epic-kom",
+    "from_km": 10.092,
+    "to_km": 19.521
+   },
+   {
+    "slug": "radio-tower-kom",
+    "from_km": 19.942,
+    "to_km": 21.042
+   },
+   {
+    "slug": "volcano-kom",
+    "from_km": 36.781,
+    "to_km": 40.503
+   }
+  ],
+  "strava_segment_id": 15159137,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/three-sisters"
+ },
+ {
+  "id": 4149936043,
+  "slug": "climb-portal-mont-saint-michel",
+  "name": "Climb Portal - Mont Saint-Michel",
+  "world": "france",
+  "distance_km": 2.469,
+  "elevation_m": 11,
+  "lead_in_km": 6.145,
+  "lead_in_elev_m": 3,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": null,
+  "zwiftinsider_url": null
+ },
+ {
+  "id": 4159356920,
+  "slug": "petite-douleur",
+  "name": "Petite Douleur",
+  "world": "france",
+  "distance_km": 13.901,
+  "elevation_m": 194,
+  "lead_in_km": 10.873,
+  "lead_in_elev_m": 192,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 24984611,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/petite-douleur"
+ },
+ {
+  "id": 4194352271,
+  "slug": "cobbled-climbs-rev",
+  "name": "Cobbled Climbs Reverse",
+  "world": "richmond",
+  "distance_km": 9.177,
+  "elevation_m": 134,
+  "lead_in_km": 0.1,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "23rd-st-rev",
+    "from_km": 1.3,
+    "to_km": 2.403
+   },
+   {
+    "slug": "richmond-kom-rev",
+    "from_km": 2.867,
+    "to_km": 3.532
+   }
+  ],
+  "strava_segment_id": 22891973,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/cobbled-climbs-reverse"
+ },
+ {
+  "id": 4199497144,
+  "slug": "coast-to-coast",
+  "name": "Coast to Coast",
+  "world": "watopia",
+  "distance_km": 24.092,
+  "elevation_m": 154,
+  "lead_in_km": 2.669,
+  "lead_in_elev_m": 10,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "woodland-sprint",
+    "from_km": 4.297,
+    "to_km": 4.8
+   },
+   {
+    "slug": "jarvis-lap",
+    "from_km": 19.285,
+    "to_km": 24.146
+   },
+   {
+    "slug": "jarvis-kom",
+    "from_km": 19.948,
+    "to_km": 21.76
+   },
+   {
+    "slug": "jarvis-sprint",
+    "from_km": 23.098,
+    "to_km": 23.299
+   }
+  ],
+  "strava_segment_id": 38138499,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/coast-to-coast"
+ },
+ {
+  "id": 4210048937,
+  "slug": "london-triple-loops",
+  "name": "Triple Loops",
+  "world": "london",
+  "distance_km": 40.945,
+  "elevation_m": 565,
+  "lead_in_km": 0.462,
+  "lead_in_elev_m": 4,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "london-sprint-rev",
+    "from_km": 13.969,
+    "to_km": 14.154
+   },
+   {
+    "slug": "leith-hill",
+    "from_km": 23.052,
+    "to_km": 24.986
+   }
+  ],
+  "strava_segment_id": 16781219,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/london-triple-loops"
+ },
+ {
+  "id": 4227232797,
+  "slug": "scotland-after-party",
+  "name": "Scotland After Party",
+  "world": "scotland",
+  "distance_km": 13.634,
+  "elevation_m": 189,
+  "lead_in_km": 1.138,
+  "lead_in_elev_m": 6,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "sgurr-summit-north",
+    "from_km": 11.988,
+    "to_km": 13.57
+   }
+  ],
+  "strava_segment_id": 40233914,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/scotland-after-party"
+ },
+ {
+  "id": 4232620535,
+  "slug": "toefield-tornado",
+  "name": "Toefield Tornado",
+  "world": "new-york",
+  "distance_km": 10.216,
+  "elevation_m": 53,
+  "lead_in_km": 0.072,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "center-sprint",
+    "from_km": 1.545,
+    "to_km": 1.728
+   },
+   {
+    "slug": "the-peristyle-sprint-rev",
+    "from_km": 2.95,
+    "to_km": 3.344
+   },
+   {
+    "slug": "center-sprint",
+    "from_km": 4.836,
+    "to_km": 5.029
+   },
+   {
+    "slug": "the-hill-kom",
+    "from_km": 5.917,
+    "to_km": 6.44
+   }
+  ],
+  "strava_segment_id": 40337526,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/toefield-tornado"
+ },
+ {
+  "id": 4234984253,
+  "slug": "cirque-du-suffer",
+  "name": "Cirque du Suffer",
+  "world": "paris",
+  "distance_km": 20.843,
+  "elevation_m": 29,
+  "lead_in_km": 0.316,
+  "lead_in_elev_m": 0,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "lutece-sprint-rev",
+    "from_km": 19.876,
+    "to_km": 20.107
+   }
+  ],
+  "strava_segment_id": 41606378,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/cirque-du-suffer"
+ },
+ {
+  "id": 4258943387,
+  "slug": "turf-n-surf",
+  "name": "Turf N Surf",
+  "world": "makuri-islands",
+  "distance_km": 24.628,
+  "elevation_m": 196,
+  "lead_in_km": 0.075,
+  "lead_in_elev_m": 2,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [],
+  "strava_segment_id": 33238344,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/turf-n-surf"
+ },
+ {
+  "id": 4263172118,
+  "slug": "three-sisters-rev",
+  "name": "Three Sisters Reverse",
+  "world": "watopia",
+  "distance_km": 45.693,
+  "elevation_m": 878,
+  "lead_in_km": 0.2,
+  "lead_in_elev_m": 0,
+  "event_only": true,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "volcano-kom",
+    "from_km": 3.166,
+    "to_km": 6.876
+   },
+   {
+    "slug": "radio-tower-kom",
+    "from_km": 25.304,
+    "to_km": 26.403
+   },
+   {
+    "slug": "zwift-kom-rev",
+    "from_km": 43.414,
+    "to_km": 45.895
+   }
+  ],
+  "strava_segment_id": 15175857,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/three-sisters-reverse"
+ },
+ {
+  "id": 4280627426,
+  "slug": "mayan-mash",
+  "name": "Mayan Mash",
+  "world": "watopia",
+  "distance_km": 34.624,
+  "elevation_m": 755,
+  "lead_in_km": 3.077,
+  "lead_in_elev_m": 8,
+  "event_only": false,
+  "level_locked": false,
+  "supports_tt": false,
+  "segments": [
+   {
+    "slug": "mayan-mountainside-kom",
+    "from_km": 3.532,
+    "to_km": 5.52
+   },
+   {
+    "slug": "itza-kom",
+    "from_km": 6.126,
+    "to_km": 9.869
+   }
+  ],
+  "strava_segment_id": 37039844,
+  "zwiftinsider_url": "https://zwiftinsider.com/route/mayan-mash"
+ }
+]

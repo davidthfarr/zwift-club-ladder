@@ -1,0 +1,10 @@
+# Real rider data (names, weights, power, vELO) stays local - see README "Data and privacy"
+pulls/
+results/
+*.local.csv
+
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.DS_Store

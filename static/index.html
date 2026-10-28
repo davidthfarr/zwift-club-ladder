@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Club Ladder Route Picker</title>
+<style>
+:root {
+  --bg: #f6f5f1; --panel: #ffffff; --ink: #1d1f22; --muted: #6b6f76; --line: #e3e1da;
+  --us: #e8590c; --them: #3b5bdb; --accent: #e8590c; --good: #2f9e44; --bad: #c92a2a;
+  --sprinter: #f08c00; --puncheur: #ae3ec9; --hilly: #2f9e44; --climber: #1971c2;
+  --shadow: 0 1px 2px rgba(0,0,0,.04), 0 4px 16px rgba(0,0,0,.04);
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #15171a; --panel: #1d2024; --ink: #e9e7e2; --muted: #9298a0; --line: #2d3137;
+          --us: #ff8a3d; --them: #748ffc; --accent: #ff8a3d; --shadow: none; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+       font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif; }
+header { display: flex; align-items: center; gap: 24px; padding: 14px 24px; border-bottom: 1px solid var(--line);
+         background: var(--panel); position: sticky; top: 0; z-index: 5; }
+header h1 { font-size: 16px; margin: 0; letter-spacing: -.01em; }
+header h1 span { color: var(--accent); }
+nav { display: flex; gap: 4px; }
+nav button { background: none; border: 0; color: var(--muted); font: inherit; padding: 6px 12px; border-radius: 6px; cursor: pointer; }
+nav button.on { background: var(--bg); color: var(--ink); font-weight: 600; }
+main { max-width: 1280px; margin: 0 auto; padding: 20px 24px 60px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); padding: 16px 18px; margin-bottom: 16px; }
+.panel h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 12px; font-weight: 600; }
+.row { display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-end; }
+label.f { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); }
+select, input[type=number], input[type=text], input[type=url] {
+  font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; min-width: 0; }
+input[type=number] { width: 84px; }
+button.primary { background: var(--accent); color: #fff; border: 0; border-radius: 7px; padding: 8px 16px; font: inherit; font-weight: 600; cursor: pointer; }
+button.ghost { background: none; border: 1px solid var(--line); color: var(--ink); border-radius: 7px; padding: 6px 12px; font: inherit; cursor: pointer; }
+button:disabled { opacity: .5; cursor: wait; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; font-size: 12px; cursor: pointer; user-select: none; background: var(--bg); }
+.chip.on { border-color: currentColor; font-weight: 600; }
+.cls { display: inline-block; font-size: 11px; font-weight: 600; padding: 1px 8px; border-radius: 999px; color: #fff; text-transform: capitalize; }
+.cls.sprinter { background: var(--sprinter); } .cls.puncheur { background: var(--puncheur); }
+.cls.hilly { background: var(--hilly); } .cls.climber { background: var(--climber); }
+table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 600;
+     padding: 6px 8px; border-bottom: 1px solid var(--line); cursor: pointer; white-space: nowrap; position: sticky; top: 57px; background: var(--panel); }
+td { padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+tr.click { cursor: pointer; } tr.click:hover td { background: var(--bg); }
+tr.sel td { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.num { text-align: right; } .muted { color: var(--muted); } .warn { color: var(--bad); font-size: 12px; }
+.bar { position: relative; height: 18px; background: var(--bg); border-radius: 4px; min-width: 120px; overflow: hidden; }
+.bar > i { position: absolute; inset: 0 auto 0 0; background: var(--us); border-radius: 4px; }
+.bar > b { position: absolute; right: 6px; top: 0; font-size: 12px; line-height: 18px; font-weight: 600; }
+.bar .mid { position: absolute; left: 50%; top: 0; bottom: 0; border-left: 1px dashed var(--muted); opacity: .6; }
+.grid2 { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(320px, 1fr); gap: 16px; align-items: start; }
+@media (max-width: 960px) { .grid2 { grid-template-columns: 1fr; } }
+.stat { display: flex; gap: 24px; flex-wrap: wrap; margin: 4px 0 12px; }
+.stat div { display: flex; flex-direction: column; }
+.stat b { font-size: 22px; letter-spacing: -.02em; } .stat span { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.us { color: var(--us); } .them { color: var(--them); }
+.sticky { position: sticky; top: 76px; }
+.empty { padding: 30px; text-align: center; color: var(--muted); }
+.err { background: color-mix(in srgb, var(--bad) 12%, transparent); color: var(--bad); border-radius: 8px; padding: 8px 12px; margin-bottom: 12px; }
+.dropzone { border: 2px dashed var(--line); border-radius: 10px; padding: 18px; text-align: center; color: var(--muted); cursor: pointer; }
+.dropzone.over { border-color: var(--accent); color: var(--accent); }
+.legend { display: flex; gap: 14px; font-size: 12px; color: var(--muted); margin-top: 6px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+svg text { fill: var(--muted); font-size: 10px; }
+.hidden { display: none; }
+.files { font-size: 12px; color: var(--muted); }
+.files span { margin-right: 10px; white-space: nowrap; }
+.files a { color: var(--bad); cursor: pointer; margin-left: 3px; text-decoration: none; }
+.manual input { width: 70px; }
+.tablewrap { padding: 0; overflow-x: auto; }
+.tablewrap th { top: 0; }
+td.muted { white-space: nowrap; }
+@media (max-width: 700px) { th { position: static; } main { padding: 12px; } header { flex-wrap: wrap; gap: 8px; } }
+.manual input.wide { width: 160px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Club Ladder <span>Route Picker</span></h1>
+  <nav>
+    <button data-tab="match" class="on">Match</button>
+    <button data-tab="riders">Riders</button>
+    <button data-tab="routes">Routes</button>
+  </nav>
+</header>
+
+<main>
+  <div id="err" class="err hidden"></div>
+
+  <!-- ===================== MATCH ===================== -->
+  <section id="tab-match">
+    <div class="panel">
+      <h2>Matchup</h2>
+      <div class="row">
+        <label class="f">Our team<select id="us"></select></label>
+        <label class="f">Opponent<select id="them"></select></label>
+        <label class="f">Min minutes<input id="minmin" type="number" min="0" value="0"></label>
+        <label class="f">Max minutes<input id="maxmin" type="number" min="0" value="75"></label>
+        <label class="f">Laps<input id="laps" type="number" min="1" max="10" value="1"></label>
+        <label class="f" title="Share of each rider's score from vELO race rating (0 = power curve only)">vELO weight<input id="velow" type="number" min="0" max="1" step="0.1" value="0.4"></label>
+        <label class="f">Sims / route<select id="sims"><option>5000</option><option selected>10000</option><option>20000</option></select></label>
+        <button class="primary" id="run">Rank routes</button>
+      </div>
+      <div class="row" style="margin-top:12px">
+        <div><div class="muted" style="font-size:12px;margin-bottom:4px">Route class</div><div class="chips" id="classChips"></div></div>
+        <div style="flex:1"><div class="muted" style="font-size:12px;margin-bottom:4px">Worlds (none selected = all)</div><div class="chips" id="worldChips"></div></div>
+      </div>
+    </div>
+
+    <div id="matchOut" class="hidden">
+      <div class="panel">
+        <div class="stat" id="summary"></div>
+        <div id="byClass" class="chips"></div>
+      </div>
+      <div class="grid2">
+        <div class="panel tablewrap">
+          <table id="resTable"><thead><tr>
+            <th data-k="name">Route</th><th data-k="class">Class</th><th data-k="duration_s" class="num">Time</th>
+            <th data-k="exp_us" class="num">E[us]</th><th data-k="exp_them" class="num">E[them]</th>
+            <th data-k="sd" class="num">±SD</th><th data-k="p_win">P(win)</th></tr></thead><tbody></tbody></table>
+        </div>
+        <div class="panel sticky" id="detail"><div class="empty">Select a route to see lineups, key efforts and demand.</div></div>
+      </div>
+    </div>
+    <div id="matchEmpty" class="panel empty">Load power data on the Riders tab, pick two teams, then rank routes.</div>
+  </section>
+
+  <!-- ===================== RIDERS ===================== -->
+  <section id="tab-riders" class="hidden">
+    <div class="panel">
+      <h2>Add power data</h2>
+      <div class="row" style="align-items:stretch">
+        <div style="flex:1;min-width:260px">
+          <div class="dropzone" id="drop">Drop power CSVs here or click to choose<br><span style="font-size:12px">Same columns as examples/power_template.csv</span></div>
+          <input type="file" id="file" accept=".csv" multiple class="hidden">
+          <label class="f" style="margin-top:8px">Set team for uploaded rows (optional)<input type="text" id="uploadTeam" placeholder="leave blank to keep CSV team"></label>
+        </div>
+        <div style="flex:2;min-width:320px" class="manual">
+          <div class="muted" style="font-size:12px;margin-bottom:6px">Or enter one rider by hand (W/kg; watts optional)</div>
+          <div class="row" style="gap:8px">
+            <input id="m_id" placeholder="Rider ID" type="text">
+            <input id="m_name" class="wide" placeholder="Name" type="text">
+            <input id="m_team" placeholder="Team" type="text">
+            <input id="m_kg" placeholder="kg" type="number" step="0.1">
+            <input id="m_velo" placeholder="vELO" type="number" step="1">
+          </div>
+          <div class="row" style="gap:8px;margin-top:8px" id="m_wkg"></div>
+          <div style="margin-top:8px"><button class="ghost" id="m_add">Add rider</button></div>
+        </div>
+      </div>
+      <div class="files" id="files" style="margin-top:12px"></div>
+    </div>
+    <div class="grid2">
+      <div class="panel tablewrap"><table id="riderTable"><thead><tr>
+        <th>Rider</th><th>Team</th><th class="num">vELO</th><th class="num">kg</th>
+        <th class="num">5s</th><th class="num">15s</th><th class="num">30s</th><th class="num">1m</th>
+        <th class="num">2m</th><th class="num">5m</th><th class="num">20m</th><th>Pulled</th></tr></thead><tbody></tbody></table></div>
+      <div class="panel sticky"><h2>Team power curves (median W/kg)</h2><div id="teamCurves"></div></div>
+    </div>
+  </section>
+
+  <!-- ===================== ROUTES ===================== -->
+  <section id="tab-routes" class="hidden">
+    <div class="panel">
+      <h2>Route library</h2>
+      <div class="row">
+        <label class="f">Reference field 20-min W/kg<input id="refwkg" type="number" step="0.1" value="3.6"></label>
+        <label class="f">World<select id="routeWorld"><option value="">All worlds</option></select></label>
+        <label class="f">Class<select id="routeClass"><option value="">All classes</option>
+          <option>sprinter</option><option>puncheur</option><option>hilly</option><option>climber</option></select></label>
+        <label class="f">Search<input id="routeSearch" type="text" placeholder="route name"></label>
+        <button class="ghost" id="loadRoutes">Refresh</button>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="panel tablewrap"><table id="routeTable"><thead><tr>
+        <th data-k="name">Route</th><th data-k="world">World</th><th data-k="class">Class</th>
+        <th data-k="km" class="num">km</th><th data-k="elev_m" class="num">m</th><th data-k="m_per_km" class="num">m/km</th>
+        <th data-k="duration_s" class="num">Est. time</th></tr></thead><tbody></tbody></table></div>
+      <div class="panel sticky" id="routeDetail"><div class="empty">Select a route.</div></div>
+    </div>
+  </section>
+</main>
+
+<script>
+const DUR = ["5s","15s","30s","1m","2m","5m","20m"];
+const SECS = [5,15,30,60,120,300,1200];
+const CLASSES = ["sprinter","puncheur","hilly","climber"];
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = s => { s = Math.round(s); const h = Math.floor(s/3600), m = Math.floor(s%3600/60), x = s%60;
+  return h ? `${h}:${String(m).padStart(2,"0")}:${String(x).padStart(2,"0")}` : `${m}:${String(x).padStart(2,"0")}`; };
+const pct = v => Math.round(v*100) + "%";
+const clsTag = c => `<span class="cls ${c}">${c}</span>`;
+const state = { riders: [], teams: [], worlds: [], results: [], routes: [], selClasses: new Set(), selWorlds: new Set(),
+                resSort: {k: "p_win", d: -1}, routeSort: {k: "world", d: 1} };
+
+function showErr(msg) { const e = $("#err"); e.textContent = msg; e.classList.toggle("hidden", !msg); if (msg) window.scrollTo(0,0); }
+async function api(path, body) {
+  const r = await fetch(path, body ? {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(body)} : {});
+  const j = await r.json();
+  if (!r.ok) throw new Error(j.error || r.statusText);
+  return j;
+}
+
+// ---------------- tabs
+document.querySelectorAll("nav button").forEach(b => b.onclick = () => {
+  document.querySelectorAll("nav button").forEach(x => x.classList.toggle("on", x === b));
+  document.querySelectorAll("main > section").forEach(s => s.classList.toggle("hidden", s.id !== "tab-" + b.dataset.tab));
+  if (b.dataset.tab === "routes" && !state.routes.length) loadRoutes();
+});
+
+// ---------------- riders
+async function loadRiders() {
+  const j = await api("/api/riders");
+  Object.assign(state, {riders: j.riders, teams: j.teams});
+  const opts = j.teams.map(t => `<option>${esc(t)}</option>`).join("") || "<option value=''>(no teams yet)</option>";
+  const keepUs = $("#us").value, keepThem = $("#them").value;
+  $("#us").innerHTML = opts; $("#them").innerHTML = opts;
+  if (j.teams.includes(keepUs)) $("#us").value = keepUs;
+  if (j.teams.includes(keepThem)) $("#them").value = keepThem; else if (j.teams.length > 1) $("#them").value = j.teams[1];
+  $("#files").innerHTML = j.files.length ? "Files: " + j.files.map(f => `<span>${esc(f)}<a title="remove" data-f="${esc(f)}">×</a></span>`).join("") : "No power files yet.";
+  $("#files").querySelectorAll("a").forEach(a => a.onclick = async () => {
+    if (!confirm(`Remove ${a.dataset.f}? (moved to pulls/_removed)`)) return;
+    try { await api("/api/remove-file", {filename: a.dataset.f}); loadRiders(); } catch (e) { showErr(e.message); } });
+  $("#riderTable tbody").innerHTML = j.riders.map(r => `<tr>
+      <td>${r.source_url ? `<a href="${esc(r.source_url)}" target="_blank" rel="noopener">${esc(r.name || r.rider_id)}</a>` : esc(r.name || r.rider_id)}
+        ${r.warnings.map(w => `<div class="warn">⚠ ${esc(w)}</div>`).join("")}</td>
+      <td>${esc(r.team)}</td><td class="num">${r.velo != null ? Math.round(r.velo) : "–"}</td><td class="num">${r.weight_kg ?? "–"}</td>
+      ${DUR.map(d => `<td class="num" title="${r.watts[d] ? r.watts[d] + " W" : ""}">${r.wkg[d] ?? "–"}</td>`).join("")}
+      <td class="muted">${r.pulled_at ?? ""}</td></tr>`).join("") || `<tr><td colspan="12" class="empty">No riders loaded.</td></tr>`;
+  drawTeamCurves();
+}
+
+function median(a) { a = a.filter(v => v != null).sort((x,y)=>x-y); if (!a.length) return null; const m = a.length>>1; return a.length%2 ? a[m] : (a[m-1]+a[m])/2; }
+const OTHER_COLORS = ["#2f9e44","#ae3ec9","#f08c00","#1098ad","#868e96"];
+function teamColor(t, i) { if (t === $("#us").value) return "var(--us)"; if (t === $("#them").value) return "var(--them)"; return OTHER_COLORS[i % OTHER_COLORS.length]; }
+function drawTeamCurves() {
+  const teams = state.teams;
+  if (!teams.length) { $("#teamCurves").innerHTML = `<div class="empty">No data.</div>`; return; }
+  const series = teams.map(t => DUR.map(d => median(state.riders.filter(r => r.team === t).map(r => r.wkg[d]))));
+  const all = series.flat().filter(v => v != null);
+  const W = 420, H = 230, L = 34, B = 22, T = 8, R = 18;
+  const lo = Math.max(0, Math.floor(Math.min(...all)) - 1), hi = Math.ceil(Math.max(...all)) + 1;
+  const x = i => L + (Math.log(SECS[i]) - Math.log(5)) / (Math.log(1200) - Math.log(5)) * (W - L - R);
+  const y = v => T + (1 - (v - lo) / (hi - lo)) * (H - T - B);
+  let g = "";
+  for (let v = lo; v <= hi; v += (hi - lo > 10 ? 2 : 1)) g += `<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)"/><text x="${L-6}" y="${y(v)+3}" text-anchor="end">${v}</text>`;
+  DUR.forEach((d,i) => g += `<text x="${x(i)}" y="${H-6}" text-anchor="middle">${d}</text>`);
+  series.forEach((s, ti) => {
+    const pts = s.map((v,i) => v == null ? null : [x(i), y(v)]).filter(Boolean);
+    g += `<polyline fill="none" stroke="${teamColor(teams[ti], ti)}" stroke-width="2.2" points="${pts.map(p => p.join(",")).join(" ")}"/>`;
+    pts.forEach(p => g += `<circle cx="${p[0]}" cy="${p[1]}" r="2.5" fill="${teamColor(teams[ti], ti)}"/>`);
+  });
+  $("#teamCurves").innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="100%">${g}</svg>
+    <div class="legend">${teams.map((t,i) => `<span><i style="background:${teamColor(t, i)}"></i>${esc(t)} (${state.riders.filter(r=>r.team===t).length})</span>`).join("")}</div>`;
+}
+
+// upload
+const drop = $("#drop"), fileIn = $("#file");
+drop.onclick = () => fileIn.click();
+drop.ondragover = e => { e.preventDefault(); drop.classList.add("over"); };
+drop.ondragleave = () => drop.classList.remove("over");
+drop.ondrop = e => { e.preventDefault(); drop.classList.remove("over"); upload(e.dataTransfer.files); };
+fileIn.onchange = () => upload(fileIn.files);
+async function upload(files) {
+  showErr("");
+  for (const f of files) {
+    try { await api("/api/upload", {filename: f.name, content: await f.text(), team: $("#uploadTeam").value}); }
+    catch (e) { showErr(`${f.name}: ${e.message}`); }
+  }
+  fileIn.value = ""; loadRiders();
+}
+$("#m_wkg").innerHTML = DUR.map(d => `<input id="m_${d}" placeholder="${d}" type="number" step="0.01" title="${d} W/kg">`).join("");
+$("#m_add").onclick = async () => {
+  showErr("");
+  const wkg = Object.fromEntries(DUR.map(d => [d, $("#m_" + d).value]));
+  try {
+    await api("/api/rider", {rider_id: $("#m_id").value, name: $("#m_name").value, team: $("#m_team").value,
+                             weight_kg: $("#m_kg").value, velo: $("#m_velo").value, wkg});
+    ["#m_id","#m_name","#m_kg","#m_velo", ...DUR.map(d => "#m_" + d)].forEach(s => $(s).value = "");
+    loadRiders();
+  } catch (e) { showErr(e.message); }
+};
+
+// ---------------- match
+function chips(el, items, set, colorFn) {
+  el.innerHTML = items.map(v => `<span class="chip ${set.has(v) ? "on" : ""}" data-v="${esc(v)}" style="${colorFn ? "color:" + colorFn(v) : ""}">${esc(v)}</span>`).join("");
+  el.querySelectorAll(".chip").forEach(c => c.onclick = () => { const v = c.dataset.v; set.has(v) ? set.delete(v) : set.add(v); c.classList.toggle("on"); });
+}
+chips($("#classChips"), CLASSES, state.selClasses, c => `var(--${c})`);
+
+$("#run").onclick = async () => {
+  showErr("");
+  const us = $("#us").value, them = $("#them").value;
+  if (!us || !them || us === them) return showErr("Pick two different teams.");
+  const btn = $("#run"); btn.disabled = true; btn.textContent = "Simulating…";
+  try {
+    const j = await api("/api/simulate", {us, them, min_min: $("#minmin").value, max_min: $("#maxmin").value || 1e9,
+      laps: $("#laps").value, sims: $("#sims").value, velo_weight: $("#velow").value, classes: [...state.selClasses], worlds: [...state.selWorlds]});
+    state.results = j.results; state.match = {us, them, ...j};
+    $("#matchOut").classList.remove("hidden"); $("#matchEmpty").classList.add("hidden");
+    renderSummary(); renderResults();
+    if (j.results.length) showDetail(j.results[0].slug);
+  } catch (e) { showErr(e.message); }
+  btn.disabled = false; btn.textContent = "Rank routes";
+};
+
+function renderSummary() {
+  const m = state.match, r = state.results;
+  if (!r.length) { $("#summary").innerHTML = `<div class="muted">No routes matched the filters.</div>`; $("#byClass").innerHTML = ""; return; }
+  const best = r[0], fav = r.filter(x => x.p_win > .5).length;
+  $("#summary").innerHTML = `
+    <div><b class="us">${esc(m.us)}</b><span>${m.us_n} riders</span></div>
+    <div><b class="them">${esc(m.them)}</b><span>${m.them_n} riders</span></div>
+    <div><b>${esc(best.name)}</b><span>Best route · ${pct(best.p_win)} win</span></div>
+    <div><b>${fav} / ${r.length}</b><span>Routes where you're favored</span></div>
+    <div><b>${m.sims.toLocaleString()}</b><span>Sims per route</span></div>`;
+  $("#byClass").innerHTML = Object.entries(m.by_class).map(([c,v]) => `<span class="chip" style="cursor:default">${clsTag(c)} avg ${pct(v)}</span>`).join("");
+}
+
+function sortBy(arr, {k, d}) { return [...arr].sort((a,b) => (a[k] > b[k] ? 1 : a[k] < b[k] ? -1 : 0) * d); }
+function bindSort(table, key, render) {
+  table.querySelectorAll("th[data-k]").forEach(th => th.onclick = () => {
+    const s = state[key]; s.d = s.k === th.dataset.k ? -s.d : (["name","world","class"].includes(th.dataset.k) ? 1 : -1); s.k = th.dataset.k; render(); });
+}
+function renderResults() {
+  $("#resTable tbody").innerHTML = sortBy(state.results, state.resSort).map(x => `<tr class="click" data-s="${x.slug}">
+      <td>${esc(x.name)}<div class="muted" style="font-size:12px">${esc(x.world)} · ${x.km} km · ${x.elev_m} m</div></td>
+      <td>${clsTag(x.class)}</td><td class="num">${fmt(x.duration_s)}</td>
+      <td class="num us">${x.exp_us.toFixed(1)}</td><td class="num them">${x.exp_them.toFixed(1)}</td><td class="num muted">${x.sd.toFixed(1)}</td>
+      <td><div class="bar"><i style="width:${x.p_win*100}%;background:${x.p_win >= .5 ? "var(--us)" : "var(--them)"};opacity:${.35 + .65*Math.abs(x.p_win-.5)*2}"></i><span class="mid"></span><b>${pct(x.p_win)}</b></div></td></tr>`).join("");
+  $("#resTable tbody").querySelectorAll("tr").forEach(tr => tr.onclick = () => showDetail(tr.dataset.s));
+}
+bindSort($("#resTable"), "resSort", renderResults);
+
+function demandChart(dem) {
+  const W = 360, H = 120, L = 6, B = 18, bw = (W - L*2) / 7, max = Math.max(...Object.values(dem), .01);
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%">${DUR.map((d,i) => {
+    const h = dem[d] / max * (H - B - 14), xx = L + i*bw + 4;
+    return `<rect x="${xx}" y="${H-B-h}" width="${bw-8}" height="${h}" rx="3" fill="var(--accent)" opacity=".8"/>
+            <text x="${xx + (bw-8)/2}" y="${H-B-h-3}" text-anchor="middle">${Math.round(dem[d]*100)}%</text>
+            <text x="${xx + (bw-8)/2}" y="${H-5}" text-anchor="middle">${d}</text>`; }).join("")}</svg>`;
+}
+function effortsTable(efforts) {
+  const tot = efforts.reduce((s,e) => s + e.weight, 0) || 1;
+  return `<table><thead><tr><th>Key effort</th><th class="num">Duration</th><th class="num">Weight</th><th class="num" title="1.0 = pure W/kg, 0.67 = flat/aero">kg exp</th></tr></thead><tbody>
+    ${efforts.map(e => `<tr><td>${esc(e.label)} <span class="muted" style="font-size:12px">${e.kind === "climb" ? "@ " + e.at_km + " km" : ""}</span></td>
+      <td class="num">${fmt(e.duration_s)}</td><td class="num">${Math.round(e.weight/tot*100)}%</td><td class="num muted">${e.mass_exp}</td></tr>`).join("")}</tbody></table>`;
+}
+function showDetail(slug) {
+  const x = state.results.find(r => r.slug === slug); if (!x) return;
+  document.querySelectorAll("#resTable tbody tr").forEach(tr => tr.classList.toggle("sel", tr.dataset.s === slug));
+  const m = state.match;
+  $("#detail").innerHTML = `
+    <h2>${esc(x.name)}</h2>
+    <div class="row" style="gap:8px;margin-bottom:10px">${clsTag(x.class)}<span class="muted">${esc(x.world)} · ${x.km} km · ${x.elev_m} m · ${x.m_per_km} m/km · ~${fmt(x.duration_s)}</span></div>
+    <div class="stat">
+      <div><b class="${x.p_win >= .5 ? "us" : "them"}">${pct(x.p_win)}</b><span>P(win)</span></div>
+      <div><b class="us">${x.exp_us.toFixed(1)}</b><span>${esc(m.us)} pts</span></div>
+      <div><b class="them">${x.exp_them.toFixed(1)}</b><span>${esc(m.them)} pts</span></div>
+      <div><b>±${x.sd.toFixed(1)}</b><span>SD</span></div>
+    </div>
+    <h2>Expected finishing order</h2>
+    <table><tbody>${x.places.map(p => `<tr><td class="num muted" style="width:44px">${p.place.toFixed(1)}</td>
+      <td class="${p.team === m.us ? "us" : "them"}">${esc(p.name)}</td><td class="muted">${esc(p.team)}</td></tr>`).join("")}</tbody></table>
+    <h2 style="margin-top:16px">What decides it</h2>${demandChart(x.demand)}
+    ${effortsTable(x.efforts)}`;
+}
+
+// ---------------- routes
+async function loadRoutes() {
+  showErr("");
+  try {
+    const q = new URLSearchParams({ref_wkg: $("#refwkg").value || 3.6});
+    const j = await api("/api/routes?" + q);
+    state.routes = j.routes; state.worlds = j.worlds;
+    if ($("#routeWorld").options.length <= 1) {
+      $("#routeWorld").innerHTML += j.worlds.map(w => `<option>${esc(w)}</option>`).join("");
+      chips($("#worldChips"), j.worlds, state.selWorlds);
+    }
+    renderRoutes();
+  } catch (e) { showErr(e.message); }
+}
+function renderRoutes() {
+  const w = $("#routeWorld").value, c = $("#routeClass").value, q = $("#routeSearch").value.toLowerCase();
+  const rows = sortBy(state.routes.filter(r => (!w || r.world === w) && (!c || r.class === c) && (!q || r.name.toLowerCase().includes(q))), state.routeSort);
+  $("#routeTable tbody").innerHTML = rows.map(r => `<tr class="click" data-s="${r.slug}"><td>${esc(r.name)}</td><td class="muted">${esc(r.world)}</td>
+      <td>${clsTag(r.class)}</td><td class="num">${r.km}</td><td class="num">${r.elev_m}</td><td class="num">${r.m_per_km}</td><td class="num">${fmt(r.duration_s)}</td></tr>`).join("")
+      || `<tr><td colspan="7" class="empty">No routes match.</td></tr>`;
+  $("#routeTable tbody").querySelectorAll("tr[data-s]").forEach(tr => tr.onclick = () => {
+    document.querySelectorAll("#routeTable tbody tr").forEach(t => t.classList.toggle("sel", t === tr));
+    const r = state.routes.find(x => x.slug === tr.dataset.s);
+    $("#routeDetail").innerHTML = `<h2>${esc(r.name)}</h2>
+      <div class="row" style="gap:8px;margin-bottom:10px">${clsTag(r.class)}<span class="muted">${esc(r.world)} · ${r.km} km · ${r.elev_m} m · ~${fmt(r.duration_s)} at ${$("#refwkg").value} W/kg</span></div>
+      ${r.event_only ? `<div class="muted" style="margin-bottom:8px">Event-only route</div>` : ""}
+      <h2>What decides it</h2>${demandChart(r.demand)}${effortsTable(r.efforts)}`;
+  });
+}
+["#routeWorld","#routeClass"].forEach(s => $(s).onchange = renderRoutes);
+$("#routeSearch").oninput = renderRoutes;
+$("#loadRoutes").onclick = loadRoutes;
+$("#refwkg").onchange = loadRoutes;
+bindSort($("#routeTable"), "routeSort", renderRoutes);
+
+["#us","#them"].forEach(s => $(s).addEventListener("change", drawTeamCurves));
+
+// ---------------- init
+loadRiders().catch(e => showErr(e.message));
+loadRoutes();
+</script>
+</body>
+</html>
