@@ -3,7 +3,16 @@
 Pick the Zwift route that maximizes your team's chance of winning a 5 v 5 Club Ladder match
 (places score 10, 9, … 1; most points wins).
 
-## Web app (easiest)
+## Use it
+
+**In your browser, nothing to install:** https://davidthfarr.github.io/zwift-club-ladder/
+
+The hosted page runs the same Python model inside your browser (via [Pyodide](https://pyodide.org)).
+The first visit downloads about 10 MB; ranking every route takes a few seconds. Rider data you
+add never leaves your device: it's saved in your browser's own storage. **Load example teams**
+gives you made-up riders to try it with.
+
+**Locally, faster:**
 
 ```
 pip install numpy          # only dependency
@@ -15,7 +24,7 @@ python server.py           # then open http://localhost:8765
   Click a route for the expected finishing order and what decides it.
 - **Routes:** browse all routes with class, estimated time for any field level, and key efforts.
 
-The server only listens on this computer (127.0.0.1). Data lives in `pulls/`; removed files go to `pulls/_removed/`.
+The local server only listens on this computer (127.0.0.1). Its data lives in `pulls/`; removed files go to `pulls/_removed/`.
 
 ## Files
 
@@ -25,7 +34,8 @@ The server only listens on this computer (127.0.0.1). Data lives in `pulls/`; re
 | `ladder_routes.py` | Route physics, key efforts, expected duration, class (sprinter / puncheur / hilly / climber) |
 | `ladder_sim.py` | Monte Carlo match simulation per route: E[points], SD, P(win); ranks routes |
 | `backtest.py` | Scores predictions against real results; fits noise and vELO weight |
-| `server.py`, `static/index.html` | Local web app (standard-library server, no framework) |
+| `index.html`, `ladder_api.py` | The web app: one page, plus the API it calls (in the browser or via the server) |
+| `server.py` | Optional local server (standard library only) |
 | `data/routes.json`, `data/segments.json` | 293 cycling routes and their climbs/sprints, from the MIT-licensed `zwift-data` package |
 | `export_routes.js` | Refreshes the route data when Zwift adds routes (`npm install zwift-data && node export_routes.js`) |
 | `examples/` | Column templates, and synthetic riders and results for trying everything out |

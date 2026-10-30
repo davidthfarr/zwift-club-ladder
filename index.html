@@ -78,6 +78,12 @@ svg text { fill: var(--muted); font-size: 10px; }
 td.muted { white-space: nowrap; }
 @media (max-width: 700px) { th { position: static; } main { padding: 12px; } header { flex-wrap: wrap; gap: 8px; } }
 .manual input.wide { width: 160px; }
+.note { background: color-mix(in srgb, var(--accent) 9%, transparent); border-radius: 8px; padding: 8px 12px; margin-bottom: 12px; font-size: 13px; }
+.note.busy::before { content: ""; display: inline-block; width: 10px; height: 10px; margin-right: 8px; border-radius: 50%;
+  border: 2px solid var(--accent); border-right-color: transparent; animation: spin .8s linear infinite; vertical-align: -1px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+header .gh { margin-left: auto; font-size: 13px; color: var(--muted); text-decoration: none; }
+header .gh:hover { color: var(--ink); }
 </style>
 </head>
 <body>
@@ -88,10 +94,12 @@ td.muted { white-space: nowrap; }
     <button data-tab="riders">Riders</button>
     <button data-tab="routes">Routes</button>
   </nav>
+  <a class="gh" href="https://github.com/davidthfarr/zwift-club-ladder" target="_blank" rel="noopener">Code on GitHub</a>
 </header>
 
 <main>
   <div id="err" class="err hidden"></div>
+  <div id="status" class="note hidden"></div>
 
   <!-- ===================== MATCH ===================== -->
   <section id="tab-match">
@@ -128,7 +136,8 @@ td.muted { white-space: nowrap; }
         <div class="panel sticky" id="detail"><div class="empty">Select a route to see lineups, key efforts and demand.</div></div>
       </div>
     </div>
-    <div id="matchEmpty" class="panel empty">Load power data on the Riders tab, pick two teams, then rank routes.</div>
+    <div id="matchEmpty" class="panel empty">Load power data on the Riders tab, pick two teams, then rank routes.
+      <div style="margin-top:12px"><button class="ghost" data-example>No data yet? Load example teams</button></div></div>
   </section>
 
   <!-- ===================== RIDERS ===================== -->
@@ -139,6 +148,8 @@ td.muted { white-space: nowrap; }
         <div style="flex:1;min-width:260px">
           <div class="dropzone" id="drop">Drop power CSVs here or click to choose<br><span style="font-size:12px">Same columns as examples/power_template.csv</span></div>
           <input type="file" id="file" accept=".csv" multiple class="hidden">
+          <div style="margin-top:8px"><button class="ghost" data-example>Load example teams</button>
+            <a class="muted" style="font-size:12px;margin-left:8px" href="examples/power_template.csv" download>Download CSV template</a></div>
           <label class="f" style="margin-top:8px">Set team for uploaded rows (optional)<input type="text" id="uploadTeam" placeholder="leave blank to keep CSV team"></label>
         </div>
         <div style="flex:2;min-width:320px" class="manual">
@@ -202,11 +213,83 @@ const state = { riders: [], teams: [], worlds: [], results: [], routes: [], selC
                 resSort: {k: "p_win", d: -1}, routeSort: {k: "world", d: 1} };
 
 function showErr(msg) { const e = $("#err"); e.textContent = msg; e.classList.toggle("hidden", !msg); if (msg) window.scrollTo(0,0); }
+function setStatus(msg, busy) { const e = $("#status"); e.textContent = msg || ""; e.classList.toggle("hidden", !msg); e.classList.toggle("busy", !!busy); }
+const tick = () => new Promise(r => setTimeout(r, 30));  // let the page repaint before heavy work
+
+// The page runs in one of two modes:
+//  - "server":  python server.py is running; calls go to its /api endpoints.
+//  - "browser": no server (e.g. GitHub Pages); the same Python model runs in the page via Pyodide,
+//               and uploaded CSVs are kept in this browser's own storage, never sent anywhere.
+const PYODIDE_VERSION = "0.29.5";
+const PYODIDE_BASE = new URLSearchParams(location.search).get("pyodide") || `https://cdn.jsdelivr.net/pyodide/v${PYODIDE_VERSION}/full/`;
+const PY_FILES = ["ladder_power.py", "ladder_routes.py", "ladder_sim.py", "ladder_api.py", "data/routes.json", "data/segments.json"];
+const LIST_KEYS = ["worlds", "classes", "routes"];
+let modeP = null, pyP = null, numpyP = null, py = null, persistent = false;
+
+function detectMode() {
+  return modeP ||= (async () => {
+    try {
+      const r = await fetch("api/riders", {cache: "no-store"});
+      if (r.ok && (r.headers.get("content-type") || "").includes("json")) return "server";
+    } catch (e) {}
+    $("#sims").value = "5000";
+    return "browser";
+  })();
+}
+function loadScript(src) {
+  return new Promise((res, rej) => { const s = document.createElement("script"); s.src = src; s.onload = res;
+    s.onerror = () => rej(new Error("Could not load " + src + ". Check your connection and reload.")); document.head.appendChild(s); });
+}
+function syncfs(populate) { return new Promise((res, rej) => py.FS.syncfs(populate, err => err ? rej(err) : res())); }
+function bootPython() {
+  return pyP ||= bootPythonOnce().catch(e => { pyP = null; setStatus(""); throw e; });  // allow a retry
+}
+async function bootPythonOnce() {
+  {
+    setStatus("Loading the model into your browser. The first visit downloads about 10 MB; later visits are faster.", true);
+    await loadScript(PYODIDE_BASE + "pyodide.js");
+    py = await loadPyodide({indexURL: PYODIDE_BASE});
+    py.FS.mkdirTree("/app/data");
+    for (const f of PY_FILES) {
+      const r = await fetch(f);
+      if (!r.ok) throw new Error(`Could not load ${f} (${r.status})`);
+      py.FS.writeFile("/app/" + f, new Uint8Array(await r.arrayBuffer()));
+    }
+    py.FS.mkdirTree("/store");
+    try { py.FS.mount(py.FS.filesystems.IDBFS, {}, "/store"); await syncfs(true); persistent = true; }
+    catch (e) { persistent = false; }
+    py.runPython('import sys; sys.path.insert(0, "/app"); import ladder_api; ladder_api.set_pulls_dir("/store/pulls")');
+    setStatus(persistent
+      ? "Running in your browser. Rider data you add stays on this device, saved in this browser only."
+      : "Running in your browser. Rider data you add stays on this device and is cleared when you close the tab.");
+  }
+}
+function loadNumpy() {
+  return numpyP ||= (async () => { setStatus("Loading numpy for the simulation (one time)…", true); await py.loadPackage("numpy");
+    if (!py.loadedPackages.numpy) throw new Error("download failed. Check your connection and try again.");
+    setStatus(""); })()
+    .catch(e => { numpyP = null; setStatus(""); throw new Error("Could not load numpy: " + e.message); });
+}
 async function api(path, body) {
-  const r = await fetch(path, body ? {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(body)} : {});
-  const j = await r.json();
-  if (!r.ok) throw new Error(j.error || r.statusText);
-  return j;
+  if (await detectMode() === "server") {
+    const r = await fetch(path.replace(/^\//, ""), body ? {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(body)} : {});
+    const j = await r.json();
+    if (!r.ok) throw new Error(j.error || r.statusText);
+    return j;
+  }
+  await bootPython();
+  const [p, qs] = path.split("?");
+  let payload = body;
+  if (!payload) {
+    payload = {};
+    for (const [k, v] of new URLSearchParams(qs || "")) LIST_KEYS.includes(k) ? (payload[k] ||= []).push(v) : (payload[k] = v);
+  }
+  if (p === "/api/simulate") await loadNumpy();
+  await tick();
+  const out = JSON.parse(py.globals.get("ladder_api").dispatch(p, JSON.stringify(payload)));
+  if (out.error) throw new Error(out.error);
+  if (body && persistent && p !== "/api/simulate") { try { await syncfs(false); } catch (e) {} }
+  return out;
 }
 
 // ---------------- tabs
@@ -410,6 +493,22 @@ $("#refwkg").onchange = loadRoutes;
 bindSort($("#routeTable"), "routeSort", renderRoutes);
 
 ["#us","#them"].forEach(s => $(s).addEventListener("change", drawTeamCurves));
+
+// ---------------- example data
+document.querySelectorAll("[data-example]").forEach(b => b.onclick = async () => {
+  showErr("");
+  try {
+    const r = await fetch("examples/synthetic_power.csv");
+    if (!r.ok) throw new Error("Could not load the example data");
+    await api("/api/upload", {filename: "example_teams.csv", content: await r.text()});
+    await loadRiders();
+    if (state.teams.includes("Red Kites")) $("#us").value = "Red Kites";
+    if (state.teams.includes("Green Finches")) $("#them").value = "Green Finches";
+    drawTeamCurves();
+    document.querySelector('nav button[data-tab="match"]').click();
+    setStatus("Loaded 6 made-up example teams (synthetic riders, not real people). Red Kites vs Green Finches is a close matchup: press Rank routes.");
+  } catch (e) { showErr(e.message); }
+});
 
 // ---------------- init
 loadRiders().catch(e => showErr(e.message));
